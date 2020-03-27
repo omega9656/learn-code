@@ -1,5 +1,14 @@
 package com.omegarobotics.unit1.lessons;
 
+/*
+Topics:
+- Declaring, initializing, and updating variables
+- Type safety
+- Useful primitives and type String
+- Constants (final)
+- Common mistakes when using variables
+ */
+
 public class Variables {
     public static void main(String[] args) {
         // declaring a variable - saying the variable exists

@@ -1,5 +1,11 @@
 package com.omegarobotics.unit1.lessons;
 
+/*
+Topics:
+- Arithmetic operators (including modulus)
+- Division (integer vs double)
+ */
+
 public class Arithmetic {
     public static void main(String[] args) {
         int a = 2;

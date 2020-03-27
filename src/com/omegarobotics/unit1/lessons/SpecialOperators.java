@@ -1,5 +1,11 @@
 package com.omegarobotics.unit1.lessons;
 
+/*
+Topics:
+- Augmented assignment operators
+- Post/pre increment/decrement operators
+ */
+
 public class SpecialOperators {
     public static void main(String[] args) {
         // augmented assignment operators

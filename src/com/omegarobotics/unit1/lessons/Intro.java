@@ -1,5 +1,14 @@
 package com.omegarobotics.unit1.lessons;
 
+/*
+Topics:
+- What is programming?
+- Basic Java syntax
+- Printing (println vs print)
+- Programming styles
+- Comments
+ */
+
 public class Intro {
     public static void main(String[] args) {
         // Print Hello world! to the console

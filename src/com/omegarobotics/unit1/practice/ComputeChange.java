@@ -1,9 +1,25 @@
 package com.omegarobotics.unit1.practice;
 
+/*
+Topics:
+- Using constants
+- Scanner, user input
+- Modulus practice
+- Casting
+- \t and \n (tab and newline characters)
+ */
+
 import java.util.Scanner;
 
 public class ComputeChange {
     public static void main(String[] args) {
+        /*
+        Prompt the user for an amount of money in standard format (ex. 11.56).
+        Print the number of dollars, quarters, dimes, nickels, and
+        pennies that makes up the given amount of money.
+        Hint: Convert the amount of money to cents.
+         */
+
         // step 0: set constants (optional)
         final int CENTS_PER_DOLLAR = 100;
         final int CENTS_PER_QUARTER = 25;
