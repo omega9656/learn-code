@@ -1,4 +1,4 @@
-package com.omegarobotics.unit3.practice;
+package com.omegarobotics.unit4.practice;
 
 /*
 Topics:
@@ -31,7 +31,7 @@ public class Grades {
     /**
      * Prints the letter grade of a student
      * based on a test score.
-     * @param testScore
+     * @param testScore  student's test score as a number
      */
     public static void printGrade(double testScore) {
         if (testScore >= 90) {
@@ -50,7 +50,7 @@ public class Grades {
     /**
      * Gets the letter grade of a student
      * based on a test score.
-     * @param testScore
+     * @param testScore  student's test score as a number
      * @return the letter grade received
      */
      public static char getGrade(double testScore) {

@@ -1,4 +1,4 @@
-package com.omegarobotics.unit2.practice;
+package com.omegarobotics.unit3.practice;
 
 public class PrintReverse {
     public static void main(String[] args) {

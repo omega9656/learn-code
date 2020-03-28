@@ -1,4 +1,4 @@
-package com.omegarobotics.unit3.lessons;
+package com.omegarobotics.unit4.lessons;
 
 /*
 Topics:
@@ -21,7 +21,7 @@ public class TestPassByValue {
     }
 
     /**
-     * @param number
+     * @param number  number to increment
      * @return number + 1
      */
     public static int increment(int number) {

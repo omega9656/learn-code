@@ -1,4 +1,4 @@
-package com.omegarobotics.unit3.practice;
+package com.omegarobotics.unit4.practice;
 
 /*
 Topic:
@@ -22,7 +22,7 @@ public class PrimeNumber {
     }
 
     /**
-     * @param number
+     * @param number  number to check if it's prime or not
      * @return whether the number is prime or not
      */
     public static boolean isPrime(int number) {
