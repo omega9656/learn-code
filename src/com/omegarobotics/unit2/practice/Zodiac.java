@@ -35,6 +35,7 @@ public class Zodiac {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your birth year: ");
         int year = input.nextInt();
+        input.close();
 
         // print the month that corresponds with that number
         switch (year % 12) {

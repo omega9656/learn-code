@@ -21,6 +21,7 @@ public class AreaTriangle {
         double s1 = input.nextDouble();
         double s2 = input.nextDouble();
         double s3 = input.nextDouble();
+        input.close();
 
         // calculate and print the area
         double s = (s1 + s2 + s3) / 2; // semiperimeter

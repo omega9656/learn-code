@@ -30,6 +30,7 @@ public class ComputeChange {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter an amount of money (omit the $): ");
         double money = input.nextDouble();
+        input.close();
 
         // step 2: calculate the change
 

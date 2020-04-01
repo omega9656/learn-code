@@ -27,6 +27,8 @@ public class ComputeAverage {
         System.out.print("Enter number 3: ");
         double n3 = input.nextDouble();
 
+        input.close();
+
         // compute the average
         double sum = n1 + n2 + n3;
         double average = sum / 3;

@@ -20,6 +20,7 @@ public class Grades {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a test score: ");
         double score = input.nextDouble();
+        input.close();
 
         // print letter grade received
         if (score >= 90) {

@@ -24,6 +24,7 @@ public class CircleArea {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a radius: ");
         double radius = input.nextDouble();
+        input.close();
 
         // compute area
         double area = Math.PI * radius * radius;

@@ -23,6 +23,7 @@ public class ConvertMinutes {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number of minutes: ");
         int totalMinutes = input.nextInt();
+        input.close();
 
         // convert minutes to hours and minutes
         int hours = totalMinutes / MINUTES_PER_HOUR;

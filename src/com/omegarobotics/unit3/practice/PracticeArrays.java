@@ -56,6 +56,7 @@ public class PracticeArrays {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the length of the array: ");
         int arrayLength = input.nextInt();
+        input.close();
 
         int[] numbers = new int[arrayLength];
 

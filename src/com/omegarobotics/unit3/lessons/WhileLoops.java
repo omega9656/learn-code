@@ -58,5 +58,7 @@ public class WhileLoops {
             System.out.print("DO-WHILE LOOP: Is it raining? Enter true or false: ");
             isRaining = input.nextBoolean();
         } while (isRaining);
+
+        input.close();
     }
 }

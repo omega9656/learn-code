@@ -13,6 +13,7 @@ public class Switch {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a movie or TV show: ");
         String media = input.nextLine();
+        input.close();
 
         // depending on the movie/TV show, print an iconic line
         switch (media) {

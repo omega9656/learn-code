@@ -19,6 +19,7 @@ public class Month {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number from 1 to 12: ");
         int month = input.nextInt();
+        input.close();
 
         // print the month that corresponds with that number
         switch (month) {

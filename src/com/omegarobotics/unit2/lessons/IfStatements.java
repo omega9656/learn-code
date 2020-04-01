@@ -20,6 +20,8 @@ public class IfStatements {
         System.out.print("Is it raining? Enter true or false: ");
         boolean isRaining = input.nextBoolean();
 
+        input.close();
+
         // if
         if (isSunny) {
             System.out.println("It's sunny!");

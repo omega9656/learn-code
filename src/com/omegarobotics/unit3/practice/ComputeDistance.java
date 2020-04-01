@@ -26,6 +26,8 @@ public class ComputeDistance {
         double x2 = input.nextDouble();
         double y2 = input.nextDouble();
 
+        input.close();
+
         // calculate and print the distance between the points
         double distance = Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2));
 
