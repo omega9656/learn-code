@@ -34,9 +34,9 @@ public class Population {
         input.close();
 
         // calculate births, deaths, and migrations per year
-        double BIRTHS_PER_YEAR = SECONDS_PER_YEAR / BIRTH_RATE;
-        double DEATHS_PER_YEAR = SECONDS_PER_YEAR / DEATH_RATE;
-        double MIGRATIONS_PER_YEAR = SECONDS_PER_YEAR / MIGRATION_RATE;
+        final double BIRTHS_PER_YEAR = SECONDS_PER_YEAR / BIRTH_RATE;
+        final double DEATHS_PER_YEAR = SECONDS_PER_YEAR / DEATH_RATE;
+        final double MIGRATIONS_PER_YEAR = SECONDS_PER_YEAR / MIGRATION_RATE;
 
         // calculate overall change in population, assuming
         // number of births, deaths, and migrations per year

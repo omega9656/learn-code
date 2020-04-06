@@ -16,6 +16,7 @@ public class OverloadingMethods {
         System.out.println(max(3, 5.7));
         System.out.println(max(3, 3));
         System.out.println(max(-252.2, 9035.26));
+        System.out.println(max(1, 2, 3));
     }
 
     /**

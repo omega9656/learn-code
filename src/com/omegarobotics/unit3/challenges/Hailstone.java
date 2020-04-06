@@ -9,13 +9,15 @@ public class Hailstone {
         display their input (the first number
         in the hailstone sequence).
 
-        If n is even, divide by 2.
-        If n is odd, multiply by 3 and add 1.
-        Print the result.
+        If n is even, divide n by 2.
+        If n is odd, multiply n by 3 and add 1.
+        Print the result (the current number
+        in the hailstone sequence).
 
-        Keep doing this until n converges on 1,
-        then print the number of items and
-        the average.
+        Keep doing this until n converges on 1
+        (it is the last item in the sequence, which you should also print)
+        then print the number of items in the sequence
+        and the average of all the numbers in the sequence.
          */
 
         Scanner input = new Scanner(System.in);

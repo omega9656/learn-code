@@ -7,7 +7,7 @@ public class FindFactor {
         /*
         Ask user for a number greater than 2.
         Find and print the smallest factor of
-        that number.
+        that number that is not 1.
 
         Bonus points if you can do it in 3 ways:
         1. Without using a boolean variable or break statement
@@ -41,6 +41,7 @@ public class FindFactor {
 //        }
 
         // Using a boolean
+//        boolean found = false;
 //        while (factor <= n && !found) {
 //            if (n % factor == 0) {
 //                found = true;

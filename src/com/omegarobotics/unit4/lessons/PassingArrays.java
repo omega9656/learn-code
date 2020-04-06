@@ -34,6 +34,7 @@ In the main method:
    the original array that the user created.
  */
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class PassingArrays {
@@ -64,23 +65,24 @@ public class PassingArrays {
         displayArray(squared);
 
         // print the original array
-        System.out.print("Untouched array is: ");
+        System.out.print("Squared numbers array is: ");
         displayArray(numbers);
     }
 
     public static int[] squareArray(int[] data) {
         int[] result = new int[data.length];
         for (int i = 0; i < data.length; i++) {
-            result[i] = data[i] * data[i];
+            data[i] = data[i] * data[i];
         }
         return result;
     }
 
     public static void displayArray(int[] data) {
-        System.out.print("[ ");
-        for (int item: data) {
-            System.out.print(item + " ");
-        }
-        System.out.println("]");
+//        System.out.print("[ ");
+//        for (int item: data) {
+//            System.out.print(item + " ");
+//        }
+//        System.out.println("]");
+        System.out.println(Arrays.toString(data));
     }
 }

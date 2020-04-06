@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class PayCalculator {
     public static void main(String[] args) {
+        double totalPay = 5.3698309683;
+        System.out.printf("Your total pay is: $%.2f", totalPay);
         /*
         Write a program that prompts the user
         to enter the number of hours worked that week
