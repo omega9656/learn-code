@@ -2,7 +2,7 @@ package com.omegarobotics.unit4.lessons;
 
 /*
 Topics:
-- Passing arrays into methods
+- Passing arrays into methods (array's reference is passed!)
  */
 
 /*

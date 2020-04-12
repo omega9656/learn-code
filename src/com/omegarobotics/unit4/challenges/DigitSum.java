@@ -2,7 +2,7 @@ package com.omegarobotics.unit4.challenges;
 
 /*
 Write a method that computes the sum of the
-digits in an integer. The method header is:
+digits in a positive integer. The method header is:
 
 public static int sumDigits(long n)
 
@@ -21,7 +21,7 @@ public class DigitSum {
 
         do {
             // prompt for a number
-            System.out.print("Enter a number, or -1 to quit: ");
+            System.out.print("Enter a positive integer, or -1 to quit: ");
             number = input.nextLong();
 
             if (number >= 0) {
@@ -43,17 +43,16 @@ public class DigitSum {
      */
     public static int sumDigits(long number) {
         int sum = 0;
-        long quotient = number;
 
-        while(quotient != 0) {
+        while(number != 0) {
             // get the rightmost digit
-            int remainder = (int) (quotient % 10); // always safe to cast because mod 10 will always be an int from 0-9
+            int remainder = (int) (number % 10); // always safe to cast because mod 10 will always be an int from 0-9
 
             // add the rightmost digit to the sum
             sum += remainder;
 
             // get rid of the rightmost digit for the next calculation
-            quotient /= 10;
+            number /= 10;
         }
 
         return sum;
