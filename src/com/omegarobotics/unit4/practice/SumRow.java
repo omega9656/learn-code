@@ -12,7 +12,7 @@ public class SumRow {
     Note: The subarrays are not necessarily
     of equal length.
     Hint: Create a method:
-    public static int sumRow(int[][] list, int row)
+    public static int sumRow(int[][] list, int rowIndex)
     Test sumRow in the main method.
      */
 
