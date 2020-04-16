@@ -9,13 +9,14 @@ prints each list and a merged list
 
 merge method:
 public static int[] merge(int[] list1, int[] list2)
-Merge 2 arrays of integers.
+Merge 2 arrays of integers that are sorted in ascending order.
+list1: [1, 3, 6, 10]
+list2: [2, 4, 7]
+merged array: [1, 2, 3, 4, 6, 7, 10]
 
 getArray method:
-public static int[] getArray(String listName)
-Prompts user to enter elements of an array
-of integers. listName is the name of the
-array, which is used in the prompt.
+public static int[] getArray()
+Prompts user to enter elements of an array of integers.
 
 printArray method:
 public static void printArray(int[] arr)
@@ -34,8 +35,8 @@ public class Merge {
      */
     public static void main(String[] args) {
         // Get 2 arrays from user
-        int[] list1 = getArray("list 1");
-        int[] list2 = getArray("list 2");
+        int[] list1 = getArray();
+        int[] list2 = getArray();
 
         // Print each array's items
         System.out.print("list1 is ");
@@ -107,17 +108,16 @@ public class Merge {
 
     /**
      * Gets array from user input
-     * @param listName  name of the array
      * @return an array of integers with elements from user input
      */
-    public static int[] getArray(String listName) {
+    public static int[] getArray() {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter size of " + listName + ": ");
+        System.out.print("Enter size of list: ");
         int listLength = input.nextInt();
 
         int[] list = new int[listLength];
 
-        System.out.print("Enter items in " + listName + ": ");
+        System.out.print("Enter items in list: ");
 
         for (int i = 0; i < listLength; i++) {
             list[i] = input.nextInt();
@@ -131,9 +131,11 @@ public class Merge {
      * @param arr  the array to print
      */
     public static void printArray(int[] arr) {
+        System.out.print("[ ");
         for (int item : arr) {
             System.out.print(item + " ");
         }
+        System.out.print("]");
 
         System.out.println(); // moves cursor to next line
     }
