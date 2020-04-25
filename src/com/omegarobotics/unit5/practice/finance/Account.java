@@ -11,13 +11,21 @@ Implement the following methods:
 + Account(name, number)
 + Account(name, number, balance)
 + getters and setters for name, number, and balance.
-  HOWEVER, do not make a setter for number.
+  HOWEVER, do not make a setter for number, since
+  you don't change your account number once the account is made.
 + deposit(amount): boolean (if deposit was successful, return true)
+    You should not be able to deposit a negative amount.
 + withdraw(amount): boolean (if withdrawal was successful, return true)
+    You should not be able to withdraw more than you have in the account.
 + transferTo(acct, amount): boolean (if transfer was successful, return true)
-Override the toString method
+    You should not be able to transfer more than you have in the account.
+    You should not be able to transfer a negative amount.
+Override the toString method such that a print statement
+    prints the name, number, and balance
+Override the equals method such that 2 accounts that
+    have the same account number are equal
 
-Bonus points for javadoc comments!
+Bonus points for Javadoc comments and @Override tag(s).
  */
 
 public class Account {
@@ -145,6 +153,23 @@ public class Account {
 
     @Override
     public String toString() {
-        return String.format("Account holder: %s. Account #: %d. Balance: $%.2f", name, number, balance);
+        return String.format("Account name: %s. Account #: %d. Balance: $%.2f", name, number, balance);
+    }
+
+    /**
+     * Returns {@code true} if the given object
+     * is an instance of {@code Account} and
+     * the two accounts have the same account number
+     * @param obj  object to compare to this {@code Account} for equality
+     * @return {@code true} if the given object is an
+     * instance of {@code Account} and the two accounts
+     * have the same account number
+     */
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Account) {
+            return ((Account) obj).getNumber() == number;
+        }
+        return false;
     }
 }

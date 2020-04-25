@@ -1,5 +1,6 @@
-package com.omegarobotics.unit5.lessons.geometric;
+package com.omegarobotics.unit5.lessons;
 
+import com.omegarobotics.unit5.lessons.geometric.Circle;
 import com.omegarobotics.unit5.practice.geometric.Rectangle;
 
 /*
