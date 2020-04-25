@@ -16,49 +16,74 @@ public class Rectangle {
     private double length;
     private double width;
 
-    /** Default constructor
-     * Creates a 0x0 rectangle */
+    /**
+     * Constructs a default {@code Rectangle}
+     */
     public Rectangle() {
         length = 0;
         width = 0;
     }
 
-    /** Creates a rectangle with given length and width */
+    /**
+     * Constructs a {@code Rectangle} with given length and width
+     * @param length  length of this {@code Rectangle}
+     * @param width  width of this {@code Rectangle}
+     */
     public Rectangle(double length, double width) {
         this.length = length;
         this.width = width;
     }
 
-    /** Returns the rectangle's length */
+    /**
+     * Returns the length of this {@code Rectangle}
+     * @return the length of this {@code Rectangle}
+     */
     public double getLength() {
         return length;
     }
 
-    /** Sets the rectangle's length to given length */
+    /**
+     * Sets the length of this the length of
+     * this {@code Rectangle} to given length
+     * @param length  new length
+     */
     public void setLength(double length) {
         if (length >= 0) {
             this.length = length;
         }
     }
 
-    /** Returns the rectangle's width */
+    /**
+     * Returns the width of this {@code Rectangle}
+     * @return the width of this {@code Rectangle}
+     */
     public double getWidth() {
         return width;
     }
 
-    /** Sets the rectangle's width to given width */
+    /**
+     * Sets the width of this {@code Rectangle}
+     * to the given width
+     * @param width  new width
+     */
     public void setWidth(double width) {
         if (width >= 0) {
             this.width = width;
         }
     }
 
-    /** Returns the rectangle's area */
+    /**
+     * Returns the area of this {@code Rectangle}
+     * @return the area of this {@code Rectangle}
+     */
     public double getArea() {
         return length * width;
     }
 
-    /** Returns the rectangle's perimeter */
+    /**
+     * Returns the perimeter of this {@code Rectangle}
+     * @return the perimeter of this {@code Rectangle}
+     */
     public double getPerimeter() {
         return 2 * (length + width);
     }

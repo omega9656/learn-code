@@ -52,7 +52,9 @@ public class CompareObjects {
      * Compares two <code>Circle</code> objects based on their area.
      * @param c1  first <code>Circle</code>
      * @param c2  second <code>Circle</code>
-     * @return 1 if c1 > c2 area, -1 if c1 < c2 area, or 0 if c1 == c2 area
+     * @return 1 if c1's area is greater than c2's area,
+     *        -1 if c1's area is less than c2's area, or
+     *         0 if c1's area is equal to c2's area
      */
     public static int compareCircles(Circle c1, Circle c2) {
         if (c1.getArea() > c2.getArea()) {
@@ -68,7 +70,9 @@ public class CompareObjects {
      * Compares two <code>Rectangle</code> objects based on their area.
      * @param r1  first <code>Rectangle</code>
      * @param r2  second <code>Rectangle</code>
-     * @return 1 if c1 > c2 area, -1 if c1 < c2 area, or 0 if c1 == c2 area
+     * @return 1 if r1's area is greater than r2's area,
+     *        -1 if r1's area is less than r2's area, or
+     *         0 if r1's area is equal to r2's area
      */
     public static int compareRectangles(Rectangle r1, Rectangle r2) {
         if (r1.getArea() > r2.getArea()) {
