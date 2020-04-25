@@ -4,7 +4,7 @@ package com.omegarobotics.unit3.lessons;
 Topics:
 - What is an array?
 - Zero indexing
-- Intializing an array (with number of items, with elements)
+- Initializing an array (with number of items, with elements)
 - Assigning elements to an array
 - Retrieving elements from an array
 - ArrayIndexOutOfBoundsException
@@ -36,7 +36,7 @@ public class IntroToArrays {
         // METHOD 2: Initializing an array with elements
         // type[] nameOfArray = {element1, element2, ... elementN};
 
-        // initiaize an array of characters
+        // initialize an array of characters
         char[] name = {'O', 'm', 'e', 'g', 'a'};
 
         // print each item in the array
