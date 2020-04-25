@@ -1,6 +1,6 @@
-package com.omegarobotics.unit5.practice;
+package com.omegarobotics.unit5.practice.geometric;
 
-import com.omegarobotics.unit5.lessons.GeometricObject;
+import com.omegarobotics.unit5.lessons.geometric.GeometricObject;
 
 /*
 Topics:
@@ -20,14 +20,14 @@ public class RectangleInherit extends GeometricObject {
     /** Default constructor
      * Creates a 0x0 rectangle */
     public RectangleInherit() {
-        super();
+        super(); // explicit call
         length = 0;
         width = 0;
     }
 
     /** Creates a rectangle with given length and width */
     public RectangleInherit(double length, double width) {
-        super();
+        super(); // explicit call
         this.length = length;
         this.width = width;
     }

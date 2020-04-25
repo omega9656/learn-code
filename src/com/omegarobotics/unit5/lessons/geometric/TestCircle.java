@@ -1,4 +1,4 @@
-package com.omegarobotics.unit5.lessons;
+package com.omegarobotics.unit5.lessons.geometric;
 
 /*
 Topics:

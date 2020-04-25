@@ -1,21 +1,15 @@
-package com.omegarobotics.unit5.practice;
+package com.omegarobotics.unit5.practice.geometric;
 
 /*
-Topics:
-- Practice creating classes
-- Practice creating driver classes
- */
-
-/*
-Create a class called TestRectangle to test
-the Rectangle class you will code.
-
-Create a class called Rectangle (in a separate file)
+Create a class called Rectangle
 with all appropriate fields and methods.
 Bonus points if you create javadoc comments
 for each method.
 
 Use this with TestRectangle.java
+
+Note: Only ask students to override equals after you've
+gone over CompareObjects.java and TestGeometricObject.java
  */
 
 public class Rectangle {
@@ -69,9 +63,16 @@ public class Rectangle {
         return 2 * (length + width);
     }
 
-    /** Overrides toString method */
     @Override
     public String toString() {
         return "Rectangle length: " + length + ", width: " + width;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Rectangle) {
+            return ((Rectangle) obj).getArea() == this.getArea();
+        }
+        return false;
     }
 }

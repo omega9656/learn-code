@@ -1,4 +1,4 @@
-package com.omegarobotics.unit5.lessons;
+package com.omegarobotics.unit5.lessons.geometric;
 
 public class GeometricObject {
     private double x; // x coordinate of the center

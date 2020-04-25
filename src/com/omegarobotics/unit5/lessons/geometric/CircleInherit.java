@@ -1,26 +1,32 @@
-package com.omegarobotics.unit5.lessons;
+package com.omegarobotics.unit5.lessons.geometric;
 
 /*
 Topics:
-- Classes vs. Objects
-- Field vs. behavior
-- Constructors
-- Visibility modifiers (public, private, default, protected)
-- this
-- Accessors and mutators (setters/getters)
+- Inheritance
+- extends
+- Object class
+- super
  */
 
-public class Circle {
+public class CircleInherit extends GeometricObject {
     private double radius;
 
     /** Default constructor
      * Creates a circle of radius 0 */
-    public Circle() {
+    public CircleInherit() {
+        super();
         radius = 0;
     }
 
     /** Creates a circle with given radius */
-    public Circle(double radius) {
+    public CircleInherit(double radius) {
+        super();
+        this.radius = radius;
+    }
+
+    /** Creates a circle with given radius, center (x, y), color, and filled value */
+    public CircleInherit(double radius, double x, double y, String color, boolean filled) {
+        super(x, y, color, filled);
         this.radius = radius;
     }
 
