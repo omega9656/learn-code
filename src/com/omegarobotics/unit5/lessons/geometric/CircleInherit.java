@@ -58,6 +58,14 @@ public class CircleInherit extends GeometricObject {
     }
 
     /**
+     * Returns the diameter
+     * @return the diameter
+     */
+    public double getDiameter() {
+        return radius * 2;
+    }
+
+    /**
      * Returns the area of this {@code CircleInherit} object
      * @return the area of this {@code CircleInherit} object
      */
@@ -66,10 +74,10 @@ public class CircleInherit extends GeometricObject {
     }
 
     /**
-     * Returns the circumference of this {@code CircleInherit} object
-     * @return the circumference of this {@code CircleInherit} object
+     * Returns the perimeter of this {@code CircleInherit} object
+     * @return the perimeter of this {@code CircleInherit} object
      */
-    public double getCircumference() {
+    public double getPerimeter() {
         return 2 * Math.PI * radius;
     }
 
