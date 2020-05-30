@@ -1,4 +1,4 @@
-package com.omegarobotics.unit5.challenges;
+package com.omegarobotics.unit5.challenges.finance;
 
 /*
  * SavingsAccount inherits from Account.
@@ -90,10 +90,8 @@ public class SavingsAccount extends Account {
     @Override
     public String toString() {
         return String.format(
-                "Name: %s, Account #: %d, Balance: $%.2f\n" +
-                        "Interest Rate: %.2f%%, Annual Interest: $%.2f",
-                super.getName(), super.getNumber(), super.getBalance(),
-                apr * 100, this.calculateInterest()
+                "%s\nInterest Rate: %.2f%%, Annual Interest: $%.2f",
+                super.toString(), apr * 100, this.calculateInterest()
         );
     }
 }

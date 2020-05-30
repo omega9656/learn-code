@@ -1,4 +1,4 @@
-package com.omegarobotics.unit5.challenges;
+package com.omegarobotics.unit5.challenges.finance;
 
 /*
  * Create a class called CreditCardAccount which inherits from Account.
@@ -162,10 +162,8 @@ public class CreditCardAccount extends Account {
     @Override
     public String toString() {
         return String.format(
-                "Name: %s, Account #: %d, Balance: $%.2f\n" +
-                        "Interest Rate: %.2f%%, Credit Limit: $%.2f, Monthly Payment: $%.2f",
-                super.getName(), super.getNumber(), super.getBalance(),
-                apr * 100, creditLimit, this.calculatePayment()
+                "%s\nInterest Rate: %.2f%%, Credit Limit: $%.2f, Monthly Payment: $%.2f",
+                super.toString(), apr * 100, creditLimit, this.calculatePayment()
         );
     }
 }

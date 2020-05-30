@@ -1,4 +1,4 @@
-package com.omegarobotics.unit5.challenges;
+package com.omegarobotics.unit5.challenges.finance;
 
 /*
  * Create an array of Account objects and prints

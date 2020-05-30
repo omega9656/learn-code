@@ -38,14 +38,14 @@ public class Polymorphism {
                 System.out.printf("Diameter: %.4f\n", ((CircleInherit) shapes[i]).getDiameter());
             } else if (shapes[i] instanceof RectangleInherit) {
                 System.out.printf("Perimeter: %.4f\n", ((RectangleInherit) shapes[i]).getPerimeter());
-            } else if (shapes[i] instanceof GeometricObject) {
+            } else {
                 System.out.println("This is a only a GeometricObject");
             }
         }
 
         // below doesn't work b/c java only knows that shapes are GeometricObjects at compile time,
         // but not necessarily Circles or Rectangles:
-        // double circleCircumference = shapes[1].getCircumference();
+        // double circleCircumference = shapes[1].getDiameter();
         // double RectanglePerimeter = shapes[2].getPerimeter();
 
         // above solved --> cast
