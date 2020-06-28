@@ -1,0 +1,12 @@
+                                      Staff extends Employee
+---------------------------------------------------------------------------------------------------
+- title: String
+---------------------------------------------------------------------------------------------------
++ Staff()
++ Staff(officeAddress: String, salary: double, EMPLOYEE_ID_NUMBER: long, DATE_HIRED: MyDate)
++ Staff(name: String, address: String, phoneNumber: long, emailAddress: String,
+        officeAddress: String, salary: double, EMPLOYEE_ID_NUMBER: long, DATE_HIRED: MyDate,
+        title: String)
++ getTitle(): String
++ setTitle(title: String): void
++ toString(): String

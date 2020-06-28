@@ -1,0 +1,12 @@
+                                    Employee extends Person
+---------------------------------------------------------------------------------------------------
+- officeAddress: String
+- salary: double
+- EMPLOYEE_ID_NUMBER: long
+- DATE_HIRED: MyDate
+---------------------------------------------------------------------------------------------------
++ Employee()
++ Employee(officeAddress: String, salary: double, EMPLOYEE_ID_NUMBER: long, DATE_HIRED: MyDate)
++ Employee(name: String, address: String, phoneNumber: long, emailAddress: String,
+        officeAddress: String, salary: double, EMPLOYEE_ID_NUMBER: long, DATE_HIRED: MyDate)
++ toString(): String

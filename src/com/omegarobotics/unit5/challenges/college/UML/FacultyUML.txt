@@ -1,0 +1,15 @@
+                                    Faculty extends Employee
+---------------------------------------------------------------------------------------------------
+- officeHours: String
+- department: String
+---------------------------------------------------------------------------------------------------
++ Faculty()
++ Faculty(officeAddress: String, salary: double, EMPLOYEE_ID_NUMBER: long, DATE_HIRED: MyDate)
++ Faculty(name: String, address: String, phoneNumber: long, emailAddress: String,
+        officeAddress: String, salary: double, EMPLOYEE_ID_NUMBER: long, DATE_HIRED: MyDate,
+        officeHours: String, department: String)
++ getOfficeHours(): String
++ setOfficeHours(officeHours: String): void
++ getDepartment(): String
++ setDepartment(department: String): void
++ toString(): String
