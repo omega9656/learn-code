@@ -17,7 +17,7 @@ we check for good programming style using this linter.
 **Your PR will not be approved unless it passes those style checks.**
 
 Also, linters basically enforce all of the style rules that we discuss below, 
-so you basically can just skip to the [next section](#follow-the-omega-how-to-code-format).
+so you basically can just skip to the [next section](#follow-omega-how-to-code-format).
 
 ### Whitespace
 * Indent properly.
@@ -52,7 +52,7 @@ on our Wiki to see how units are organized.
 
 ## Testing
 * Thoroughly test your program. Make sure it works as intended.
-  * Try to break your program! Don’t just give input you know will work.
+* Try to break your program! Don’t just give input you know will work.
 
 ## Check the content.
 * Make sure the problem is doable for the skill level of students at that point in time.
@@ -63,7 +63,7 @@ on our Wiki to see how units are organized.
 * Providing a link to the original is usually sufficient if you found the problem online. 
 * If you found it in a book, cite the full title and author.
 * Citations should be included in the multi-line comment that is at the top of the file
-(see [Follow the Omega How to Code Format](#follow-the-omega-how-to-code-format))
+(see [Follow Omega How to Code Format](#follow-omega-how-to-code-format))
 
 ## Submitting practice problem(s)
 
@@ -93,4 +93,4 @@ If you want to learn the basic Git you need to contribute, we recommend watching
 
 **Thank you for following these guidelines and contributing to this repository!**
 
-* Questions? Message any 9656 member on the FTC Discord, or email us at [ftc9656omega@gmail.com](mailto:ftc9656omega@gmail.com).**
+*Questions? Message any 9656 member on the FTC Discord, or email us at [ftc9656omega@gmail.com](mailto:ftc9656omega@gmail.com).*
