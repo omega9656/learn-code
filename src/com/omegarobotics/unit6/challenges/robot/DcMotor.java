@@ -1,4 +1,4 @@
-package com.omegarobotics.unit6.practice.robot;
+package com.omegarobotics.unit6.challenges.robot;
 
 /*
  * Topics:
