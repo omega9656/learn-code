@@ -39,6 +39,8 @@ public class Faculty extends Employee {
 	 * @param salary  how much money this Faculty member makes
 	 * @param EMPLOYEE_ID_NUMBER  employee ID number of this Faculty member
 	 * @param DATE_HIRED  the date this Faculty member was hired
+	 * @param officeHours  when this Faculty member has office hours
+	 * @param department  Faculty member's department
 	 */
 	public Faculty(String name, String address, long phoneNumber, String emailAddress,
 				   String officeAddress, double salary, long EMPLOYEE_ID_NUMBER, MyDate DATE_HIRED,
