@@ -1,0 +1,15 @@
+                                               MyDate
+---------------------------------------------------------------------------------------------------
+- day: int
+- month: int
+- year: int
+---------------------------------------------------------------------------------------------------
++ MyDate()
++ MyDate(day: int, month: int, year: int)
++ getDay(): int
++ setDay(day: int): void
++ getMonth(): int
++ setMonth(month: int): void
++ getYear(): int
++ setYear(year: int): void
++ toString(): String

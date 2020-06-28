@@ -1,0 +1,13 @@
+                                      Student extends Person
+---------------------------------------------------------------------------------------------------
+- classStatus: String
+- STUDENT_ID_NUMBER: long
+---------------------------------------------------------------------------------------------------
++ Student()
++ Student(classStatus: String, STUDENT_ID_NUMBER: long)
++ Student(name: String, address: String, phoneNumber: long, emailAddress: String
+        CLASS_STATUS: String, STUDENT_ID_NUMBER: long)
++ getClassStatus(): String
++ setClassStatus(classStatus: String): void
++ getStudentIDNumber(): long
++ toString(): String

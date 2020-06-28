@@ -1,0 +1,18 @@
+                                               Person
+---------------------------------------------------------------------------------------------------
+- name: String
+- address: String
+- phoneNumber: long
+- emailAddress: String
+---------------------------------------------------------------------------------------------------
++ Person()
++ Person(name: String, address: String, phoneNumber: long, emailAddress: String)
++ getName(): String
++ setName(name: String): void
++ getAddress(): String
++ setAddress(address: String): void
++ getPhoneNumber(): long
++ setPhoneNumber(phoneNumber: long): void
++ getEmailAddress(): String
++ setEmailAddress(emailAddress: String): void
++ toString(): String
