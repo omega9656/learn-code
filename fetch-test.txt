@@ -1,2 +1,2 @@
 Does this appear when you do git fetch?
-Let's try git pull! Let's not make a conflict
+Let's try git pull! Let's not make a merge conflict
