@@ -1,2 +1,6 @@
 Does this appear when you do git fetch?
+<<<<<<< HEAD
 Let's try git pull! Let's not make a merge conflict
+=======
+Let's try git pull! Let's make a merge conflict!
+>>>>>>> refs/remotes/origin/master
