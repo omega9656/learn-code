@@ -1,2 +1,3 @@
 Does this appear when you do git fetch?
 Let's try git pull!
+Lets make a merge conflict
