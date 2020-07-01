@@ -6,3 +6,4 @@ Let's try git pull! Let's make a merge conflict!
 >>>>>>> refs/remotes/origin/master
 
 heyy
+hey again
