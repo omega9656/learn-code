@@ -1,4 +1,4 @@
-package com.omegarobotics.unit7.practice;
+package com.omegarobotics.unit7.practice.exceptions;
 
 /*
  * Prompt the user to enter an integer continuously.

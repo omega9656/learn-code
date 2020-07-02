@@ -1,4 +1,4 @@
-package com.omegarobotics.unit7.lessons;
+package com.omegarobotics.unit7.lessons.exceptions;
 
 import java.util.Scanner;
 
