@@ -1,2 +1,7 @@
-# HowToCode
-This is the home page yay
+---
+layout: default
+title: Home
+---
+
+# Learn Code
+Welcome to Learn Code!

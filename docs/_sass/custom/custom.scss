@@ -1,0 +1,23 @@
+// override and completely custom styles
+// use this for styles not defined as variables
+// can add custom CSS
+
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Oxygen&family=Raleway:wght@700&display=swap');
+
+// Typography
+$oxygen: 'Oxygen', sans-serif;
+$oswald: 'Oswald', sans-serif;
+$raleway: 'Raleway', sans-serif;
+
+body {
+    font-family: $oxygen;
+}
+
+h1 {
+    font-family: $oswald;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: $raleway;
+}

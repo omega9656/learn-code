@@ -1,0 +1,74 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Learn Code | Omega Robotics
+email: ftc9656omega@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Want to learn how to code or teach others how to code?
+  FTC 9656 Omega Robotics presents Learn Code, a website
+  full of programming resources for beginners with a focus
+  on FTC-related topics. Get started with Java, command line,
+  Git, Roadrunner, and more!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://omega9656.github.io/learn-code/" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: omega9656
+
+# Build settings
+markdown: kramdown
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Just the Docs
+remote_theme: pmarsceill/just-the-docs
+logo: /images/omega-logo-white-fill.png
+
+# Aux links for the upper right navigation
+aux_links:
+  "Omega Robotics":
+    - "https://omegarobotics.wordpress.com"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Footer content 
+# appears at the bottom of every page's main content
+footer_content: Copyright &copy; 2020 Omega Robotics
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/omega9656/learn-code" # the github URL for your repo
+gh_edit_branch: "master" # the branch that your docs is served from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+# Color scheme supports "light" (default) and "dark" and custom schemes
+color_scheme: omega
+# switchable custom color scheme: https://github.com/pmarsceill/just-the-docs/blob/master/_sass/support/_variables.scss
+# make light/dark button? or change to dark after a certain time
+
+# Google Analytics Tracking (optional)
+# e.g, UA-1234567-89
+# ga_tracking: UA-5555555-55
+# ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
+# get started: https://support.google.com/analytics/answer/1008015?hl=en
