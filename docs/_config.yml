@@ -12,7 +12,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   full of programming resources for beginners with a focus
   on FTC-related topics. Get started with Java, command line,
   Git, Roadrunner, and more!
-baseurl: "/learn-code" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://omega9656.github.io/learn-code/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: omega9656
 
