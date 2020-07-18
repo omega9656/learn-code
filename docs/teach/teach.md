@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Teach
-permalink: /teach
+permalink: teach
 has_children: true
 nav_order: 5
 ---

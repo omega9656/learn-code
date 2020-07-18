@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Learn
-permalink: /learn
+permalink: learn
 has_children: true
 nav_order: 4
 ---
