@@ -4,7 +4,7 @@
 # Site settings
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Learn Code | Omega Robotics
+title: Learn Code
 email: ftc9656omega@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Want to learn how to code or teach others how to code?
@@ -37,8 +37,8 @@ logo: /images/omega-logo-white-fill.png
 
 # Aux links for the upper right navigation
 aux_links:
-  "Omega Robotics":
-    - "https://omegarobotics.wordpress.com"
+  "Omega Robotics": "https://omegarobotics.wordpress.com"
+  "View Learn Code on GitHub": "https://github.com/omega9656/learn-code"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
