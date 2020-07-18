@@ -20,7 +20,7 @@ github_username: omega9656
 markdown: kramdown
 
 # Global permalink settings
-permalink: pretty # same as /:categories/:year/:month/:day/:title/
+permalink: /blog/:year/:month/:day/:title # for posts
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
