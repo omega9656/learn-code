@@ -10,6 +10,8 @@ Learn Code is a website that can help you learn or teach the basics of FTC progr
 
 ## General Topics Covered
 * Java
+* Command Line
+* Git and GitHub
 * FTC SDK
 * Roadrunner
 * FTC CV
@@ -18,12 +20,14 @@ Learn Code is a website that can help you learn or teach the basics of FTC progr
 For a more detailed breakdown, see [Units](/learn-code/units).
 
 ## Credits
-This repository and website was created in 2020 by Rebecca Dang ([@phrdang](https://github.com/phrdang)). <br>
-It is maintained by [FTC 9656 Omega](https://github.com/omega9656).
+This repository and website was created in 2020 by Rebecca Dang ([@phrdang](https://github.com/phrdang))
+and is maintained by [FTC 9656 Omega](https://github.com/omega9656).
 
-Omega's How to Code curriculum loosely follows [Y. Daniel Liang's _Introduction to Java Programming_, Comprehensive Version, 10th Edition](https://www.amazon.com/Intro-Java-Programming-Comprehensive-Version/dp/0133761312).
+This website uses code from [Jekyll](https://jekyllrb.com/) tutorials, [Just the Docs](https://github.com/pmarsceill/just-the-docs), and [WebJeda](https://blog.webjeda.com/jekyll-categories/).
 
-Special thanks to:
+Omega's How to Code curriculum loosely follows [_Introduction to Java Programming_ (Comprehensive Version), 10th ed.](https://www.amazon.com/Intro-Java-Programming-Comprehensive-Version/dp/0133761312) by Y. Daniel Liang.
+
+**Special thanks to:**
 * The members of FTC 9656 Omega for their support and dedication
 * [_FIRST_](https://www.firstinspires.org/) and the [_FIRST_ Tech Challenge](https://www.firstinspires.org/robotics/ftc)
 * Ryan Brott, creator of [Roadrunner](https://github.com/acmerobotics/road-runner)

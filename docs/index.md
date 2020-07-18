@@ -23,7 +23,7 @@ and extracting it, or cloning it on the terminal via [Git](https://git-scm.com/)
 
 *If you would like to learn more about Git, please see our section on it [here](/learn-code/learn/unit7#git).*
 
-1. [Download ZIP](https://github.com/omega9656/learn-code/zipball/master/){: .btn-cardinal .btn }
+1. [Download ZIP](https://github.com/omega9656/learn-code/zipball/master/){: .btn .btn-cardinal }
 
 2. Using Git
 ```shell
@@ -42,7 +42,7 @@ If you're using our repository and you find it helpful, we'd really appreciate
 a quick shout out on the FTC Discord and/or your team's Engineering Notebook.
 
 ## Contributing
-Contributions are welcome in the form of Issues or Pull Requests on GitHub. Before contributing, read our [Contributing Guidelines](https://github.com/omega9656/learn-code/blob/master/CONTRIBUTING.md) and [Code of Conduct](https://github.com/omega9656/learn-code/blob/master/CODE_OF_CONDUCT.md). Also be sure to follow the [Pull Request Template](https://github.com/omega9656/learn-code/blob/master/pull_request_template.md)
+Contributions are welcome in the form of Issues or Pull Requests on GitHub. Before contributing, read our [Contributing Guidelines](https://github.com/omega9656/learn-code/blob/master/CONTRIBUTING.md) and [Code of Conduct](https://github.com/omega9656/learn-code/blob/master/CODE_OF_CONDUCT.md). Also be sure to follow the [Pull Request Template](https://github.com/omega9656/learn-code/blob/master/pull_request_template.md).
 
 ### Contributors
 Thank you to the contributors of Learn Code!
