@@ -36,7 +36,7 @@ permalink: /blog/:year/:month/:day/:title # for posts
 
 # Just the Docs
 remote_theme: pmarsceill/just-the-docs
-logo: /images/omega-logo-white-fill.png
+logo: /images/learn-code-logos/black-text-transparent.png
 
 # Aux links for the upper right navigation
 aux_links:
