@@ -8,7 +8,7 @@ nav_order: 3
 # Units
 Source code is divided by unit:
 
-1. [Introduction to Java, Programming, and Variables](/learn-code/learn/unit1)
+1. [Introduction to Java](/learn-code/learn/unit1)
 2. [Selection and Boolean Logic](/learn-code/learn/unit2)
 3. [Loops and 1D Arrays](/learn-code/learn/unit3)
 4. [Methods and Multi-Dimensional Arrays](/learn-code/learn/unit4)
