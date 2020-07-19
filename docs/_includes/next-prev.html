@@ -1,10 +1,30 @@
-{% assign prev_unit = page.nav_order | minus: 1 %}
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1.25fr 6fr 1fr;
+        margin-top: 5rem;
+    }
+
+    .prev-container {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .next-container {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+</style>
+
+{% assign prev_unit = page.nav_order | minus: 2 %}
 {% assign next_unit = page.nav_order %}
 
-{% if prev_unit > 1 %}
-    <a href="/learn-code/learn/unit{{ prev_unit }}" class="btn btn-cardinal prev-btn">&larr;Previous</a>
+<div class="grid-container">
+{% if prev_unit > 0 %}
+    <a href="/learn-code/learn/unit{{ prev_unit }}" class="btn btn-cardinal prev-btn prev-container">&larr;Previous</a>
 {% endif %}
 
 {% if next_unit <= 11 %}
-    <a href="/learn-code/learn/unit{{ next_unit }}" class="btn btn-cardinal next-btn">Next&rarr;</a>
+    <a href="/learn-code/learn/unit{{ next_unit }}" class="btn btn-cardinal next-btn next-container">Next&rarr;</a>
 {% endif %}
+</div>
