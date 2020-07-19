@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: unit
 title: Unit 3
 permalink: learn/unit3
 parent: Learn
@@ -22,3 +22,7 @@ nav_order: 4
 
 ## 1D Arrays
 ### For Each Loop
+
+## Practice
+
+## Quiz

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: unit
 title: Unit 8
 permalink: learn/unit8
 parent: Learn
@@ -20,3 +20,7 @@ nav_order: 9
 ## Sensors
 
 ## FTC SDK
+
+## Practice
+
+## Quiz

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: unit
 title: Unit 2
 permalink: learn/unit2
 parent: Learn
@@ -21,3 +21,7 @@ nav_order: 3
 ### If Statements
 ### Switch Statement
 ### Ternary Operator
+
+## Practice
+
+## Quiz

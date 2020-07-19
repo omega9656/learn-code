@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: unit
 title: Unit 7
 permalink: learn/unit7
 parent: Learn
@@ -22,3 +22,7 @@ nav_order: 8
 ## Git
 
 ## GitHub
+
+## Practice
+
+## Quiz

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: unit
 title: Unit 10
 permalink: learn/unit10
 parent: Learn
@@ -16,3 +16,7 @@ nav_order: 11
 {:toc}
 
 ## Computer Vision
+
+## Practice
+
+## Quiz
