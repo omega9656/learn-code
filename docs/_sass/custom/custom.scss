@@ -24,3 +24,20 @@ h2, h3, h4, h5, h6 {
     font-family: $raleway;
     font-weight: 500;
 }
+
+.quiz {
+    border: 0.2rem solid #d4d2d2;
+    border-radius: 10px;
+}
+
+.next-btn {
+    float: right;
+}
+
+.prev-btn {
+    float: left;
+}
+
+.next-btn, .prev-btn {
+    margin-top: -1.5rem; // above the footer line
+}
