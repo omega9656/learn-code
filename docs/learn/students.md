@@ -9,12 +9,6 @@ parent: Learn
 # Students
 Do you want to learn Java and/or programming for FTC? You've come to the right place! In this repository you'll find source code and other resources to help you learn.
 
-## Quizzes
-Take these short quizzes to test your knowledge of each unit! After submitting, you can view your score, missed questions, and correct answers.
-1. [Unit 1](https://docs.google.com/forms/d/e/1FAIpQLSfkSQ05YI-tb9I6yapqMijTjv3h8z_vs87OpCmsw57laPi-4Q/viewform?usp=sf_link)
-2. [Unit 2](https://docs.google.com/forms/d/e/1FAIpQLSdBDAeHlnDl6LZQQMsg8GQAhOhu0aXELp-9Bv-UXyTTd99nIg/viewform?usp=sf_link)
-3. [Unit 3](https://docs.google.com/forms/d/e/1FAIpQLSer5kFZwZe5kwINd1TyJC_84HGEX4CKB1nx4Rm7Ow4jOl1xEA/viewform?usp=sf_link)
-
 ## Downloads
 Before you start programming, make sure you have downloaded Java and have either an IDE or text editor to write code. (IDEs are preferred because testing code is easier.)
 
@@ -34,8 +28,14 @@ Before you start programming, make sure you have downloaded Java and have either
 
 *Android Studio is widely used by FTC teams.
 
-## Learn Online
-Here are some websites you can also use to learn Java or other programming languages.
+## Quizzes
+Take these short quizzes to test your knowledge of each unit! After submitting, you can view your score, missed questions, and correct answers. You can also view these quizzes at the bottom of each unit's page.
+1. [Unit 1](https://docs.google.com/forms/d/e/1FAIpQLSfkSQ05YI-tb9I6yapqMijTjv3h8z_vs87OpCmsw57laPi-4Q/viewform?usp=sf_link)
+2. [Unit 2](https://docs.google.com/forms/d/e/1FAIpQLSdBDAeHlnDl6LZQQMsg8GQAhOhu0aXELp-9Bv-UXyTTd99nIg/viewform?usp=sf_link)
+3. [Unit 3](https://docs.google.com/forms/d/e/1FAIpQLSer5kFZwZe5kwINd1TyJC_84HGEX4CKB1nx4Rm7Ow4jOl1xEA/viewform?usp=sf_link)
+
+## Other Online Resources
+Here are some websites you can use besides this one to learn Java or other programming languages.
 
 * [Game Manual 0](https://gm0.copperforge.cc/en/stable/) - A community-maintained comprehensive guide to FTC
 * [Codecademy](https://www.codecademy.com/) - Has an introductory Java course for free
