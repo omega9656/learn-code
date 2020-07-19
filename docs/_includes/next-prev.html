@@ -1,0 +1,10 @@
+{% assign prev_unit = page.nav_order | minus: 1 %}
+{% assign next_unit = page.nav_order %}
+
+{% if prev_unit > 1 %}
+    <a href="/learn-code/learn/unit{{ prev_unit }}" class="btn btn-cardinal prev-btn">&larr;Previous</a>
+{% endif %}
+
+{% if next_unit <= 11 %}
+    <a href="/learn-code/learn/unit{{ next_unit }}" class="btn btn-cardinal next-btn">Next&rarr;</a>
+{% endif %}

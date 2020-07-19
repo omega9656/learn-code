@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% include quizzes/{{ page.title | slugify }}.html %}
+
+{% include next-prev.html %}
