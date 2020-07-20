@@ -39,7 +39,7 @@ Omega's How to Code curriculum loosely follows [_Introduction to Java Programmin
 * Message any 9656 member on the [Official FTC Discord server](https://discord.gg/first-tech-challenge)
 * Fill out a contact form on our [website](https://omegarobotics.wordpress.com/contact)
 * If there is an issue on this repository or an improvement that could be made, please submit
-an issue or pull request. See [Contributing](/learn-code/home#contributing).
+an issue or pull request. See [Contributing](/learn-code/#contributing).
 
 ## Academic integrity is expected.
 Omega Robotics does not condone the usage of this repository to cheat on any course.
