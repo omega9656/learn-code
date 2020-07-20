@@ -9,6 +9,9 @@ nav_order: 7
 # Unit 6: Abstract Classes, Interfaces, and Enumerated Types
 {: .no_toc }
 
+Coming soon
+{: .label .label-yellow }
+
 ## Table of contents
 {: .no_toc .text-delta }
 

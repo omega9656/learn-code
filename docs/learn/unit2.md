@@ -9,6 +9,9 @@ nav_order: 3
 # Unit 2: Selection and Boolean Logic
 {: .no_toc }
 
+Coming soon
+{: .label .label-yellow }
+
 ## Table of contents
 {: .no_toc .text-delta }
 

@@ -9,6 +9,9 @@ nav_order: 8
 # Unit 7: Exception Handling and Git
 {: .no_toc }
 
+Coming soon
+{: .label .label-yellow }
+
 ## Table of contents
 {: .no_toc .text-delta }
 

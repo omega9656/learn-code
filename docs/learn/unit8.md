@@ -9,6 +9,9 @@ nav_order: 9
 # Unit 8: FTC Control System, Sensors, and FTC SDK
 {: .no_toc }
 
+Coming soon
+{: .label .label-yellow }
+
 ## Table of contents
 {: .no_toc .text-delta }
 

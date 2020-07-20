@@ -9,6 +9,9 @@ nav_order: 11
 # Unit 10: FTC Computer Vision
 {: .no_toc }
 
+Coming soon
+{: .label .label-yellow }
+
 ## Table of contents
 {: .no_toc .text-delta }
 
