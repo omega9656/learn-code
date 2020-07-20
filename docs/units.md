@@ -31,6 +31,8 @@ All compiled class files can be found under `out/production/HowToCode`. <br>
 Generated Javadoc files can be found under `javadoc`. <br>
 **Note:** Javadoc files may be outdated compared to the source code.
 
+All code for this website can be found under `docs`.
+
 ## Unit Packages
 Inside of each unit folder are 3 packages:
 1. `challenges` - Challenge programs to solidify skills
