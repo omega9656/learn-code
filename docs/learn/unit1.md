@@ -117,7 +117,9 @@ public class HelloWorld {
     }
 }
 ```
+
 is the same as this:
+
 ```java
 public class HelloWorld { public static void main(String[] args) {
 // Prints Hello world! to the console
@@ -246,7 +248,16 @@ Strings are a series of characters strung together. (Hence the name.) Strings ar
 
 Strings are enclosed within double quotes. For example, `"Hello world!"`, `"this is a string"`, `"12"`, `"   "`, and `"c"` are all strings.
 
-TODO *concatenation*
+**Concatenation**
+String *concatenation* is when you combine two or more strings. You do it like this:
+```java
+System.out.println("string 1" + "string 2");
+```
+
+Output:
+```
+string1string2
+```
 
 ### Declaring, Initializing, and Updating Variables
 Now that we know what can be stored in a variable, let's talk about how to make one.
@@ -314,6 +325,43 @@ Regular variables should be named in the camelCase convention, which means that 
 
 Constants should be named using snake case, with all uppercase letters. Snake case means that all words are separated by underscores. For example, `DAYS_PER_WEEK`, `PI`, and `FILE_NAME` are all good constant names.
 
+## Input
+Now that we've talked about how to display output to the user, let's talk about how to get input from the user. To do this, you will need to import the `Scanner` class.
+```java
+import java.util.Scanner;
+```
+
+Once you have imported the `Scanner` class, you can use Scanner *methods*. We'll talk about methods [later](/learn-code/learn/unit4). For now, just think of *methods* as things you can use to accomplish a task. No need to worry about how it actually works.
+
+For example, if I wanted to get the price of an apple from the user, I could do this:
+```java
+import java.util.Scanner;
+
+public class Input {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the price of an apple: ");
+        double price = input.nextDouble();
+    }
+}
+```
+
+Let's break down this code. First, we imported the `Scanner` class using `import java.util.Scanner;`. Then we constructed a `Scanner` object using `Scanner input = new Scanner(System.in);`. Again, you don't really need to know what objects are yet. Just know that whenever you want to get user input, you'll need to do this. (Also note that `input` is simply the name that references the `Scanner` object, so you can name it whatever you want as long as you follow the identifier naming rules.)
+
+Then you should display a *prompt* to the user which tells the user what input you want from them. (For example, `System.out.print("Enter the price of an apple: ")`.) You should make this as specific as possible. Also, don't forget to add a space after the prompt so that the cursor isn't awkwardly next to the prompt.
+
+Finally, you will need to get the input and store that value in a variable. You will need to assign a variable to the result of calling a method on the `Scanner` object you created. For example, `double price = input.nextDouble();`. Notice that the variable type should match the method that was called (`nextDouble()`). Also notice that to call the method, you need to use *dot notation*. That is, you need to use the variable that represents the `Scanner` object (in this case, we named it `input`), then a dot (.), and then the method.
+
+Here are commonly used `Scanner` methods you should know:
+
+| Method         | Return Type | Example Usage         |
+| :------------- | :---------- | :-------------------- |
+| `nextInt()`    | `int`       | `input.nextInt();`    |
+| `nextDouble()` | `double`    | `input.nextDouble();` |
+| `nextLine()`   | `String`    | `input.nextLine();`   |
+
+Note that there is no `nextChar()` method.
+
 ## Arithmetic Operators
 You know what computers are really good at? Crunching numbers. You can do basic arithmetic with Java by using arithmetic operators.
 
@@ -336,7 +384,7 @@ System.out.println("e: " + e);
 System.out.println("f: " + f);
 System.out.println("g: " + g);
 ```
-*Note that you can concatenate other types with strings.*
+*Note that you can concatenate some other types with strings.*
 
 Output:
 ```
@@ -353,21 +401,150 @@ g: 1
 Addition, subtraction, and multiplication are pretty straightforward. However, there are 2 types of division in Java: *integer division* and *floating point division*. Integer division happens whenever you divide 2 integers. This results in an integer since any decimals get truncated. Floating point division happens if you divide at least 1 floating point number, such as a `double`. (There are 2 floating point numeric types in Java, `double` and `float`. The former is more widely used.)
 
 **Modulus**
+
 You probably don't recognize the `%` operator if you've never programmed before. This is the *modulus* operator, which gives you the remainder of a division. In the example, `10 % 3` equals `1` because 10 divided by 3 is 3 remainder 1.
 
 Modulus is useful when you need to check if a number is divisible by another number (since the remainder would be 0) and for certain unit conversions.
 
 **Formatting**
-`System.out.printf`
 
+You can use string formatting to format output in a nice way. A common way to do this is using `System.out.printf` (you can think of this as **print** **f**ormat).
+
+In string formatting, we use special symbols as placeholders for certain data types.
+
+| Symbol | Data Type |
+| :----- | :-------- |
+| `%s`   | `String`  |
+| `%d`   | `int`, `long` |
+| `%f`   | `double`, `float` |
+
+For example:
+```java
+double price = 5.36;
+System.out.printf("The price is $%f", price);
+```
+
+Output:
+```
+The price is $5.36
+```
+
+Notice that `%f` is replaced by the value of `price`.
+
+**Note**: `System.out.printf` does not automatically add a newline character (`\n`) to the end, so you may want to do that depending on how you want your output to look.
+
+**Note**: You can basically have an infinite number of placeholders, in which case you need to separate each value by a comma. Also make sure that you put each value in the order that it appears in the string. For example:
+```java
+int a = 5;
+int b = 10;
+System.out.printf("a is %d while b is %d", a, b);
+```
+
+Output:
+```
+a is 5 while b is 10
+```
+
+**Note**: If you want to display a certain amount of decimals for a floating point number, you can do something like this:
+```java
+final double PI = 3.1415926;
+System.out.printf("Pi is approximately %.2f", PI);
+```
+
+Output:
+```
+Pi is approximately 3.14
+```
+
+Notice that to display up to 2 decimals of precision, we prepended `.2` to `f`. If I wanted to do 4 decimals of precision, I would write `%.4f`.
+
+If you want to learn more about string formatting in Java, see [this article](https://dzone.com/articles/java-string-format-examples).
 
 ## Augmented Assignment Operators
+A lot of times in programming you'll need to update a value relative to itself. For instance, when you're playing a video game and you collect a coin, your score might go up by 5 points relative to what it was before.
+
+In Java, that would look like this (assume a variable `score` has already been delcared and initialized):
+```java
+score = score + 5;
+```
+
+Augmented assignment operators allow us to do that with less typing:
+```java
+score += 5;
+```
+
+There are augmented assignment operators for each of the arithmetic operators. In the table below, assume `var` is a variable that has been declared and initialized.
+
+| Augmented Assignment Operator | Normal          | Augmented Assignment |
+| :---------------------------- | :-------------- | :------------------- |
+| `+=`                          | `var = var + 5` | `var += 5`           |
+| `-=`                          | `var = var - 5` | `var -= 5`           |
+| `*=`                          | `var = var * 5` | `var *= 5`           |
+| `/=`                          | `var = var / 5` | `var /= 5`           |
+| `%=`                          | `var = var % 5` | `var %= 5`           |
 
 ## Increment and Decrement
+Other operations that come up often in computer science is increment and decrement (adding 1 and subtracting 1).
+
+Increment operator: `++`
+
+Decrement operator: `--`
+
+Note that the increment and decrement operators are *unary operators*, which mean they operate on 1 thing (arithmetic, assignment, and augmented assignment operators are all *binary operators*).
+
+There are 2 types of increment and decrement: post and pre. These determine when the variable is incremented or decremented. Analyze the code below.
+
+```java
+int i = 1;
+int j;
+
+// pre-increment
+j = ++i; // increment i, then assign that to j
+System.out.println("j: " + j + ", i: " + i);
+
+// post-increment
+i = 1; // reset
+j = i++; // assign i to j, then increment i
+System.out.println("j: " + j + ", i: " + i);
+
+// pre-decrement
+i = 1; // reset
+j = --i; // decrement i, then assign that to j
+System.out.println("j: " + j + ", i: " + i);
+
+// post-decrement
+i = 1; // reset
+j = i--; // assign i to j, then decrement i
+System.out.println("j: " + j + ", i: " + i);
+```
+
+Output:
+```
+j: 2, i: 2
+j: 1, i: 2
+j: 0, i: 0
+j: 1, i: 0
+```
+
+Note that pre-increment and pre-decrement puts the `++` or `--` *before* the variable name, while post-increment and post-decrement puts the `++` or `--` *after* the variable name.
+
+**Note**: If you are simply incrementing or decrementing a variable and not doing anything else, post- and pre-increment or decrement won't matter. You only need to be careful when you're mixing a bunch of operators.
 
 ## Footnotes
 <b id="f1">1</b> Identifier rules from *Introduction to Java Programming (Comprehensive)*, 10th ed. by Y. Daniel Liang. [↩](#a1) 
 
 ## Practice
+
+### Circle Area
+
+### Compute Average
+
+### Compute Change
+
+### Convert Minutes
+
+## Challenges
+
+### Population
 
 ## Quiz
