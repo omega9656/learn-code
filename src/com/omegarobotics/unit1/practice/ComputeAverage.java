@@ -34,6 +34,6 @@ public class ComputeAverage {
         double average = sum / 3;
 
         // display the result
-        System.out.println("The average is " + sum);
+        System.out.println("The average is " + average);
     }
 }
