@@ -7,7 +7,7 @@ grand_parent: Learn
 nav_order: 4
 ---
 
-## Unit 4: Quiz
+# Unit 4: Quiz
 Coming soon
 {: .label .label-yellow }
 {% include quizzes/unit-4.html %}
