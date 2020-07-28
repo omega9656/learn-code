@@ -6,22 +6,22 @@ package com.omegarobotics.unit5.lessons.robot;
  */
 
 public class Lift {
-	public int level = 0;
-	public final int MAX_LEVEL = 5;
+  public int level = 0;
+  public final int MAX_LEVEL = 5;
 
-	public Lift() {
-		// initialize hardware
-	}
+  public Lift() {
+    // initialize hardware
+  }
 
-	public void up() {
-		if (level < MAX_LEVEL) {
-			level++;
-		}
-	}
+  public void up() {
+    if (level < MAX_LEVEL) {
+      level++;
+    }
+  }
 
-	public void down() {
-		if (level > 0) {
-			level--;
-		}
-	}
+  public void down() {
+    if (level > 0) {
+      level--;
+    }
+  }
 }

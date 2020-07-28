@@ -11,39 +11,40 @@ Topics:
  */
 
 public class IntroToArrays {
-    public static void main(String[] args) {
-        // METHOD 1: Initializing using length
-        // type[] nameOfArray = new type[length];
 
-        // initialize an array of integers of length 5
-        int[] array = new int[5]; // starts as {0, 0, 0, 0, 0}
+  public static void main(String[] args) {
+    // METHOD 1: Initializing using length
+    // type[] nameOfArray = new type[length];
 
-        // assign elements to an array
-        array[0] = 5;
-        array[1] = 2;
-        array[2] = 9;
-        array[3] = 10;
-        array[4] = 6;
-        // array[5] doesn't exist! ArrayIndexOutOfBoundsException
+    // initialize an array of integers of length 5
+    int[] array = new int[5]; // starts as {0, 0, 0, 0, 0}
 
-        // print each item in the array
-        System.out.println(array[0]);
-        System.out.println(array[1]);
-        System.out.println(array[2]);
-        System.out.println(array[3]);
-        System.out.println(array[4]);
+    // assign elements to an array
+    array[0] = 5;
+    array[1] = 2;
+    array[2] = 9;
+    array[3] = 10;
+    array[4] = 6;
+    // array[5] doesn't exist! ArrayIndexOutOfBoundsException
 
-        // METHOD 2: Initializing an array with elements
-        // type[] nameOfArray = {element1, element2, ... elementN};
+    // print each item in the array
+    System.out.println(array[0]);
+    System.out.println(array[1]);
+    System.out.println(array[2]);
+    System.out.println(array[3]);
+    System.out.println(array[4]);
 
-        // initialize an array of characters
-        char[] name = {'O', 'm', 'e', 'g', 'a'};
+    // METHOD 2: Initializing an array with elements
+    // type[] nameOfArray = {element1, element2, ... elementN};
 
-        // print each item in the array
-        System.out.println(name[0]);
-        System.out.println(name[1]);
-        System.out.println(name[2]);
-        System.out.println(name[3]);
-        System.out.println(name[4]);
-    }
+    // initialize an array of characters
+    char[] name = { 'O', 'm', 'e', 'g', 'a' };
+
+    // print each item in the array
+    System.out.println(name[0]);
+    System.out.println(name[1]);
+    System.out.println(name[2]);
+    System.out.println(name[3]);
+    System.out.println(name[4]);
+  }
 }

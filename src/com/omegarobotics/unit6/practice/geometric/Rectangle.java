@@ -7,59 +7,59 @@ package com.omegarobotics.unit6.practice.geometric;
  */
 
 public class Rectangle extends GeometricObject {
-    private double length;
-    private double width;
+  private double length;
+  private double width;
 
-    public Rectangle() {
-        length = 0;
-        width = 0;
-    }
+  public Rectangle() {
+    length = 0;
+    width = 0;
+  }
 
-    public Rectangle(double length, double width) {
-        this.length = length;
-        this.width = width;
-    }
+  public Rectangle(double length, double width) {
+    this.length = length;
+    this.width = width;
+  }
 
-    public double getLength() {
-        return length;
-    }
+  public double getLength() {
+    return length;
+  }
 
-    public void setLength(double length) {
-        if (length >= 0) {
-            this.length = length;
-        }
+  public void setLength(double length) {
+    if (length >= 0) {
+      this.length = length;
     }
+  }
 
-    public double getWidth() {
-        return width;
-    }
+  public double getWidth() {
+    return width;
+  }
 
-    public void setWidth(double width) {
-        if (width >= 0) {
-            this.width = width;
-        }
+  public void setWidth(double width) {
+    if (width >= 0) {
+      this.width = width;
     }
+  }
 
-    @Override
-    public double getArea() {
-        return length * width;
-    }
+  @Override
+  public double getArea() {
+    return length * width;
+  }
 
-    @Override
-    public double getPerimeter() {
-        return 2 * (length + width);
-    }
+  @Override
+  public double getPerimeter() {
+    return 2 * (length + width);
+  }
 
-    @Override
-    public String toString() {
-        return "Rectangle length: " + length + ", width: " + width;
-    }
+  @Override
+  public String toString() {
+    return "Rectangle length: " + length + ", width: " + width;
+  }
 
-    @Override
-    public boolean equals(Object obj) {
-        if (obj instanceof Rectangle) {
-            return ((Rectangle) obj).getArea() == this.getArea();
-        }
-        return false;
+  @Override
+  public boolean equals(Object obj) {
+    if (obj instanceof Rectangle) {
+      return ((Rectangle) obj).getArea() == this.getArea();
     }
+    return false;
+  }
 }

@@ -8,30 +8,31 @@ Topics:
 import java.util.Scanner;
 
 public class TernaryOperator {
-    public static void main(String[] args) {
-        // Ask user if it's a leap year
-        Scanner input = new Scanner(System.in);
 
-        System.out.print("Is it a leap year? Enter true or false: ");
-        boolean isLeapYear = input.nextBoolean();
+  public static void main(String[] args) {
+    // Ask user if it's a leap year
+    Scanner input = new Scanner(System.in);
 
-        input.close();
+    System.out.print("Is it a leap year? Enter true or false: ");
+    boolean isLeapYear = input.nextBoolean();
 
-        int month = 2; // February
+    input.close();
 
-        // Choose the correct number of days in February
-        int days;
+    int month = 2; // February
 
-        if (month == 2 && isLeapYear) {
-            days = 29;
-        } else {
-            days = 28;
-        }
+    // Choose the correct number of days in February
+    int days;
 
-        // same as above, but shorter
-        //      condition				    if : else
-        days = (month == 2 && isLeapYear) ? 29 : 28;
-
-        System.out.println("There are " + days + " days in February.");
+    if (month == 2 && isLeapYear) {
+      days = 29;
+    } else {
+      days = 28;
     }
+
+    // same as above, but shorter
+    //      condition				    if : else
+    days = (month == 2 && isLeapYear) ? 29 : 28;
+
+    System.out.println("There are " + days + " days in February.");
+  }
 }

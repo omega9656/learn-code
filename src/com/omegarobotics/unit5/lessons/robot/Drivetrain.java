@@ -6,7 +6,8 @@ package com.omegarobotics.unit5.lessons.robot;
  */
 
 public class Drivetrain {
-	public Drivetrain() {
-		// initialize hardware
-	}
+
+  public Drivetrain() {
+    // initialize hardware
+  }
 }

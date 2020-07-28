@@ -6,5 +6,4 @@ package com.omegarobotics.unit6.lessons.opmodes;
  * - Abstract classes, methods
  */
 
-public abstract class LinearOpMode extends OpMode {
-}
+public abstract class LinearOpMode extends OpMode {}

@@ -7,5 +7,5 @@ package com.omegarobotics.unit6.lessons.food;
 
 // names of interfaces can be nouns or adjectives
 public interface Edible {
-	void howToEat(); // all methods are public abstract
+  void howToEat(); // all methods are public abstract
 }
