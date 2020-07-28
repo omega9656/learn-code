@@ -26,117 +26,117 @@ Prints the array like so: [ 1 2 3 4 5 ... n ]
 import java.util.Scanner;
 
 public class Merge {
-    /**
-     * Main method
-     *
-     * Asks user for 2 arrays
-     * Prints each array
-     * Prints the merged array
-     */
-    public static void main(String[] args) {
-        // Get 2 arrays from user
-        int[] list1 = getArray();
-        int[] list2 = getArray();
 
-        // Print each array's items
-        System.out.print("list1 is ");
-        printArray(list1);
+  /**
+   * Main method
+   *
+   * Asks user for 2 arrays
+   * Prints each array
+   * Prints the merged array
+   */
+  public static void main(String[] args) {
+    // Get 2 arrays from user
+    int[] list1 = getArray();
+    int[] list2 = getArray();
 
-        System.out.print("list2 is ");
-        printArray(list2);
+    // Print each array's items
+    System.out.print("list1 is ");
+    printArray(list1);
 
-        // Merge the 2 lists and print the result
-        int[] mergedList = merge(list1, list2);
-        System.out.print("The merged list is ");
-        printArray(mergedList);
+    System.out.print("list2 is ");
+    printArray(list2);
+
+    // Merge the 2 lists and print the result
+    int[] mergedList = merge(list1, list2);
+    System.out.print("The merged list is ");
+    printArray(mergedList);
+  }
+
+  /**
+   * Merge 2 arrays
+   * @param list1  first array of integers
+   * @param list2  second array of integers
+   * @return a merged array (keeping duplicates)
+   */
+  public static int[] merge(int[] list1, int[] list2) {
+    int[] mergedList = new int[list1.length + list2.length];
+
+    // variables that hold the index of each list
+    int current1 = 0; // list1
+    int current2 = 0; // list2
+    int current3 = 0; // mergedList
+
+    // while the lists can be compared, compare them
+    while (current1 < list1.length && current2 < list2.length) {
+      // Compare and merge current values of each list
+      // Add the lesser value to mergedList
+      if (list2[current2] < list1[current1]) {
+        mergedList[current3] = list2[current2];
+        current2++;
+      } else if (list1[current1] < list2[current2]) {
+        mergedList[current3] = list1[current1];
+        current1++;
+      } else {
+        // Add both values if they're equal
+        mergedList[current3] = list1[current1];
+        current1++;
+        current3++;
+
+        mergedList[current3] = list2[current2];
+        current2++;
+      }
+
+      current3++;
     }
 
-    /**
-     * Merge 2 arrays
-     * @param list1  first array of integers
-     * @param list2  second array of integers
-     * @return a merged array (keeping duplicates)
-     */
-    public static int[] merge(int[] list1, int[] list2) {
-        int[] mergedList = new int[list1.length + list2.length];
-
-        // variables that hold the index of each list
-        int current1 = 0; // list1
-        int current2 = 0; // list2
-        int current3 = 0; // mergedList
-
-
-        // while the lists can be compared, compare them
-        while (current1 < list1.length && current2 < list2.length) {
-            // Compare and merge current values of each list
-            // Add the lesser value to mergedList
-            if (list2[current2] < list1[current1]) {
-                mergedList[current3] = list2[current2];
-                current2++;
-            } else if (list1[current1] < list2[current2]) {
-                mergedList[current3] = list1[current1];
-                current1++;
-            } else {
-                // Add both values if they're equal
-                mergedList[current3] = list1[current1];
-                current1++;
-                current3++;
-
-                mergedList[current3] = list2[current2];
-                current2++;
-            }
-
-            current3++;
-        }
-
-        // Add all remaining items of list 1 to mergedList
-        while (current1 < list1.length) {
-            mergedList[current3] = list1[current1];
-            current3++;
-            current1++;
-        }
-
-        // Add all remaining items of list 2 to mergedList
-        while (current2 < list2.length) {
-            mergedList[current3] = list2[current2];
-            current3++;
-            current2++;
-        }
-
-        return mergedList;
+    // Add all remaining items of list 1 to mergedList
+    while (current1 < list1.length) {
+      mergedList[current3] = list1[current1];
+      current3++;
+      current1++;
     }
 
-    /**
-     * Gets array from user input
-     * @return an array of integers with elements from user input
-     */
-    public static int[] getArray() {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter size of list: ");
-        int listLength = input.nextInt();
-
-        int[] list = new int[listLength];
-
-        System.out.print("Enter items in list: ");
-
-        for (int i = 0; i < listLength; i++) {
-            list[i] = input.nextInt();
-        }
-
-        return list;
+    // Add all remaining items of list 2 to mergedList
+    while (current2 < list2.length) {
+      mergedList[current3] = list2[current2];
+      current3++;
+      current2++;
     }
 
-    /**
-     * Prints each item in the array separated by spaces
-     * @param arr  the array to print
-     */
-    public static void printArray(int[] arr) {
-        System.out.print("[ ");
-        for (int item : arr) {
-            System.out.print(item + " ");
-        }
-        System.out.print("]");
+    return mergedList;
+  }
 
-        System.out.println(); // moves cursor to next line
+  /**
+   * Gets array from user input
+   * @return an array of integers with elements from user input
+   */
+  public static int[] getArray() {
+    Scanner input = new Scanner(System.in);
+    System.out.print("Enter size of list: ");
+    int listLength = input.nextInt();
+
+    int[] list = new int[listLength];
+
+    System.out.print("Enter items in list: ");
+
+    for (int i = 0; i < listLength; i++) {
+      list[i] = input.nextInt();
     }
+
+    return list;
+  }
+
+  /**
+   * Prints each item in the array separated by spaces
+   * @param arr  the array to print
+   */
+  public static void printArray(int[] arr) {
+    System.out.print("[ ");
+    for (int item : arr) {
+      System.out.print(item + " ");
+    }
+    System.out.print("]");
+
+    System.out.println(); // moves cursor to next line
+  }
 }

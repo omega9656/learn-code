@@ -10,37 +10,38 @@ Topics:
 import java.util.Scanner;
 
 public class IfStatements {
-    public static void main(String[] args) {
-        // ask user if it's sunny and if it's raining
-        Scanner input = new Scanner(System.in);
 
-        System.out.print("Is it sunny? Enter true or false: ");
-        boolean isSunny = input.nextBoolean();
+  public static void main(String[] args) {
+    // ask user if it's sunny and if it's raining
+    Scanner input = new Scanner(System.in);
 
-        System.out.print("Is it raining? Enter true or false: ");
-        boolean isRaining = input.nextBoolean();
+    System.out.print("Is it sunny? Enter true or false: ");
+    boolean isSunny = input.nextBoolean();
 
-        input.close();
+    System.out.print("Is it raining? Enter true or false: ");
+    boolean isRaining = input.nextBoolean();
 
-        // if
-        if (isSunny) {
-            System.out.println("It's sunny!");
-        }
+    input.close();
 
-        // if-else
-        if (isSunny) {
-            System.out.println("It's sunny!");
-        } else {
-            System.out.println("It's not sunny.");
-        }
-
-        // if-else if-else
-        if (isSunny) {
-            System.out.println("It's sunny!");
-        } else if (isRaining) {
-            System.out.println("It's raining.");
-        } else {
-            System.out.println("It's not sunny nor raining.");
-        }
+    // if
+    if (isSunny) {
+      System.out.println("It's sunny!");
     }
+
+    // if-else
+    if (isSunny) {
+      System.out.println("It's sunny!");
+    } else {
+      System.out.println("It's not sunny.");
+    }
+
+    // if-else if-else
+    if (isSunny) {
+      System.out.println("It's sunny!");
+    } else if (isRaining) {
+      System.out.println("It's raining.");
+    } else {
+      System.out.println("It's not sunny nor raining.");
+    }
+  }
 }

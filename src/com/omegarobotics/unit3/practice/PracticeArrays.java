@@ -10,8 +10,9 @@ Topics:
 import java.util.Scanner;
 
 public class PracticeArrays {
-    public static void main(String[] args) {
-        /*
+
+  public static void main(String[] args) {
+    /*
         Part 1:
         Initialize an array of Strings which contain words in your favorite quote.
         Use a for loop to print the entire quote in one line.
@@ -33,41 +34,55 @@ public class PracticeArrays {
         Use another for loop to print the result.
          */
 
-        // PART 1
+    // PART 1
 
-        // initialize array of Strings
-        String[] words = {"The",  "man", "dies", "in", "all", "who", "keep", "silent", "in", "the", "face", "of", "tyranny"};
+    // initialize array of Strings
+    String[] words = {
+      "The",
+      "man",
+      "dies",
+      "in",
+      "all",
+      "who",
+      "keep",
+      "silent",
+      "in",
+      "the",
+      "face",
+      "of",
+      "tyranny",
+    };
 
-        // for loop solution
-        for (int i = 0; i < words.length; i++) {
-            System.out.print(words[i] + " ");
-        }
-
-        System.out.println();
-
-        // for each loop solution
-        for (String word: words) {
-            System.out.print(word + " ");
-        }
-
-        System.out.println();
-
-        // PART 2
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter the length of the array: ");
-        int arrayLength = input.nextInt();
-        input.close();
-
-        int[] numbers = new int[arrayLength];
-
-        int evenNumber = 0;
-        for (int i = 0; i < arrayLength; i++) {
-            numbers[i] = evenNumber;
-            evenNumber += 2;
-        }
-
-        for (int num: numbers) {
-            System.out.println(num);
-        }
+    // for loop solution
+    for (int i = 0; i < words.length; i++) {
+      System.out.print(words[i] + " ");
     }
+
+    System.out.println();
+
+    // for each loop solution
+    for (String word : words) {
+      System.out.print(word + " ");
+    }
+
+    System.out.println();
+
+    // PART 2
+    Scanner input = new Scanner(System.in);
+    System.out.print("Enter the length of the array: ");
+    int arrayLength = input.nextInt();
+    input.close();
+
+    int[] numbers = new int[arrayLength];
+
+    int evenNumber = 0;
+    for (int i = 0; i < arrayLength; i++) {
+      numbers[i] = evenNumber;
+      evenNumber += 2;
+    }
+
+    for (int num : numbers) {
+      System.out.println(num);
+    }
+  }
 }

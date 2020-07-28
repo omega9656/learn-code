@@ -11,19 +11,20 @@ Topics:
  */
 
 public class TestCircle {
-    public static void main(String[] args) {
-        // default constructor
-        Circle myCircle = new Circle();
-        System.out.println("myCircle radius: " + myCircle.getRadius());
-        // using toString method
-        System.out.println(myCircle); // demo without the toString method
 
-        // 1-arg constructor
-        Circle myOtherCircle = new Circle(5.43);
-        System.out.println(myOtherCircle);
-        myOtherCircle.setRadius(3);
-        System.out.println(myOtherCircle);
-        double area = myOtherCircle.getArea();
-        System.out.println(area);
-    }
+  public static void main(String[] args) {
+    // default constructor
+    Circle myCircle = new Circle();
+    System.out.println("myCircle radius: " + myCircle.getRadius());
+    // using toString method
+    System.out.println(myCircle); // demo without the toString method
+
+    // 1-arg constructor
+    Circle myOtherCircle = new Circle(5.43);
+    System.out.println(myOtherCircle);
+    myOtherCircle.setRadius(3);
+    System.out.println(myOtherCircle);
+    double area = myOtherCircle.getArea();
+    System.out.println(area);
+  }
 }
