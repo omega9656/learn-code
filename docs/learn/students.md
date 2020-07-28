@@ -37,6 +37,7 @@ Take these short quizzes to test your knowledge of each unit! After submitting, 
 ## Other Online Resources
 Here are some websites you can use besides this one to learn Java or other programming languages.
 
+* [Learn Java for FTC by Alan Smith](https://github.com/alan412/LearnJavaForFTC/blob/master/LearnJavaForFTC.pdf) - A free book (PDF) for learning FTC programming
 * [Game Manual 0](https://gm0.copperforge.cc/en/stable/) - A community-maintained comprehensive guide to FTC
 * [Codecademy](https://www.codecademy.com/) - Has an introductory Java course for free
 * [edX](https://www.edx.org/) - Tons of certificate-based online courses
