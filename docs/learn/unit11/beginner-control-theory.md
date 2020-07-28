@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Unit 11 Practice
-permalink: learn/unit11/practice
+title: Beginner Control Theory
+permalink: learn/unit11/beginner-control-theory
 parent: Unit 11
 grand_parent: Learn
-nav_order: 3
+nav_order: 1
 ---
 
-# Unit 11: Practice
+# Unit 11: Beginner Control Theory
 {: .no_toc }
 Coming soon
 {: .label .label-yellow }
@@ -18,8 +18,4 @@ Coming soon
 1. TOC
 {:toc}
 
-## Practice
-
-
-## Challenges
-
+## Beginner Control Theory

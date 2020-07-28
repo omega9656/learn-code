@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Unit 11 Practice
-permalink: learn/unit11/practice
+title: Advanced Control Theory
+permalink: learn/unit11/advanced-control-theory
 parent: Unit 11
 grand_parent: Learn
-nav_order: 3
+nav_order: 2
 ---
 
-# Unit 11: Practice
+# Unit 11: Advanced Control Theory
 {: .no_toc }
 Coming soon
 {: .label .label-yellow }
@@ -18,8 +18,4 @@ Coming soon
 1. TOC
 {:toc}
 
-## Practice
-
-
-## Challenges
-
+## Advanced Control Theory
