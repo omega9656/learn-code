@@ -7,8 +7,8 @@ package com.omegarobotics.unit6.lessons.enums;
 
 public class TestTrafficLight {
 
-  public static void main(String[] args) {
-    TrafficLight light = TrafficLight.GREEN;
-    System.out.println(light.getDescription());
-  }
+    public static void main(String[] args) {
+        TrafficLight light = TrafficLight.GREEN;
+        System.out.println(light.getDescription());
+    }
 }

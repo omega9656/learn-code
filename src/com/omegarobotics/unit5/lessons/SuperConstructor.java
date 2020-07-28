@@ -2,18 +2,18 @@ package com.omegarobotics.unit5.lessons;
 
 public class SuperConstructor {
 
-  public static void main(String[] args) {
-    // see classes below
-  }
+    public static void main(String[] args) {
+        // see classes below
+    }
 }
 
 class ClassName extends SuperClassName {
 
-  public ClassName() {
-    // some statements
-  }
+    public ClassName() {
+        // some statements
+    }
 
-  /*
+    /*
     Above is equivalent to below:
     public ClassName() {
         super();
@@ -21,10 +21,10 @@ class ClassName extends SuperClassName {
     }
      */
 
-  public ClassName(double d) {
-    // some statements
-  }
-  /*
+    public ClassName(double d) {
+        // some statements
+    }
+    /*
     Above is equivalent to below:
     public ClassName(double d) {
         super();
@@ -36,11 +36,11 @@ class ClassName extends SuperClassName {
 
 class SuperClassName {
 
-  public SuperClassName() {
-    // some statements
-  }
+    public SuperClassName() {
+        // some statements
+    }
 
-  public SuperClassName(double d) {
-    // some statements
-  }
+    public SuperClassName(double d) {
+        // some statements
+    }
 }
