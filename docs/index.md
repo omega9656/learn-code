@@ -47,6 +47,5 @@ Contributions are welcome in the form of Issues or Pull Requests on GitHub. Befo
 Also be sure to follow the [Pull Request Template]({{ site.github.repository_url }}/blob/master/pull_request_template.md).
 
 ### Contributors
-Thank you to the contributors of Learn Code!
-
+#### Thank you to the contributors of Learn Code!
 {% include contributors.html %}
