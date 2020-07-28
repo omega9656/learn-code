@@ -23,7 +23,11 @@ For a more detailed breakdown, see [Units](/learn-code/units).
 This repository and website was created in 2020 by Rebecca Dang ([@phrdang](https://github.com/phrdang))
 and is maintained by [FTC 9656 Omega](https://github.com/omega9656).
 
-This website uses code from [Jekyll](https://jekyllrb.com/) tutorials, [Just the Docs](https://github.com/pmarsceill/just-the-docs), and [WebJeda](https://blog.webjeda.com/jekyll-categories/).
+This website uses code from:
+- [Jekyll](https://jekyllrb.com/) tutorials
+- [Just the Docs](https://github.com/pmarsceill/just-the-docs)
+- [WebJeda](https://blog.webjeda.com/jekyll-categories/)
+- [Stack Overflow](https://stackoverflow.com/questions/25579868/how-to-add-footnotes-to-github-flavoured-markdown)
 
 Omega's How to Code curriculum loosely follows [_Introduction to Java Programming_ (Comprehensive Version), 10th ed.](https://www.amazon.com/Intro-Java-Programming-Comprehensive-Version/dp/0133761312) by Y. Daniel Liang.
 

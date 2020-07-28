@@ -12,7 +12,7 @@ Source code is divided by unit:
 2. [Selection and Boolean Logic](/learn-code/learn/unit2)
 3. [Loops and 1D Arrays](/learn-code/learn/unit3)
 4. [Methods and Multi-Dimensional Arrays](/learn-code/learn/unit4)
-5. [Objects, Classes, Inheritance, and Polymorphism](/learn-code/learn/unit5)
+5. [Classes, Inheritance, and Polymorphism](/learn-code/learn/unit5)
 6. [Abstract Classes, Interfaces, and Enumerated Types](/learn-code/learn/unit6)
 7. [Exception Handling and Git](/learn-code/learn/unit7)
 8. [FTC Control System, Sensors, and FTC SDK](/learn-code/learn/unit8)

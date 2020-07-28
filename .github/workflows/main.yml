@@ -1,11 +1,43 @@
-name: Java Style
+# Java Prettier: https://github.com/marketplace/actions/prettier-java-action
+# Java Checkstyle: https://github.com/marketplace/actions/run-java-checkstyle
+# Prettier: https://github.com/marketplace/actions/prettier-action
+# Lint Action: https://github.com/marketplace/actions/lint-action#supported-tools
+# HTML5 Validator: https://github.com/marketplace/actions/html5-validator
+name: Continuous Integration
 
 on:
   pull_request:
     branches: [ master ]
 
 jobs:
-  check-style:
+  ### Format Java ###
+  java-prettify:
+    name: Format Java
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out Git repository
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    
+    - name: Setup Java JDK
+      uses: actions/setup-java@v1.3.0
+      with:
+        java-version: 12
+      
+    - name: Prettify Java code
+      uses: lwerner-lshigh/prettier_action_java@v1.1.1
+      with:
+        prettier_options: '--write **/*.java --ignore-path config-files/.prettierignore'
+        branch: ${{ github.head_ref }}
+        commit_message: 'Bot: Prettified Java code!'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  ### Lint Java ###
+  java-checkstyle:
+    needs: java-prettify
     runs-on: ubuntu-latest
 
     steps:
@@ -16,5 +48,73 @@ jobs:
       with:
         java-version: 12
 
-    - name: Run java checkstyle
-      uses: nikitasavinov/checkstyle-action@0.2.0
+    - name: Run Java checkstyle
+      uses: nikitasavinov/checkstyle-action@0.3.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        reporter: github-pr-review
+
+        # this doesn't work yet: https://github.com/nikitasavinov/checkstyle-action/issues/10
+        # checkstyle_config: config-files/google_checks_mod.xml
+  
+  ################ Format ###################
+  ### HTML, CSS, SCSS, JS, JSON, MD, YAML ###
+  ###########################################
+  prettier:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+      
+      - name: Run Prettier
+        uses: creyD/prettier_action@v3.0
+        with:
+          ### Prettier Options ###
+          # --write prettifies directory/file given
+          # in this case, everything is prettified (if supported)
+          # --ignore-path is the path to the .prettierignore file
+          # (default is ./.prettierignore)
+          prettier_options: --write . --ignore-path config-files/.prettierignore
+          commit_message: 'Bot: Prettified code!'
+
+  ### Lint CSS, SCSS ###
+  stylelint:
+    needs: prettier
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+
+      - name: Install stylelint
+        run: npm install --save-dev stylelint stylelint-config-standard
+        
+      - name: Run stylelint
+        uses: samuelmeuli/lint-action@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          stylelint: true  # Enables stylelint on Lint Action          
+          auto_fix: true  # Enables auto fix (Lint Action will auto commit)
+  
+  ### Lint HTML ###
+  validate-html:
+    needs: prettier
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+
+      - name: Run HTML5 Validator (also check CSS)
+        uses: Cyb3r-Jak3/html5validator-action@v0.4.1
+        with:
+          root: .
+      
+      - name: Retrieve log file
+        uses: actions/upload-artifact@v2
+        with:
+          name: log
+          path: log.log
