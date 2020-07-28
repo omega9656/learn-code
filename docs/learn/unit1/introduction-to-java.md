@@ -69,7 +69,8 @@ public class HelloWorld {
 ```
 
 First, you declared a class called `HelloWorld`. We're going 
-to learn more about classes in [Unit 5](/learn-code/learn/unit5). For now, all you need to know is that all Java files 
+to learn more about classes in [Unit 5](/learn-code/learn/unit5).
+For now, all you need to know is that all Java files 
 contain a *public class* and the name of that class must match 
 the file name *exactly*. (Notice that you created a file 
 called `HelloWorld.java`.)

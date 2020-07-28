@@ -38,7 +38,7 @@ System.out.println("e: " + e);
 System.out.println("f: " + f);
 System.out.println("g: " + g);
 ```
-*Note that you can concatenate some other types with strings.*
+*Note that you can concatenate some other types with strings, as you can see above.*
 
 Output:
 ```

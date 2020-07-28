@@ -53,10 +53,10 @@ public class ComputeChange {
 
         // step 3: print the results
         System.out.println("Your amount $" + money + " consists of");
-        System.out.println("\t" + dollars + " dollars"); // tab character \t, newline character \n
-        System.out.println("\t" + quarters + " quarters");
-        System.out.println("\t" + dimes + " dimes");
-        System.out.println("\t" + nickels + " nickels");
-        System.out.println("\t" + pennies + " pennies");
+        System.out.println("\t" + dollars + " dollar(s)"); // tab character \t, newline character \n
+        System.out.println("\t" + quarters + " quarter(s)");
+        System.out.println("\t" + dimes + " dime(s)");
+        System.out.println("\t" + nickels + " nickel(s)");
+        System.out.println("\t" + pennies + " penny/pennies");
     }
 }

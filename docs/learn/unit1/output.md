@@ -46,3 +46,5 @@ This does not
 ```
 
 Another way to print things is using the `System.out.printf` method, which allows you to format output. We'll cover this in more detail in [Variables](/learn-code/learn/unit1/variables/).
+
+**Note**: Besides the newline character (`\n`), there are other special types of characters such as the tab character (`\t`) which inserts a tab.

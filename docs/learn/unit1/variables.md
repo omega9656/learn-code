@@ -94,6 +94,21 @@ Output:
 Jane Doe
 ```
 
+## Casting
+Sometimes, you will need to convert from one data type to another (assuming it is possible). This process is called *casting*. To cast in Java, you simply put the type you want to convert to in parentheses before whatever you want to convert:
+```java
+// cast 10.0 to an int
+int number = (int) 10.0;
+```
+
+Keep in mind that you cannot always cast to another type and that if you cast down (that is, you go from a more precise type to a less precise type), you might lose precision. For example, if you cast `10.5` to an `int`, you would lose the decimal.
+
+Also note that if you want to cast an expression, make sure you put it in parentheses, otherwise only the thing immediately to the right will be cast.
+
+```java
+int number = (int) (10.0 / 12);
+```
+
 ## Constants
 Sometimes you will want to make a variable that stores only one value that never changes, such as a conversion rate. This is a special type of variable called a *constant*. In Java, you can declare a constant using the `final` keyword.
 
