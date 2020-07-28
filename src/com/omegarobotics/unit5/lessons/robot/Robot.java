@@ -6,14 +6,14 @@ package com.omegarobotics.unit5.lessons.robot;
  */
 
 public class Robot {
-  public Drivetrain dt;
-  public Intake intake;
-  public Lift lift;
+    public Drivetrain dt;
+    public Intake intake;
+    public Lift lift;
 
-  public Robot() {
-    // initialize hardware
-    dt = new Drivetrain();
-    intake = new Intake();
-    lift = new Lift();
-  }
+    public Robot() {
+        // initialize hardware
+        dt = new Drivetrain();
+        intake = new Intake();
+        lift = new Lift();
+    }
 }

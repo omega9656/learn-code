@@ -7,12 +7,12 @@ package com.omegarobotics.unit6.lessons.food;
 
 public class Chicken extends Bird implements Edible, Fridgeable {
 
-  public void howToEat() {
-    System.out.println("Fry it");
-  }
+    public void howToEat() {
+        System.out.println("Fry it");
+    }
 
-  public void refrigerate() {
-    System.out.println("Put Chicken in the fridge");
-    System.out.println("Fridge temp: " + FRIDGE_TEMP);
-  }
+    public void refrigerate() {
+        System.out.println("Put Chicken in the fridge");
+        System.out.println("Fridge temp: " + FRIDGE_TEMP);
+    }
 }
