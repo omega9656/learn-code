@@ -49,15 +49,4 @@ Also be sure to follow the [Pull Request Template]({{ site.github.repository_url
 ### Contributors
 Thank you to the contributors of Learn Code!
 
-<ul class="list-style-none">
-{% for contributor in site.github.contributors %}
-    <li class="d-inline-block mr-1">
-        <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
-    <li>
-{% endfor %}
-<ul>
-
-<!--
-    Code for Contributors section from
-    https://github.com/pmarsceill/just-the-docs/blob/master/index.md
--->
+{% include contributors.html %}
