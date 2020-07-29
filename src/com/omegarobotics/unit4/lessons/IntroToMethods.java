@@ -11,6 +11,7 @@ Topics:
  */
 
 public class IntroToMethods {
+
     public static void main(String[] args) {
         /*
         Print the sum of every integer from 1 to 10 (inclusive)

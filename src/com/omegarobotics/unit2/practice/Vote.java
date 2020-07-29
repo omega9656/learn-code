@@ -9,6 +9,7 @@ Topics:
 import java.util.Scanner;
 
 public class Vote {
+
     public static void main(String[] args) {
         /*
         Prompt the user for their age.

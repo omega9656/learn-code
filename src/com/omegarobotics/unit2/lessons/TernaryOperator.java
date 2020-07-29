@@ -8,6 +8,7 @@ Topics:
 import java.util.Scanner;
 
 public class TernaryOperator {
+
     public static void main(String[] args) {
         // Ask user if it's a leap year
         Scanner input = new Scanner(System.in);

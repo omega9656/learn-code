@@ -3,6 +3,7 @@ package com.omegarobotics.unit2.challenges;
 import java.util.Scanner;
 
 public class Intervals {
+
     public static void main(String[] args) {
         /*
         Prompt the user to enter start and end times
@@ -36,13 +37,17 @@ public class Intervals {
         // Ask user to enter start and end times for the
         // earlier interval. Times must be in 24-hour format.
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter earlier start and end times (in 24-hour format): ");
+        System.out.print(
+            "Enter earlier start and end times (in 24-hour format): "
+        );
         int earlierStartTime = input.nextInt();
         int earlierEndTime = input.nextInt();
 
         // Ask user to enter start and end times for the
         // later interval. Times must be in 24-hour format.
-        System.out.print("Enter later start and end times (in 24-hour format): ");
+        System.out.print(
+            "Enter later start and end times (in 24-hour format): "
+        );
         int laterStartTime = input.nextInt();
         int laterEndTime = input.nextInt();
 
@@ -103,8 +108,12 @@ public class Intervals {
         int earlierDuration = earlierEndTotal - earlierStartTotal;
         int laterDuration = laterEndTotal - laterStartTotal;
 
-        System.out.println("The earlier interval is " + earlierDuration + " minutes long.");
-        System.out.println("The later interval is " + laterDuration +  " minutes long.");
+        System.out.println(
+            "The earlier interval is " + earlierDuration + " minutes long."
+        );
+        System.out.println(
+            "The later interval is " + laterDuration + " minutes long."
+        );
 
         // Determine which interval is longer than the other
         // or if the intervals are of equal length.

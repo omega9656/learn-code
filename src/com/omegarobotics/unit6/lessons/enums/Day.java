@@ -11,12 +11,12 @@ package com.omegarobotics.unit6.lessons.enums;
 // equals - returns true if same ordinal
 // compareTo - returns difference between the ordinal values
 public enum Day { // always static, so static keyword is implicit
-	SUNDAY, // enum values
-	MONDAY,
-	TUESDAY,
-	WEDNESDAY,
-	THURSDAY,
-	FRIDAY,
-	SATURDAY
+    SUNDAY, // enum values
+    MONDAY,
+    TUESDAY,
+    WEDNESDAY,
+    THURSDAY,
+    FRIDAY,
+    SATURDAY,
 }
 // enums can be in their own file or with other classes

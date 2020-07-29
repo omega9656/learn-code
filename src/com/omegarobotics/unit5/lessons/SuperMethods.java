@@ -6,6 +6,7 @@ Topics:
  */
 
 public class SuperMethods {
+
     public static void main(String[] args) {
         Guitar taylorGuitar = new Guitar("acoustic", "steel");
         System.out.println(taylorGuitar);

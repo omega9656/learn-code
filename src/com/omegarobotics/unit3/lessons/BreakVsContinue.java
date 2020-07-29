@@ -7,6 +7,7 @@ Topics:
  */
 
 public class BreakVsContinue {
+
     public static void main(String[] args) {
         // Testing the continue keyword
         System.out.println("Testing continue");

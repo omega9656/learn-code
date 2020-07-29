@@ -45,7 +45,14 @@ public class RectangleInherit extends GeometricObject {
      * @param color  color of this {@code RectangleInherit} object
      * @param filled  whether this {@code RectangleInherit} object is filled with the given color
      */
-    public RectangleInherit(double length, double width, double x, double y, String color, boolean filled) {
+    public RectangleInherit(
+        double length,
+        double width,
+        double x,
+        double y,
+        String color,
+        boolean filled
+    ) {
         super(x, y, color, filled);
         this.length = length;
         this.width = width;

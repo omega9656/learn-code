@@ -8,6 +8,7 @@ Topics:
 import java.util.Scanner;
 
 public class ComputeDistance {
+
     public static void main(String[] args) {
         /*
         Prompt user to enter 2 (x, y) coordinates.
@@ -29,8 +30,12 @@ public class ComputeDistance {
         input.close();
 
         // calculate and print the distance between the points
-        double distance = Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2));
+        double distance = Math.sqrt(
+            Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2)
+        );
 
-        System.out.println("The distance between those 2 points is " + distance);
+        System.out.println(
+            "The distance between those 2 points is " + distance
+        );
     }
 }

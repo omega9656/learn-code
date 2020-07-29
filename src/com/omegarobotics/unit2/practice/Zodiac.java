@@ -9,6 +9,7 @@ Topics:
 import java.util.Scanner;
 
 public class Zodiac {
+
     public static void main(String[] args) {
         /*
         Prompt the user for their birth year.

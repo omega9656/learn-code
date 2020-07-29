@@ -7,8 +7,9 @@ package com.omegarobotics.unit6.lessons.opmodes;
  */
 
 public class MyCustomAutoOpMode extends LinearOpMode {
-	@Override
-	public void runOpMode() {
-		// do stuff
-	}
+
+    @Override
+    public void runOpMode() {
+        // do stuff
+    }
 }

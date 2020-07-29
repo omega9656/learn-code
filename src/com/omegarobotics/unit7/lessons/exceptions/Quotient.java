@@ -10,21 +10,22 @@ import java.util.Scanner;
  */
 
 public class Quotient {
-	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
 
-		// prompt the user to enter two integers
-		System.out.print("Enter two integers: ");
-		int n1 = input.nextInt();
-		int n2 = input.nextInt();
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
-		try {
-			System.out.println(n1 + " / " + n2 + " = " + (n1 / n2));
-		} catch (ArithmeticException ex) {
-			System.out.println("Error, division by zero");
-//			ex.printStackTrace(); // displays default error message
-		} finally {
-			System.out.println("Thanks for using the program");
-		}
-	}
+        // prompt the user to enter two integers
+        System.out.print("Enter two integers: ");
+        int n1 = input.nextInt();
+        int n2 = input.nextInt();
+
+        try {
+            System.out.println(n1 + " / " + n2 + " = " + (n1 / n2));
+        } catch (ArithmeticException ex) {
+            System.out.println("Error, division by zero");
+            //			ex.printStackTrace(); // displays default error message
+        } finally {
+            System.out.println("Thanks for using the program");
+        }
+    }
 }

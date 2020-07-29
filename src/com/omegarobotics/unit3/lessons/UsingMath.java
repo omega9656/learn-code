@@ -6,6 +6,7 @@ Topics:
  */
 
 public class UsingMath {
+
     public static void main(String[] args) {
         System.out.println(Math.PI); // approximation of pi
         System.out.println(Math.E); // approximation of e

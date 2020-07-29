@@ -9,6 +9,7 @@ Topics:
  */
 
 public class ForLoops {
+
     public static void main(String[] args) {
         // for loop structure:
         // for (initialize control variable; condition to keep loop running; action after each iteration)
@@ -17,14 +18,14 @@ public class ForLoops {
         }
 
         // iterating through an array
-        String[] message = {"Merry", "Christmas", "ya", "filthy", "animals"};
+        String[] message = { "Merry", "Christmas", "ya", "filthy", "animals" };
         for (int i = 0; i < message.length; i++) {
             System.out.println(message[i]);
         }
 
         // for each loop structure:
         // for (type elementVariableName : iterableName)
-        for (String word: message) {
+        for (String word : message) {
             System.out.println(word);
         }
     }

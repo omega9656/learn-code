@@ -8,15 +8,17 @@ nav_order: 4
 ---
 
 # Unit 5: Practice
+
 {: .no_toc }
 Coming soon
 {: .label .label-yellow }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ## Practice
 
@@ -25,26 +27,41 @@ Coming soon
 ### TestPoint
 
 ### Finance
+
 #### Account
+
 #### Test Account
 
 ### Geometric
+
 #### Rectangle
+
 #### Rectangle Inherit
+
 #### Test Rectangle
 
 ## Challenges
 
 ### College
+
 #### Employee
+
 #### Faculty
+
 #### My Date
+
 #### Person
+
 #### Staff
+
 #### Student
+
 #### Test College Roles
 
 ### Finance
+
 #### Credit Card Account
+
 #### Savings Account
+
 #### Test Accounts

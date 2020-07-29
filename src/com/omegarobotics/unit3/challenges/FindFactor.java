@@ -3,6 +3,7 @@ package com.omegarobotics.unit3.challenges;
 import java.util.Scanner;
 
 public class FindFactor {
+
     public static void main(String[] args) {
         /*
         Ask user for a number greater than 2.
@@ -30,24 +31,23 @@ public class FindFactor {
         System.out.printf("The smallest factor of %d is %d.\n", n, factor);
 
         input.close();
-
         // Using a break statement
-//        while (factor <= n) {
-//            if (n % factor == 0) {
-//                break;
-//            } else {
-//                factor++;
-//            }
-//        }
+        //        while (factor <= n) {
+        //            if (n % factor == 0) {
+        //                break;
+        //            } else {
+        //                factor++;
+        //            }
+        //        }
 
         // Using a boolean
-//        boolean found = false;
-//        while (factor <= n && !found) {
-//            if (n % factor == 0) {
-//                found = true;
-//            } else {
-//                factor++;
-//            }
-//        }
+        //        boolean found = false;
+        //        while (factor <= n && !found) {
+        //            if (n % factor == 0) {
+        //                found = true;
+        //            } else {
+        //                factor++;
+        //            }
+        //        }
     }
 }

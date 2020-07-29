@@ -5,5 +5,4 @@ package com.omegarobotics.unit6.lessons.food;
  * - Interfaces (classes can extend and implement)
  */
 
-public class Bird {
-}
+public class Bird {}

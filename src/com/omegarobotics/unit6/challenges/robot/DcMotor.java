@@ -6,22 +6,22 @@ package com.omegarobotics.unit6.challenges.robot;
  */
 
 public class DcMotor {
-	private double power;
-	private double position;
+    private double power;
+    private double position;
 
-	DcMotor() {
-		power = 0;
-	}
+    DcMotor() {
+        power = 0;
+    }
 
-	public double getPower() {
-		return power;
-	}
+    public double getPower() {
+        return power;
+    }
 
-	public void setPower(double power) {
-		this.power = power;
-	}
+    public void setPower(double power) {
+        this.power = power;
+    }
 
-	public void setPosition(double position) {
-		this.position = position;
-	}
+    public void setPosition(double position) {
+        this.position = position;
+    }
 }

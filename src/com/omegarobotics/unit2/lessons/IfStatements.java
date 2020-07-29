@@ -10,6 +10,7 @@ Topics:
 import java.util.Scanner;
 
 public class IfStatements {
+
     public static void main(String[] args) {
         // ask user if it's sunny and if it's raining
         Scanner input = new Scanner(System.in);

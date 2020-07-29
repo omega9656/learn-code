@@ -10,6 +10,7 @@ Topics:
  */
 
 public class CompareObjects {
+
     public static void main(String[] args) {
         // another way to initialize strings - using constructor
         String str1 = new String("Hello");

@@ -10,6 +10,7 @@ Topics:
  */
 
 public class Variables {
+
     public static void main(String[] args) {
         // declaring a variable - saying the variable exists
         // type nameOfVariable
@@ -53,7 +54,6 @@ public class Variables {
 
         message = "May the Force be with you.";
         System.out.println(message);
-
         /*
         Common mistakes:
         - misspelling variables (case sensitive!)

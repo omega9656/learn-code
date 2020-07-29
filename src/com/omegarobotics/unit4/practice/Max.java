@@ -7,6 +7,7 @@ Topics:
  */
 
 public class Max {
+
     public static void main(String[] args) {
         /*
         Create a method called max() which has 2 parameters,

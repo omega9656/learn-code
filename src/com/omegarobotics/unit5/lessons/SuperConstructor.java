@@ -1,12 +1,14 @@
 package com.omegarobotics.unit5.lessons;
 
 public class SuperConstructor {
+
     public static void main(String[] args) {
         // see classes below
     }
 }
 
 class ClassName extends SuperClassName {
+
     public ClassName() {
         // some statements
     }
@@ -22,7 +24,6 @@ class ClassName extends SuperClassName {
     public ClassName(double d) {
         // some statements
     }
-
     /*
     Above is equivalent to below:
     public ClassName(double d) {
@@ -34,6 +35,7 @@ class ClassName extends SuperClassName {
 }
 
 class SuperClassName {
+
     public SuperClassName() {
         // some statements
     }

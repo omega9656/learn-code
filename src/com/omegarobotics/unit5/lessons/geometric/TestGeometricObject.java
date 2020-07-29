@@ -9,10 +9,24 @@ Topics:
  */
 
 public class TestGeometricObject {
+
     public static void main(String[] args) {
         // create RectangleInherit and CircleInherit objects
-        RectangleInherit myRectangle = new RectangleInherit(53.35, 925, 0, -5, "red", true);
-        CircleInherit myCircle = new CircleInherit(3.14, 35.6, -36863, "orange", false);
+        RectangleInherit myRectangle = new RectangleInherit(
+            53.35,
+            925,
+            0,
+            -5,
+            "red",
+            true
+        );
+        CircleInherit myCircle = new CircleInherit(
+            3.14,
+            35.6,
+            -36863,
+            "orange",
+            false
+        );
 
         // print them
         System.out.println(myRectangle);

@@ -6,6 +6,7 @@ Topics:
  */
 
 public class RepeatPrint {
+
     public static void main(String[] args) {
         /*
         Print a message of your choice to the console 5 times.

@@ -8,27 +8,36 @@ nav_order: 4
 ---
 
 # Unit 6: Practice
+
 {: .no_toc }
 Coming soon
 {: .label .label-yellow }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ## Practice
 
 ### Circle
+
 ### Geometric Object
+
 ### Rectangle
+
 ### Test Geometric Object
 
 ## Challenges
 
 ### Arm
+
 ### DC Motor
+
 ### Foundation Gripper
+
 ### Intake
+
 ### Servo

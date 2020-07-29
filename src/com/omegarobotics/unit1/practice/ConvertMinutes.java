@@ -10,6 +10,7 @@ Topics:
 import java.util.Scanner;
 
 public class ConvertMinutes {
+
     public static void main(String[] args) {
         /*
         Prompt the user to enter a number of minutes.

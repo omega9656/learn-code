@@ -14,6 +14,7 @@ Topics:
 import java.util.Scanner;
 
 public class CircleArea {
+
     public static void main(String[] args) {
         /*
         Prompt the user to enter the radius of a circle.

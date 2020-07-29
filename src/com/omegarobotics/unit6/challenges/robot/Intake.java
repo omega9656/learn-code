@@ -24,26 +24,26 @@ package com.omegarobotics.unit6.challenges.robot;
  */
 
 public class Intake {
-	public DcMotor left;
-	public DcMotor right;
+    public DcMotor left;
+    public DcMotor right;
 
-	public enum Direction {
-		IN (1, -1),
-		OUT (-0.3, 0.3),
-		STOP (0, 0);
+    public enum Direction {
+        IN(1, -1),
+        OUT(-0.3, 0.3),
+        STOP(0, 0);
 
-		public final double LEFT_POWER;
-		public final double RIGHT_POWER;
+        public final double LEFT_POWER;
+        public final double RIGHT_POWER;
 
-		// create a constructor which takes 2 parameters:
-		Direction(double LEFT_POWER, double RIGHT_POWER) {
-			this.LEFT_POWER = LEFT_POWER;
-			this.RIGHT_POWER = RIGHT_POWER;
-		}
-	}
+        // create a constructor which takes 2 parameters:
+        Direction(double LEFT_POWER, double RIGHT_POWER) {
+            this.LEFT_POWER = LEFT_POWER;
+            this.RIGHT_POWER = RIGHT_POWER;
+        }
+    }
 
-	public void runIntake(Direction d) {
-		left.setPower(d.LEFT_POWER);
-		right.setPower(d.RIGHT_POWER);
-	}
+    public void runIntake(Direction d) {
+        left.setPower(d.LEFT_POWER);
+        right.setPower(d.RIGHT_POWER);
+    }
 }

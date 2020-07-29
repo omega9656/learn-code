@@ -6,6 +6,7 @@ package com.omegarobotics.unit5.lessons;
  */
 
 public class Modularity {
+
     public static void main(String[] args) {
         Toaster myToaster = new Toaster();
         myToaster.power.turnOn();
@@ -44,7 +45,7 @@ class Battery {
     }
 
     public String toString() {
-        return voltage + "V (" + ((on) ? "ON": "OFF") + ")";
+        return voltage + "V (" + ((on) ? "ON" : "OFF") + ")";
     }
 }
 
@@ -86,6 +87,13 @@ class Toaster {
     }
 
     public String toString() {
-        return slots + " slot toaster " + power.toString() + " with " + slices + " slices(s) in toaster";
+        return (
+            slots +
+            " slot toaster " +
+            power.toString() +
+            " with " +
+            slices +
+            " slices(s) in toaster"
+        );
     }
 }

@@ -75,7 +75,13 @@ public class CreditCardAccount extends Account {
      * @param apr  annual percentage rate for interest, as a decimal
      * @param creditLimit  the credit limit for the card
      */
-    public CreditCardAccount(String name, long number, double balance, double apr, double creditLimit) {
+    public CreditCardAccount(
+        String name,
+        long number,
+        double balance,
+        double apr,
+        double creditLimit
+    ) {
         super(name, number, balance);
         this.apr = apr;
         this.creditLimit = creditLimit;
@@ -162,8 +168,11 @@ public class CreditCardAccount extends Account {
     @Override
     public String toString() {
         return String.format(
-                "%s\nInterest Rate: %.2f%%, Credit Limit: $%.2f, Monthly Payment: $%.2f",
-                super.toString(), apr * 100, creditLimit, this.calculatePayment()
+            "%s\nInterest Rate: %.2f%%, Credit Limit: $%.2f, Monthly Payment: $%.2f",
+            super.toString(),
+            apr * 100,
+            creditLimit,
+            this.calculatePayment()
         );
     }
 }

@@ -5,8 +5,8 @@ Topics:
 - Practice with methods, loops, arrays
  */
 
-
 public class LinearSearch {
+
     /*
     Create a method called search:
     public static int search(int[] list, int key)
@@ -16,7 +16,7 @@ public class LinearSearch {
      */
 
     public static void main(String[] args) {
-        int[] numbers = {1, 2, 3, 4, 5};
+        int[] numbers = { 1, 2, 3, 4, 5 };
         System.out.println("3 is located at index " + search(numbers, 3));
         System.out.println("0 is located at index " + search(numbers, 0));
     }

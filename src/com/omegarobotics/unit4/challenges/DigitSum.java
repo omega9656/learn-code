@@ -14,6 +14,7 @@ and print the result, until the user enters -1.
 import java.util.Scanner;
 
 public class DigitSum {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -29,7 +30,9 @@ public class DigitSum {
                 int total = sumDigits(number);
 
                 // print total, properly labeled
-                System.out.println("Total of the sum of the digits in the number: " + total);
+                System.out.println(
+                    "Total of the sum of the digits in the number: " + total
+                );
             }
         } while (number != -1);
 
@@ -44,7 +47,7 @@ public class DigitSum {
     public static int sumDigits(long number) {
         int sum = 0;
 
-        while(number != 0) {
+        while (number != 0) {
             // get the rightmost digit
             int remainder = (int) (number % 10); // always safe to cast because mod 10 will always be an int from 0-9
 

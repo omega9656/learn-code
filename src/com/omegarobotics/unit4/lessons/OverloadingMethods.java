@@ -6,6 +6,7 @@ Topics:
  */
 
 public class OverloadingMethods {
+
     public static void main(String[] args) {
         /*
         Create another method called max which returns the max of 3 numbers (double).

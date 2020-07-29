@@ -9,6 +9,7 @@ Topics:
 import java.util.Scanner;
 
 public class ComputeAverage {
+
     public static void main(String[] args) {
         /*
         Prompt the user for 3 numbers (double).

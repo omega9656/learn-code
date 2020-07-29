@@ -9,6 +9,7 @@ Topics:
  */
 
 public class Grades {
+
     /*
     Create a method called printGrade which takes the test score
     of a student and prints the letter grade. It does not return anything.
@@ -53,17 +54,17 @@ public class Grades {
      * @param testScore  student's test score as a number
      * @return the letter grade received
      */
-     public static char getGrade(double testScore) {
-         if (testScore >= 90) {
-             return 'A';
-         } else if (testScore >= 80) {
-             return 'B';
-         } else if (testScore >= 70) {
-             return 'C';
-         } else if (testScore >= 60) {
-             return 'D';
-         } else {
-             return 'F';
-         }
-     }
+    public static char getGrade(double testScore) {
+        if (testScore >= 90) {
+            return 'A';
+        } else if (testScore >= 80) {
+            return 'B';
+        } else if (testScore >= 70) {
+            return 'C';
+        } else if (testScore >= 60) {
+            return 'D';
+        } else {
+            return 'F';
+        }
+    }
 }

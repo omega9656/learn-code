@@ -8,6 +8,7 @@ Topics:
 import java.util.Scanner;
 
 public class AreaTriangle {
+
     public static void main(String[] args) {
         /*
         Prompt the user for 3 sides of a triangle.

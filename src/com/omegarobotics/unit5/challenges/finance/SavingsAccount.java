@@ -51,7 +51,12 @@ public class SavingsAccount extends Account {
      * @param balance  amount of money in the account
      * @param apr  annual percentage rate (APR), as a decimal
      */
-    public SavingsAccount(String name, long number, double balance, double apr) {
+    public SavingsAccount(
+        String name,
+        long number,
+        double balance,
+        double apr
+    ) {
         super(name, number, balance);
         this.apr = apr;
     }
@@ -90,8 +95,10 @@ public class SavingsAccount extends Account {
     @Override
     public String toString() {
         return String.format(
-                "%s\nInterest Rate: %.2f%%, Annual Interest: $%.2f",
-                super.toString(), apr * 100, this.calculateInterest()
+            "%s\nInterest Rate: %.2f%%, Annual Interest: $%.2f",
+            super.toString(),
+            apr * 100,
+            this.calculateInterest()
         );
     }
 }

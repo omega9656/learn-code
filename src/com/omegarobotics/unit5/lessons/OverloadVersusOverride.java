@@ -13,6 +13,7 @@ Overloaded methods have the same name but different parameter list
  */
 
 public class OverloadVersusOverride {
+
     public static void main(String[] args) {
         A a = new A();
         a.p(10);
@@ -21,19 +22,20 @@ public class OverloadVersusOverride {
 }
 
 class B {
+
     public void p(double i) {
         System.out.println(i * 2);
     }
 }
 
 class A extends B {
+
     // this method OVERRIDES the method in B
     @Override // override annotation prevents errors - error at compile if the method doesn't override anything
     public void p(double i) { // notice the same method signature
         System.out.println(i);
     }
 }
-
 //class B {
 //    public void p(double i) {
 //        System.out.println(i * 2);

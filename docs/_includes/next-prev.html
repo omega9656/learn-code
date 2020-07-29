@@ -16,15 +16,21 @@
     }
 </style>
 
-{% assign prev_unit = page.nav_order | minus: 2 %}
-{% assign next_unit = page.nav_order %}
+{% assign prev_unit = page.nav_order | minus: 2 %} {% assign next_unit =
+page.nav_order %}
 
 <div class="grid-container">
-{% if prev_unit > 0 %}
-    <a href="/learn-code/learn/unit{{ prev_unit }}" class="btn btn-cardinal prev-btn prev-container">&larr;Previous</a>
-{% endif %}
-
-{% if next_unit <= 11 %}
-    <a href="/learn-code/learn/unit{{ next_unit }}" class="btn btn-cardinal next-btn next-container">Next&rarr;</a>
-{% endif %}
+    {% if prev_unit > 0 %}
+    <a
+        href="/learn-code/learn/unit{{ prev_unit }}"
+        class="btn btn-cardinal prev-btn prev-container"
+        >&larr;Previous</a
+    >
+    {% endif %} {% if next_unit <= 11 %}
+    <a
+        href="/learn-code/learn/unit{{ next_unit }}"
+        class="btn btn-cardinal next-btn next-container"
+        >Next&rarr;</a
+    >
+    {% endif %}
 </div>

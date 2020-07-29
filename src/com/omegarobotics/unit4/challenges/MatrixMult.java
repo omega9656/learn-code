@@ -12,6 +12,7 @@ is displayed.
 import java.util.Scanner;
 
 public class MatrixMult {
+
     /**
      * Main method
      *
@@ -50,8 +51,10 @@ public class MatrixMult {
         } else {
             // display error message
             System.out.println("Error, matrices are not compatible.");
-            System.out.println("Number of columns in Matrix A must be " +
-                    "equal to number of rows in Matrix B.");
+            System.out.println(
+                "Number of columns in Matrix A must be " +
+                "equal to number of rows in Matrix B."
+            );
         }
     }
 

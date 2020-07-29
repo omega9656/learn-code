@@ -12,11 +12,12 @@ Topics:
 import java.util.Scanner;
 
 public class WhileLoops {
+
     public static void main(String[] args) {
         // infinite loop
-//        while (true) {
-//            System.out.println("This is an infinite loop!");
-//        }
+        //        while (true) {
+        //            System.out.println("This is an infinite loop!");
+        //        }
 
         // while loop to simulate 2019-2020 SKYSTONE auto
         int seconds = 10;
@@ -47,15 +48,19 @@ public class WhileLoops {
 
         // when to use a do-while loop: user input
         boolean isRaining = true;
-        while(isRaining) {
-            System.out.print("WHILE LOOP: Is it raining? Enter true or false: ");
+        while (isRaining) {
+            System.out.print(
+                "WHILE LOOP: Is it raining? Enter true or false: "
+            );
             isRaining = input.nextBoolean();
         }
 
         // since we always need to ask for input first, it's better
         // to use a do-while loop
         do {
-            System.out.print("DO-WHILE LOOP: Is it raining? Enter true or false: ");
+            System.out.print(
+                "DO-WHILE LOOP: Is it raining? Enter true or false: "
+            );
             isRaining = input.nextBoolean();
         } while (isRaining);
 

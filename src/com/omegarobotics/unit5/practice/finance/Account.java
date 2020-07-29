@@ -60,8 +60,8 @@ public class Account {
      * @param balance  amount of money in the account
      */
     public Account(String name, long number, double balance) {
-//        this.name = name;
-//        this.number = number;
+        //        this.name = name;
+        //        this.number = number;
         this(name, number); // equivalent to above
         this.balance = balance;
     }
@@ -153,7 +153,12 @@ public class Account {
 
     @Override
     public String toString() {
-        return String.format("Account name: %s. Account #: %d. Balance: $%.2f", name, number, balance);
+        return String.format(
+            "Account name: %s. Account #: %d. Balance: $%.2f",
+            name,
+            number,
+            balance
+        );
     }
 
     /**

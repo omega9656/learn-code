@@ -27,6 +27,7 @@ after student 100 is done opening/closing their locker(s).
  */
 
 public class LockerPuzzle {
+
     public static void main(String[] args) {
         // Create a lockers array with 100 boolean values,
         // representing the state of the 100 lockers

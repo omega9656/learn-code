@@ -10,6 +10,7 @@ Topics:
  */
 
 public class Intro {
+
     public static void main(String[] args) {
         // Print Hello world! to the console
         System.out.println("Hello world!");
@@ -18,7 +19,6 @@ public class Intro {
         System.out.println("This starts a new line");
         System.out.print("This does");
         System.out.print(" not");
-
         // single line comment
 
         /*
@@ -30,7 +30,6 @@ public class Intro {
          * javadoc comment
          */
     }
-
     /*
 
     alternate convention for writing braces (next-line style)

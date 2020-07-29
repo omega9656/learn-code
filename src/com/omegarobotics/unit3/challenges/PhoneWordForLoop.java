@@ -3,6 +3,7 @@ package com.omegarobotics.unit3.challenges;
 import java.util.Scanner;
 
 public class PhoneWordForLoop {
+
     public static void main(String[] args) {
         /*
         Asks user to enter a phone word,
@@ -54,8 +55,9 @@ public class PhoneWordForLoop {
         // Check if phone word is less than 7 characters
         // If it is, print an error message and end the program
         if (phoneWord.length() < 7) {
-            System.out.println("Your phone word is not long enough for a phone number.");
-
+            System.out.println(
+                "Your phone word is not long enough for a phone number."
+            );
         } else { // Else, convert the phone word to a phone number
             String number = "";
 

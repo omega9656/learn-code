@@ -24,21 +24,21 @@ package com.omegarobotics.unit6.challenges.robot;
  */
 
 public class FoundationGripper {
-	public Servo gripper;
+    public Servo gripper;
 
-	public enum Position {
-		UP (0.55),
-		DOWN (1),
-		READY (0.85);
+    public enum Position {
+        UP(0.55),
+        DOWN(1),
+        READY(0.85);
 
-		public final double SERVO_POSITION;
+        public final double SERVO_POSITION;
 
-		Position(double SERVO_POSITION) {
-			this.SERVO_POSITION = SERVO_POSITION;
-		}
-	}
+        Position(double SERVO_POSITION) {
+            this.SERVO_POSITION = SERVO_POSITION;
+        }
+    }
 
-	public void moveGripper(Position p) {
-		gripper.setPosition(p.SERVO_POSITION);
-	}
+    public void moveGripper(Position p) {
+        gripper.setPosition(p.SERVO_POSITION);
+    }
 }

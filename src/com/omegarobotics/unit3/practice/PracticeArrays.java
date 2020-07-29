@@ -10,6 +10,7 @@ Topics:
 import java.util.Scanner;
 
 public class PracticeArrays {
+
     public static void main(String[] args) {
         /*
         Part 1:
@@ -36,7 +37,21 @@ public class PracticeArrays {
         // PART 1
 
         // initialize array of Strings
-        String[] words = {"The",  "man", "dies", "in", "all", "who", "keep", "silent", "in", "the", "face", "of", "tyranny"};
+        String[] words = {
+            "The",
+            "man",
+            "dies",
+            "in",
+            "all",
+            "who",
+            "keep",
+            "silent",
+            "in",
+            "the",
+            "face",
+            "of",
+            "tyranny",
+        };
 
         // for loop solution
         for (int i = 0; i < words.length; i++) {
@@ -46,7 +61,7 @@ public class PracticeArrays {
         System.out.println();
 
         // for each loop solution
-        for (String word: words) {
+        for (String word : words) {
             System.out.print(word + " ");
         }
 
@@ -66,7 +81,7 @@ public class PracticeArrays {
             evenNumber += 2;
         }
 
-        for (int num: numbers) {
+        for (int num : numbers) {
             System.out.println(num);
         }
     }

@@ -8,6 +8,7 @@ Topics:
 import java.util.Scanner;
 
 public class Switch {
+
     public static void main(String[] args) {
         // prompt user for a movie or TV show
         Scanner input = new Scanner(System.in);
@@ -33,7 +34,9 @@ public class Switch {
                 System.out.println("Darkness only responds to darkness.");
                 break;
             default:
-                System.out.println("Oops! I don't recognize that movie or TV show.");
+                System.out.println(
+                    "Oops! I don't recognize that movie or TV show."
+                );
         }
     }
 }

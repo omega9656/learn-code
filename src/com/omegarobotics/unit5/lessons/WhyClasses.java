@@ -6,6 +6,7 @@ Topics:
  */
 
 public class WhyClasses {
+
     public static void main(String[] args) {
         // with classes
         Triangle myTriangle = new Triangle(5, 10);

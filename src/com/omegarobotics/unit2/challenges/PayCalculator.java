@@ -3,6 +3,7 @@ package com.omegarobotics.unit2.challenges;
 import java.util.Scanner;
 
 public class PayCalculator {
+
     public static void main(String[] args) {
         double totalPay = 5.3698309683;
         System.out.printf("Your total pay is: $%.2f", totalPay);

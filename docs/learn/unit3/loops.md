@@ -8,15 +8,17 @@ nav_order: 1
 ---
 
 # Unit 3: Loops
+
 {: .no_toc }
 Coming soon
 {: .label .label-yellow }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ## For Loop
 

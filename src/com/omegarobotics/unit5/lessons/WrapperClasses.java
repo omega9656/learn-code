@@ -12,6 +12,7 @@ Topics:
 import java.util.ArrayList;
 
 public class WrapperClasses {
+
     public static void main(String[] args) {
         // auto-boxing (int to Integer)
         Integer intObject = 2;

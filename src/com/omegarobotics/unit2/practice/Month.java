@@ -8,6 +8,7 @@ Topic:
 import java.util.Scanner;
 
 public class Month {
+
     public static void main(String[] args) {
         /*
         Prompt the user for a number from 1 to 12

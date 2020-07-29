@@ -1,5 +1,6 @@
 package com.omegarobotics.unit5.lessons;
 
+import com.omegarobotics.unit5.lessons.geometric.CircleInherit;
 /*
 Topics:
 - Polymorphism - a variable of a supertype can refer to a subtype object
@@ -7,10 +8,10 @@ Topics:
  */
 
 import com.omegarobotics.unit5.lessons.geometric.GeometricObject;
-import com.omegarobotics.unit5.lessons.geometric.CircleInherit;
 import com.omegarobotics.unit5.practice.geometric.RectangleInherit;
 
 public class Polymorphism {
+
     public static void main(String[] args) {
         GeometricObject[] shapes = new GeometricObject[3];
 
@@ -22,8 +23,15 @@ public class Polymorphism {
         // Circle c1 = new GeometricObject();
 
         for (int i = 0; i < shapes.length; i++) {
-            System.out.println("Location of shape " + i + " is (" +
-                    shapes[i].getX() + ", " + shapes[i].getY() + ")");
+            System.out.println(
+                "Location of shape " +
+                i +
+                " is (" +
+                shapes[i].getX() +
+                ", " +
+                shapes[i].getY() +
+                ")"
+            );
             System.out.println(i + ": " + shapes[i].toString());
 
             /*
@@ -35,9 +43,15 @@ public class Polymorphism {
              * then superclass membership
              */
             if (shapes[i] instanceof CircleInherit) {
-                System.out.printf("Diameter: %.4f\n", ((CircleInherit) shapes[i]).getDiameter());
+                System.out.printf(
+                    "Diameter: %.4f\n",
+                    ((CircleInherit) shapes[i]).getDiameter()
+                );
             } else if (shapes[i] instanceof RectangleInherit) {
-                System.out.printf("Perimeter: %.4f\n", ((RectangleInherit) shapes[i]).getPerimeter());
+                System.out.printf(
+                    "Perimeter: %.4f\n",
+                    ((RectangleInherit) shapes[i]).getPerimeter()
+                );
             } else {
                 System.out.println("This is a only a GeometricObject");
             }
@@ -50,10 +64,10 @@ public class Polymorphism {
 
         // above solved --> cast
         double circleCircumference = ((CircleInherit) shapes[1]).getPerimeter();
-        double RectanglePerimeter = ((RectangleInherit) shapes[2]).getPerimeter();
+        double RectanglePerimeter =
+            ((RectangleInherit) shapes[2]).getPerimeter();
         System.out.println("Circle circumference " + circleCircumference);
         System.out.println("Rectangle perimeter " + RectanglePerimeter);
-
         // below is fine at compile, but when you run it, it will throw a ClassCastException
         // because child can be cast to parents, but not other way around:
         // double objectPerim = ((Rectangle) shapes[0]).getPerimeter();

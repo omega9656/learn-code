@@ -6,6 +6,7 @@ Topics:
  */
 
 public class SumRow {
+
     /*
     Given a 2D array of integers,
     print the sum of each row.
@@ -18,11 +19,11 @@ public class SumRow {
 
     public static void main(String[] args) {
         int[][] numbers = {
-                {1, 2, 3, 4, 5},
-                {1, 2, 3, 4},
-                {1, 2, 3},
-                {1, 2},
-                {1}
+            { 1, 2, 3, 4, 5 },
+            { 1, 2, 3, 4 },
+            { 1, 2, 3 },
+            { 1, 2 },
+            { 1 },
         };
 
         for (int i = 0; i < numbers.length; i++) {
@@ -38,7 +39,7 @@ public class SumRow {
      */
     public static int sumRow(int[][] list, int rowIndex) {
         int sum = 0;
-        for (int number: list[rowIndex]) {
+        for (int number : list[rowIndex]) {
             sum += number;
         }
         return sum;

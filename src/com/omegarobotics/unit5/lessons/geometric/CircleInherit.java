@@ -34,7 +34,13 @@ public class CircleInherit extends GeometricObject {
      * @param color  color of this {@code CircleInherit} object
      * @param filled  whether this {@code CircleInherit} object is filled with the given color
      */
-    public CircleInherit(double radius, double x, double y, String color, boolean filled) {
+    public CircleInherit(
+        double radius,
+        double x,
+        double y,
+        String color,
+        boolean filled
+    ) {
         super(x, y, color, filled);
         this.radius = radius;
     }

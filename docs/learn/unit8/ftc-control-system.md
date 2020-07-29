@@ -8,14 +8,16 @@ nav_order: 1
 ---
 
 # Unit 8: FTC Control System
+
 {: .no_toc }
 Coming soon
 {: .label .label-yellow }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ## FTC Control System

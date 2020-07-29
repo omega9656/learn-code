@@ -32,8 +32,14 @@ public class Student extends Person {
      * @param classStatus  Student's class status (freshman, sophomore, junior, or senior)
      * @param STUDENT_ID_NUMBER  Student's ID number
      */
-    public Student(String name, String address, long phoneNumber, String emailAddress,
-                   String classStatus, long STUDENT_ID_NUMBER) {
+    public Student(
+        String name,
+        String address,
+        long phoneNumber,
+        String emailAddress,
+        String classStatus,
+        long STUDENT_ID_NUMBER
+    ) {
         super(name, address, phoneNumber, emailAddress);
         this.classStatus = classStatus;
         this.STUDENT_ID_NUMBER = STUDENT_ID_NUMBER;

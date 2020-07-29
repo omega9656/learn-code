@@ -1,11 +1,12 @@
 package com.omegarobotics.unit3.practice;
 
 public class PrintReverse {
+
     public static void main(String[] args) {
         /*
         Given an array of numbers (below), print the items in reverse order.
          */
-        int[] numbers = {1, 2, 3, 4, 5};
+        int[] numbers = { 1, 2, 3, 4, 5 };
 
         // for loop solution
         System.out.println("For loop solution");

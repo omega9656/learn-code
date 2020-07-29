@@ -6,17 +6,17 @@ package com.omegarobotics.unit6.challenges.robot;
  */
 
 public class Servo {
-	private double position;
+    private double position;
 
-	Servo() {
-		position = 0;
-	}
+    Servo() {
+        position = 0;
+    }
 
-	public double getPosition() {
-		return position;
-	}
+    public double getPosition() {
+        return position;
+    }
 
-	public void setPosition(double position) {
-		this.position = position;
-	}
+    public void setPosition(double position) {
+        this.position = position;
+    }
 }

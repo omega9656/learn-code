@@ -6,6 +6,7 @@ to test the methods in the Point class.
  */
 
 public class TestPoint {
+
     public static void main(String[] args) {
         // test constructors
         Point myPoint = new Point();

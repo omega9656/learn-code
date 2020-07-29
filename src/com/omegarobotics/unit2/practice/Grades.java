@@ -9,6 +9,7 @@ Topics:
 import java.util.Scanner;
 
 public class Grades {
+
     public static void main(String[] args) {
         /*
         Prompt the user for a test score.
@@ -34,8 +35,7 @@ public class Grades {
         } else {
             System.out.println("F");
         }
-
-/*        // common mistakes:
+        /*        // common mistakes:
         // 1. unnecessary checks
         if (score >= 90) {
             System.out.println("A");

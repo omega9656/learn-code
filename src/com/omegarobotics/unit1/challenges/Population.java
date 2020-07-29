@@ -3,6 +3,7 @@ package com.omegarobotics.unit1.challenges;
 import java.util.Scanner;
 
 public class Population {
+
     public static void main(String[] args) {
         /*
         Given a number of years from 0, calculate the
@@ -41,7 +42,8 @@ public class Population {
         // calculate overall change in population, assuming
         // number of births, deaths, and migrations per year
         // are the same each year
-        double changeInPopulation = years * (BIRTHS_PER_YEAR - DEATHS_PER_YEAR + MIGRATIONS_PER_YEAR);
+        double changeInPopulation =
+            years * (BIRTHS_PER_YEAR - DEATHS_PER_YEAR + MIGRATIONS_PER_YEAR);
 
         // calculate and display the projected population
         int population = (int) (POPULATION_BASE + changeInPopulation);

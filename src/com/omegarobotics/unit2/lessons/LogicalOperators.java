@@ -6,6 +6,7 @@ Topics:
  */
 
 public class LogicalOperators {
+
     public static void main(String[] args) {
         // logical AND
         boolean bool1 = true && true; // true
@@ -49,7 +50,7 @@ public class LogicalOperators {
 
         boolean isRaining = false;
 
-        if(!isRaining) {
+        if (!isRaining) {
             System.out.println("Go for a walk!");
         }
     }

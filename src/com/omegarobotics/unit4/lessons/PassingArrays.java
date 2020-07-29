@@ -38,6 +38,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class PassingArrays {
+
     public static void main(String[] args) {
         // asks user for length of array
         Scanner input = new Scanner(System.in);
@@ -54,7 +55,7 @@ public class PassingArrays {
         input.close();
 
         // prints the array
-        System.out.print("Numbers is: " );
+        System.out.print("Numbers is: ");
         displayArray(numbers);
 
         // square the array
@@ -78,11 +79,11 @@ public class PassingArrays {
     }
 
     public static void displayArray(int[] data) {
-//        System.out.print("[ ");
-//        for (int item: data) {
-//            System.out.print(item + " ");
-//        }
-//        System.out.println("]");
+        //        System.out.print("[ ");
+        //        for (int item: data) {
+        //            System.out.print(item + " ");
+        //        }
+        //        System.out.println("]");
         System.out.println(Arrays.toString(data));
     }
 }

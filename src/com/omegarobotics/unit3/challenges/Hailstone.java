@@ -3,6 +3,7 @@ package com.omegarobotics.unit3.challenges;
 import java.util.Scanner;
 
 public class Hailstone {
+
     public static void main(String[] args) {
         /*
         Ask user for a positive integer n and

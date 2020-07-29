@@ -26,6 +26,7 @@ Prints the array like so: [ 1 2 3 4 5 ... n ]
 import java.util.Scanner;
 
 public class Merge {
+
     /**
      * Main method
      *
@@ -64,7 +65,6 @@ public class Merge {
         int current1 = 0; // list1
         int current2 = 0; // list2
         int current3 = 0; // mergedList
-
 
         // while the lists can be compared, compare them
         while (current1 < list1.length && current2 < list2.length) {

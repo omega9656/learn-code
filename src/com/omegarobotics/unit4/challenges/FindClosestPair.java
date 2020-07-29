@@ -19,6 +19,7 @@ Bonus points if you create javadoc comments for each method.
  */
 
 public class FindClosestPair {
+
     /**
      * Main method
      * Takes coordinates of a bunch of points,
@@ -28,14 +29,14 @@ public class FindClosestPair {
      */
     public static void main(String[] args) {
         double[][] coordinates = {
-                {-1, 3},
-                {-1, -1},
-                {1, 1},
-                {2, 0.5},
-                {2, -1},
-                {3, 3},
-                {4, 2},
-                {4, -0.5}
+            { -1, 3 },
+            { -1, -1 },
+            { 1, 1 },
+            { 2, 0.5 },
+            { 2, -1 },
+            { 3, 3 },
+            { 4, 2 },
+            { 4, -0.5 },
         };
         double[][] closestPair = findClosestPair(coordinates);
         System.out.println("The closest pair is: ");
@@ -61,10 +62,7 @@ public class FindClosestPair {
      */
     public static double[][] findClosestPair(double[][] coordinates) {
         double shortestDistance = Double.MAX_VALUE;
-        double[][] pair = {
-                {0, 0},
-                {0, 0}
-        };
+        double[][] pair = { { 0, 0 }, { 0, 0 } };
         double currentDistance, x1, y1, x2, y2;
 
         for (int i = 0; i < coordinates.length; i++) {

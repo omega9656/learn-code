@@ -8,6 +8,7 @@ Topic:
  */
 
 public class PrimeNumber {
+
     /*
     Create a method called isPrime that returns
     true if the number (integer) given as an argument is prime
@@ -36,7 +37,6 @@ public class PrimeNumber {
             }
         }
         return true;
-
         /*
         // While loop solution
         int i = 2;

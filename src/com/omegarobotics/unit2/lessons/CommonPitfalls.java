@@ -6,6 +6,7 @@ Topics:
  */
 
 public class CommonPitfalls {
+
     public static void main(String[] args) {
         // common pitfall 1: simplifying boolean variable assignment
         int number = 4;

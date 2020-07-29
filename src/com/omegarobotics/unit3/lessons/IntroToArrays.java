@@ -11,6 +11,7 @@ Topics:
  */
 
 public class IntroToArrays {
+
     public static void main(String[] args) {
         // METHOD 1: Initializing using length
         // type[] nameOfArray = new type[length];
@@ -37,7 +38,7 @@ public class IntroToArrays {
         // type[] nameOfArray = {element1, element2, ... elementN};
 
         // initialize an array of characters
-        char[] name = {'O', 'm', 'e', 'g', 'a'};
+        char[] name = { 'O', 'm', 'e', 'g', 'a' };
 
         // print each item in the array
         System.out.println(name[0]);

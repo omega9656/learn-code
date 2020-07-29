@@ -35,6 +35,7 @@ Note: For addresses, just put the first line of a made-up address for brevity.
  */
 
 public class TestCollegeRoles {
+
     public static void main(String[] args) {
         // date hired for Jesper, Wylan, and Nina
         MyDate dateHiredJesper = new MyDate(5, 29, 2020);
@@ -43,32 +44,57 @@ public class TestCollegeRoles {
 
         // store all the people in an array
         Person[] people = {
-                new Person("Kaz Brekker", "1234 Geldstraat Ave",
-                        555_555_5555L, "dirtyhands@kerch.com"),
-
-                new Student("Inej Ghafa", "1234 Os Alta St",
-                        555_555_5555L, "thewraith@kerch.com",
-                        "senior", 56789L),
-
-                new Employee("Jesper Fahey", "1234 Makker's Wheel Dr",
-                        555_555_5555L, "idonthavemoney@kerch.com",
-                        "5678 Crow Club Pkwy", 1234000,
-                        12345L, dateHiredJesper),
-
-                new Faculty("Wylan Van Eck", "5678 Zelverstraat Blvd",
-                        555_555_5555L, "totallykuwei@kerch.com",
-                        "5678 Crow Club Pkwy", 1_000_000,
-                        12345L, dateHiredWylan,
-                        "5 PM - 10 PM", "chemistry"),
-
-                new Staff("Nina Zenik", "1234 Os Kervo St",
-                        555_555_5555L, "heartrender@ravka.com",
-                        "5678 Little Palace Circ", 500_000,
-                        1357L, dateHiredNina, "Heartrender")
+            new Person(
+                "Kaz Brekker",
+                "1234 Geldstraat Ave",
+                555_555_5555L,
+                "dirtyhands@kerch.com"
+            ),
+            new Student(
+                "Inej Ghafa",
+                "1234 Os Alta St",
+                555_555_5555L,
+                "thewraith@kerch.com",
+                "senior",
+                56789L
+            ),
+            new Employee(
+                "Jesper Fahey",
+                "1234 Makker's Wheel Dr",
+                555_555_5555L,
+                "idonthavemoney@kerch.com",
+                "5678 Crow Club Pkwy",
+                1234000,
+                12345L,
+                dateHiredJesper
+            ),
+            new Faculty(
+                "Wylan Van Eck",
+                "5678 Zelverstraat Blvd",
+                555_555_5555L,
+                "totallykuwei@kerch.com",
+                "5678 Crow Club Pkwy",
+                1_000_000,
+                12345L,
+                dateHiredWylan,
+                "5 PM - 10 PM",
+                "chemistry"
+            ),
+            new Staff(
+                "Nina Zenik",
+                "1234 Os Kervo St",
+                555_555_5555L,
+                "heartrender@ravka.com",
+                "5678 Little Palace Circ",
+                500_000,
+                1357L,
+                dateHiredNina,
+                "Heartrender"
+            ),
         };
 
         // print all the people
-        for (Person p: people) {
+        for (Person p : people) {
             System.out.println(p);
         }
     }
