@@ -10,12 +10,13 @@ nav_order: 2
 <!-- prettier-ignore-start -->
 
 # Unit 7: Command Line
+
 {: .no_toc }
 
-Coming soon
-{: .label .label-yellow }
+Coming soon {: .label .label-yellow }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
 1. TOC

@@ -10,12 +10,13 @@ nav_order: 1
 <!-- prettier-ignore-start -->
 
 # Unit 8: FTC Control System
+
 {: .no_toc }
 
-Coming soon
-{: .label .label-yellow }
+Coming soon {: .label .label-yellow }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
 1. TOC

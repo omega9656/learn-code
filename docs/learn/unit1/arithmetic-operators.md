@@ -10,9 +10,11 @@ nav_order: 6
 <!-- prettier-ignore-start -->
 
 # Unit 1: Arithmetic Operators
+
 {: .no_toc }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
 1. TOC

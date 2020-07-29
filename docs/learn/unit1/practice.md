@@ -10,15 +10,22 @@ nav_order: 9
 <!-- prettier-ignore-start -->
 
 # Unit 1: Practice
+
 {: .no_toc }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
+<<<<<<< HEAD
 1. TOC
 {:toc}
 
 <!-- prettier-ignore-end -->
+=======
+1. TOC {:toc}
+ <!-- prettier-ignore-end -->
+>>>>>>> f545e7a1c3c019296419c310c3c94459d06236d8
 
 ## Practice
 
@@ -54,6 +61,7 @@ public class CircleArea {
 }
 ```
 
+<<<<<<< HEAD
 <!-- prettier-ignore -->
 [Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/practice/CircleArea.java){: .btn }
 
@@ -70,6 +78,15 @@ double division
 
 <!-- prettier-ignore-end -->
 
+=======
+[Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/practice/CircleArea.java){:
+.btn }
+
+### Compute Average
+
+import {: .label } Scanner {: .label } double division {: .label }
+
+>>>>>>> f545e7a1c3c019296419c310c3c94459d06236d8
 Create a class called `ComputeAverage` which prompts the user for 3 numbers
 (`double`). Calculate the average and print the result.
 
@@ -83,6 +100,7 @@ public class ComputeAverage {
 }
 ```
 
+<<<<<<< HEAD
 <!-- prettier-ignore -->
 [Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/practice/ComputeAverage.java){: .btn }
 
@@ -104,6 +122,15 @@ newline
 {: .label }
 
 <!-- prettier-ignore-end -->
+=======
+[Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/practice/ComputeAverage.java){:
+.btn }
+
+### Compute Change
+
+constants {: .label } Scanner {: .label } modulus {: .label } casting {: .label
+} tab {: .label } newline {: .label }
+>>>>>>> f545e7a1c3c019296419c310c3c94459d06236d8
 
 Prompt the user for an amount of money in standard format (ex. 11.56). Print the
 number of dollars, quarters, dimes, nickels, and pennies that makes up the given
@@ -131,6 +158,7 @@ public class ComputeChange {
 }
 ```
 
+<<<<<<< HEAD
 <!-- prettier-ignore -->
 [Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/practice/ComputeChange.java){: .btn }
 
@@ -147,6 +175,15 @@ constants
 
 <!-- prettier-ignore-end -->
 
+=======
+[Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/practice/ComputeChange.java){:
+.btn }
+
+### Convert Minutes
+
+Scanner {: .label } modulus {: .label } constants {: .label }
+
+>>>>>>> f545e7a1c3c019296419c310c3c94459d06236d8
 Create a class called `ConvertMinutes` which prompts the user to enter a number
 of minutes. Convert the total minutes to hours and minutes. Print the result.
 
@@ -168,13 +205,19 @@ public class ConvertMinutes {
 }
 ```
 
+<<<<<<< HEAD
 <!-- prettier-ignore -->
 [Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/practice/ConvertMinutes.java){: .btn }
+=======
+[Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/practice/ConvertMinutes.java){:
+.btn }
+>>>>>>> f545e7a1c3c019296419c310c3c94459d06236d8
 
 ## Challenges
 
 ### Population
 
+<<<<<<< HEAD
 <!-- prettier-ignore-start -->
 
 Scanner
@@ -186,6 +229,10 @@ arithmetic operators
 
 <!-- prettier-ignore-end -->
 
+=======
+Scanner {: .label } constants {: .label } arithmetic operators {: .label }
+
+>>>>>>> f545e7a1c3c019296419c310c3c94459d06236d8
 Given a number of years from 0, create a class `Population` which calculates the
 population as a function of birth, death, and migrations per second over that
 period of years.
@@ -212,5 +259,10 @@ public class Population {
 }
 ```
 
+<<<<<<< HEAD
 <!-- prettier-ignore -->
 [Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/challenges/Population.java){: .btn }
+=======
+[Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/challenges/Population.java){:
+.btn }
+>>>>>>> f545e7a1c3c019296419c310c3c94459d06236d8

@@ -10,9 +10,11 @@ nav_order: 1
 <!-- prettier-ignore-start -->
 
 # Unit 2: Boolean Logic
+
 {: .no_toc }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
 1. TOC

@@ -10,12 +10,14 @@ nav_order: 2
 <!-- prettier-ignore-start -->
 
 # Unit 2: Selection
+
 {: .no_toc }
 
 In development
 {: .label .label-purple }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
 1. TOC
@@ -127,9 +129,13 @@ public class HelloWorld{
 
 ## Ternary Operator
 
+<<<<<<< HEAD
 <!-- prettier-ignore-start -->
 
 Coming soon
 {: .label .label-yellow }
 
 <!-- prettier-ignore-end -->
+=======
+Coming soon {: .label .label-yellow }
+>>>>>>> f545e7a1c3c019296419c310c3c94459d06236d8
