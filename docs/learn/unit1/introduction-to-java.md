@@ -160,8 +160,8 @@ System.out.println("Hello world!");}}
 It's just _a lot_ harder to read and is considered bad style. So make sure you
 leave whitespace appropriately and indent!
 
-Speaking of hard to read, try to keep your lines of code within your frame
-of view (80 characters or less per line)
+Speaking of hard to read, try to keep your lines of code within your frame of
+view (80 characters or less per line)
 
 **Note: From now on, in some code snippets, we will omit the class and main
 method declarations for brevity. Just know that in order for the program to
