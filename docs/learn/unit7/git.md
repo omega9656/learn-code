@@ -8,6 +8,7 @@ nav_order: 3
 ---
 
 <!-- prettier-ignore-start -->
+
 # Unit 7: Git
 {: .no_toc }
 
@@ -19,6 +20,7 @@ Coming soon
 
 1. TOC
 {:toc}
+
 <!-- prettier-ignore-end -->
 
 ## Git

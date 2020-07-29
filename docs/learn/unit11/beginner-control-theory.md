@@ -8,6 +8,7 @@ nav_order: 1
 ---
 
 <!-- prettier-ignore-start -->
+
 # Unit 11: Beginner Control Theory
 {: .no_toc }
 
@@ -19,6 +20,7 @@ Coming soon
 
 1. TOC
 {:toc}
+
 <!-- prettier-ignore-end -->
 
 ## Beginner Control Theory

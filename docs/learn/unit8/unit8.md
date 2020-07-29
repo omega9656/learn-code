@@ -8,3 +8,10 @@ nav_order: 9
 ---
 
 # Unit 8: FTC Control System, Sensors, and FTC SDK
+
+<!-- prettier-ignore-start -->
+
+Coming soon
+{: .label .label-yellow }
+
+<!-- prettier-ignore-end -->

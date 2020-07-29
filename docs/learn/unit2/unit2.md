@@ -9,7 +9,9 @@ nav_order: 3
 
 # Unit 2: Selection and Boolean Logic
 
-{: .no_toc }
+<!-- prettier-ignore-start -->
 
 In development
 {: .label .label-purple }
+
+<!-- prettier-ignore-end -->

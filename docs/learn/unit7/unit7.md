@@ -8,3 +8,10 @@ nav_order: 8
 ---
 
 # Unit 7: Exception Handling and Git
+
+<!-- prettier-ignore-start -->
+
+Coming soon
+{: .label .label-yellow }
+
+<!-- prettier-ignore-end -->

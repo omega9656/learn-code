@@ -8,6 +8,7 @@ nav_order: 1
 ---
 
 <!-- prettier-ignore-start -->
+
 # Unit 3: Loops
 {: .no_toc }
 
@@ -19,6 +20,7 @@ Coming soon
 
 1. TOC
 {:toc}
+
 <!-- prettier-ignore-end -->
 
 ## For Loop

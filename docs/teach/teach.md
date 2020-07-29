@@ -8,4 +8,5 @@ nav_order: 5
 
 # Teach
 
-Read the following articles for tips on using this curriculum to teach code on your robotics team.
+Read the following articles for tips on using this curriculum to teach code on
+your robotics team.

@@ -8,6 +8,7 @@ nav_order: 2
 ---
 
 <!-- prettier-ignore-start -->
+
 # Unit 4: Multi-Dimensional Arrays
 {: .no_toc }
 
@@ -19,6 +20,7 @@ Coming soon
 
 1. TOC
 {:toc}
+
 <!-- prettier-ignore-end -->
 
 ## Iteration (Nested Loops)

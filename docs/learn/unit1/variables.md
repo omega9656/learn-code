@@ -8,6 +8,7 @@ nav_order: 4
 ---
 
 <!-- prettier-ignore-start -->
+
 # Unit 1: Variables
 {: .no_toc }
 
@@ -16,21 +17,31 @@ nav_order: 4
 
 1. TOC
 {:toc}
+
 <!-- prettier-ignore-end -->
 
 ## What are variables?
 
-You've probably used variables in math class when dealing with algebra. Variables in programming are similar, but they're definitely not the same.
+You've probably used variables in math class when dealing with algebra.
+Variables in programming are similar, but they're definitely not the same.
 
-Think of variables in programming as a box with a label on it. You can put stuff in this box, and that stuff represents the value of the variable. You can change what you put in the box or you can look into the box and see what is already there.
+Think of variables in programming as a box with a label on it. You can put stuff
+in this box, and that stuff represents the value of the variable. You can change
+what you put in the box or you can look into the box and see what is already
+there.
 
-Variables are useful because they can store different values and can be reused multiple times. They can also give meaning to otherwise meaningless values, thereby making programs easier to read.
+Variables are useful because they can store different values and can be reused
+multiple times. They can also give meaning to otherwise meaningless values,
+thereby making programs easier to read.
 
-So what "stuff" can you put into a variable? Let's talk about the different data types in Java.
+So what "stuff" can you put into a variable? Let's talk about the different data
+types in Java.
 
 ## Primitive Data Types
 
-The most basic types are called _primitives_. They're the building blocks for more sophisticated types of data called _objects_. Here are commonly used primitives:
+The most basic types are called _primitives_. They're the building blocks for
+more sophisticated types of data called _objects_. Here are commonly used
+primitives:
 
 | Primitive Type | In Java Syntax | Examples                           |
 | :------------- | :------------- | :--------------------------------- |
@@ -40,7 +51,8 @@ The most basic types are called _primitives_. They're the building blocks for mo
 | character      | `char`         | `'c'`, `'1'`, `'%'`                |
 | boolean        | `boolean`      | `true`, `false`                    |
 
-`int` and `long` are both types of integers, except that `long` is used for really big integers.
+`int` and `long` are both types of integers, except that `long` is used for
+really big integers.
 
 Note that `10.0` is considered a `double` since it has a decimal point.
 
@@ -50,13 +62,18 @@ Note that a `boolean` can only have 2 values, `true` or `false`.
 
 ## Strings
 
-Strings are a series of characters strung together. (Hence the name.) Strings are objects. You can remember this by noticing that the type `String` has a capital s. All objects are named in the same way as classes because (as we will learn later) objects are instances of classes.
+Strings are a series of characters strung together. (Hence the name.) Strings
+are objects. You can remember this by noticing that the type `String` has a
+capital s. All objects are named in the same way as classes because (as we will
+learn later) objects are instances of classes.
 
-Strings are enclosed within double quotes. For example, `"Hello world!"`, `"this is a string"`, `"12"`, `" "`, and `"c"` are all strings.
+Strings are enclosed within double quotes. For example, `"Hello world!"`,
+`"this is a string"`, `"12"`, `" "`, and `"c"` are all strings.
 
 ### Concatenation
 
-String _concatenation_ is when you combine two or more strings. You do it like this:
+String _concatenation_ is when you combine two or more strings. You do it like
+this:
 
 ```java
 System.out.println("string 1" + "string 2");
@@ -70,15 +87,18 @@ string1string2
 
 ## Declaring, Initializing, and Updating Variables
 
-Now that we know what can be stored in a variable, let's talk about how to make one.
+Now that we know what can be stored in a variable, let's talk about how to make
+one.
 
-To declare a variable in Java, you simply state the type and name of the variable.
+To declare a variable in Java, you simply state the type and name of the
+variable.
 
 ```java
 String name;
 ```
 
-To initialize (give a first value) to the variable, use the assignment operator `=`.
+To initialize (give a first value) to the variable, use the assignment operator
+`=`.
 
 ```java
 String name;
@@ -91,7 +111,8 @@ Note that you can declare and initialize in one step:
 String name = "Jane Doe";
 ```
 
-Now that we've declared and initialized a variable, we can do things with the variable, such as printing it.
+Now that we've declared and initialized a variable, we can do things with the
+variable, such as printing it.
 
 ```java
 String name = "Jane Doe";
@@ -106,16 +127,23 @@ Jane Doe
 
 ## Casting
 
-Sometimes, you will need to convert from one data type to another (assuming it is possible). This process is called _casting_. To cast in Java, you simply put the type you want to convert to in parentheses before whatever you want to convert:
+Sometimes, you will need to convert from one data type to another (assuming it
+is possible). This process is called _casting_. To cast in Java, you simply put
+the type you want to convert to in parentheses before whatever you want to
+convert:
 
 ```java
 // cast 10.0 to an int
 int number = (int) 10.0;
 ```
 
-Keep in mind that you cannot always cast to another type and that if you cast down (that is, you go from a more precise type to a less precise type), you might lose precision. For example, if you cast `10.5` to an `int`, you would lose the decimal.
+Keep in mind that you cannot always cast to another type and that if you cast
+down (that is, you go from a more precise type to a less precise type), you
+might lose precision. For example, if you cast `10.5` to an `int`, you would
+lose the decimal.
 
-Also note that if you want to cast an expression, make sure you put it in parentheses, otherwise only the thing immediately to the right will be cast.
+Also note that if you want to cast an expression, make sure you put it in
+parentheses, otherwise only the thing immediately to the right will be cast.
 
 ```java
 int number = (int) (10.0 / 12);
@@ -123,40 +151,57 @@ int number = (int) (10.0 / 12);
 
 ## Constants
 
-Sometimes you will want to make a variable that stores only one value that never changes, such as a conversion rate. This is a special type of variable called a _constant_. In Java, you can declare a constant using the `final` keyword.
+Sometimes you will want to make a variable that stores only one value that never
+changes, such as a conversion rate. This is a special type of variable called a
+_constant_. In Java, you can declare a constant using the `final` keyword.
 
 ```java
 final DAYS_PER_WEEK = 7;
 ```
 
-The final keyword makes it so that if you attempt to update the value of the constant, it gives you an error.
+The final keyword makes it so that if you attempt to update the value of the
+constant, it gives you an error.
 
 ## Naming
 
 ### The Rules
 
-All identifiers <sup id="a1">[1](#f1)</sup> (names that identify elements, such as classes, methods, or variables) must:
+All identifiers <sup id="a1">[1](#f1)</sup> (names that identify elements, such
+as classes, methods, or variables) must:
 
--   Be a sequence of characters that consists of letters, digits, underscores (\_), and dollar signs (\$).
--   Start with a letter, an underscore (\_), or a dollar sign (\$). It cannot start with a digit.
+-   Be a sequence of characters that consists of letters, digits, underscores
+    (\_), and dollar signs (\$).
+-   Start with a letter, an underscore (\_), or a dollar sign (\$). It cannot
+    start with a digit.
 
 They cannot:
 
 -   Be a reserved word (e.g. `class`, `public`, `final`)
 -   Be `true`, `false`, or `null`
 
-Note that identifiers are case sensitive, so `java`, `Java`, and `JAVA` are all different elements.
+Note that identifiers are case sensitive, so `java`, `Java`, and `JAVA` are all
+different elements.
 
 ### The Conventions
 
-Identifiers can also be as long as you want; however, you should try to make identifiers as concise as possible.
+Identifiers can also be as long as you want; however, you should try to make
+identifiers as concise as possible.
 
-Concise doesn't necessarily mean short. For example, don't name a variable `a` when it represents someone's age. Just use `age`. (Sometimes, however, it's ok to have variables that are just one letter long. Usually these are more generic or throwaway variables.)
+Concise doesn't necessarily mean short. For example, don't name a variable `a`
+when it represents someone's age. Just use `age`. (Sometimes, however, it's ok
+to have variables that are just one letter long. Usually these are more generic
+or throwaway variables.)
 
-Regular variables should be named in the camelCase convention, which means that each word in the name of the variable is capitalized except the first one. For example, `age`, `numberOfTissues`, and `backpackWeight` are all good variable names.
+Regular variables should be named in the camelCase convention, which means that
+each word in the name of the variable is capitalized except the first one. For
+example, `age`, `numberOfTissues`, and `backpackWeight` are all good variable
+names.
 
-Constants should be named using snake case, with all uppercase letters. Snake case means that all words are separated by underscores. For example, `DAYS_PER_WEEK`, `PI`, and `FILE_NAME` are all good constant names.
+Constants should be named using snake case, with all uppercase letters. Snake
+case means that all words are separated by underscores. For example,
+`DAYS_PER_WEEK`, `PI`, and `FILE_NAME` are all good constant names.
 
 ## Footnotes
 
-<b id="f1">1</b> Identifier rules from _Introduction to Java Programming (Comprehensive)_, 10th ed. by Y. Daniel Liang. [↩](#a1)
+<b id="f1">1</b> Identifier rules from _Introduction to Java Programming
+(Comprehensive)_, 10th ed. by Y. Daniel Liang. [↩](#a1)

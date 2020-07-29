@@ -8,6 +8,7 @@ nav_order: 2
 ---
 
 <!-- prettier-ignore-start -->
+
 # Unit 8: Sensors
 {: .no_toc }
 
@@ -19,6 +20,7 @@ Coming soon
 
 1. TOC
 {:toc}
+
 <!-- prettier-ignore-end -->
 
 ## Sensors
