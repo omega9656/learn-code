@@ -8,27 +8,33 @@ nav_order: 8
 ---
 
 <!-- prettier-ignore-start -->
+
 # Unit 1: Increment and Decrement
+
 {: .no_toc }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
-1. TOC
-{:toc}
-<!-- prettier-ignore-end -->
+1. TOC {:toc}
+ <!-- prettier-ignore-end -->
 
 ## Increment and Decrement
 
-Other operations that come up often in computer science is increment and decrement (adding 1 and subtracting 1).
+Other operations that come up often in computer science is increment and
+decrement (adding 1 and subtracting 1).
 
 Increment operator: `++`
 
 Decrement operator: `--`
 
-Note that the increment and decrement operators are _unary operators_, which mean they operate on 1 thing (arithmetic, assignment, and augmented assignment operators are all _binary operators_).
+Note that the increment and decrement operators are _unary operators_, which
+mean they operate on 1 thing (arithmetic, assignment, and augmented assignment
+operators are all _binary operators_).
 
-There are 2 types of increment and decrement: post and pre. These determine when the variable is incremented or decremented. Analyze the code below.
+There are 2 types of increment and decrement: post and pre. These determine when
+the variable is incremented or decremented. Analyze the code below.
 
 ```java
 int i = 1;
@@ -63,6 +69,10 @@ j: 0, i: 0
 j: 1, i: 0
 ```
 
-Note that pre-increment and pre-decrement puts the `++` or `--` _before_ the variable name, while post-increment and post-decrement puts the `++` or `--` _after_ the variable name.
+Note that pre-increment and pre-decrement puts the `++` or `--` _before_ the
+variable name, while post-increment and post-decrement puts the `++` or `--`
+_after_ the variable name.
 
-**Note**: If you are simply incrementing or decrementing a variable and not doing anything else, post- and pre-increment or decrement won't matter. You only need to be careful when you're mixing a bunch of operators.
+**Note**: If you are simply incrementing or decrementing a variable and not
+doing anything else, post- and pre-increment or decrement won't matter. You only
+need to be careful when you're mixing a bunch of operators.

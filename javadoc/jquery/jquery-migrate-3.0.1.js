@@ -22,7 +22,6 @@
     jQuery.migrateMute = true
 
     /* exported migrateWarn, migrateWarnFunc, migrateWarnProp */
-
     ;(function () {
         var rbadVersions = /^[12]\./
 

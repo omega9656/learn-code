@@ -30,8 +30,8 @@ All source code can be found under `src/com/omegarobotics`.
 All compiled class files can be found under `out/production/HowToCode`. <br>
 **Note:** Class files may be outdated compared to the source code.
 
-Generated Javadoc files can be found under `javadoc`. <br>
-**Note:** Javadoc files may be outdated compared to the source code.
+Generated Javadoc files can be found under `javadoc`. <br> **Note:** Javadoc
+files may be outdated compared to the source code.
 
 All code for this website can be found under `docs`.
 

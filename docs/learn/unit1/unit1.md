@@ -9,7 +9,4 @@ nav_order: 2
 
 # Unit 1: Introduction to Java
 
-New release
-{: .label .label-purple }
-Stable
-{: .label .label-green }
+New release {: .label .label-purple } Stable {: .label .label-green }

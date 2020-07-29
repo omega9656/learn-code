@@ -8,21 +8,26 @@ nav_order: 2
 ---
 
 <!-- prettier-ignore-start -->
+
 # Unit 2: Selection
+
 {: .no_toc }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
-1. TOC
-{:toc}
-<!-- prettier-ignore-end -->
+1. TOC {:toc}
+ <!-- prettier-ignore-end -->
 
-Selection in programming languages makes it possible to take a certain action if a condition is met. This offers many possibilities as you can make the program do anything once something else was true or false.
+Selection in programming languages makes it possible to take a certain action if
+a condition is met. This offers many possibilities as you can make the program
+do anything once something else was true or false.
 
 ## If Statements
 
-If statements are statements that check for certain conditions in the program. If that boolean condition is true, then the program could do something.
+If statements are statements that check for certain conditions in the program.
+If that boolean condition is true, then the program could do something.
 
 ```java
 public class HelloWorld{
@@ -36,7 +41,8 @@ public class HelloWorld{
 }
 ```
 
-You can also make the program do something when a condition is not met by using an else statement after the if statement.
+You can also make the program do something when a condition is not met by using
+an else statement after the if statement.
 
 ```java
 public class HelloWorld{
@@ -52,7 +58,10 @@ public class HelloWorld{
 }
 ```
 
-You can check for multiple conditions using an else if statment after the if statement. This means that the code first checks the if statement, and if that condition is not met, then it would continue through the other else if statements below it.
+You can check for multiple conditions using an else if statment after the if
+statement. This means that the code first checks the if statement, and if that
+condition is not met, then it would continue through the other else if
+statements below it.
 
 ```java
 public class HelloWorld{
@@ -78,11 +87,14 @@ public class HelloWorld{
 }
 ```
 
-In this case, if the program was run, the output would be "Grade is B" because that condition was met.
+In this case, if the program was run, the output would be "Grade is B" because
+that condition was met.
 
 ## Switch Statement
 
-Switch case statements are an easier way to check a certain value of a variable. For example, using the grade example from before, we can write this in a much simpler way.
+Switch case statements are an easier way to check a certain value of a variable.
+For example, using the grade example from before, we can write this in a much
+simpler way.
 
 ```java
 public class HelloWorld{
@@ -112,5 +124,4 @@ public class HelloWorld{
 
 ## Ternary Operator
 
-Coming soon
-{: .label .label-yellow }
+Coming soon {: .label .label-yellow }

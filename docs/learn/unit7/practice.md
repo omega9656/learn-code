@@ -8,18 +8,19 @@ nav_order: 4
 ---
 
 <!-- prettier-ignore-start -->
+
 # Unit 7: Practice
+
 {: .no_toc }
 
-Coming soon
-{: .label .label-yellow }
+Coming soon {: .label .label-yellow }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
-1. TOC
-{:toc}
-<!-- prettier-ignore-end -->
+1. TOC {:toc}
+ <!-- prettier-ignore-end -->
 
 ## Practice
 

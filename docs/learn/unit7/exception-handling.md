@@ -8,17 +8,18 @@ nav_order: 1
 ---
 
 <!-- prettier-ignore-start -->
+
 # Unit 7: Exception Handling
+
 {: .no_toc }
 
-Coming soon
-{: .label .label-yellow }
+Coming soon {: .label .label-yellow }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
-1. TOC
-{:toc}
-<!-- prettier-ignore-end -->
+1. TOC {:toc}
+ <!-- prettier-ignore-end -->
 
 ## Exception Handling

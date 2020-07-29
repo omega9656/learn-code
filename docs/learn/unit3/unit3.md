@@ -9,5 +9,4 @@ nav_order: 4
 
 # Unit 3: Loops and 1D Arrays
 
-Coming soon
-{: .label .label-yellow }
+Coming soon {: .label .label-yellow }

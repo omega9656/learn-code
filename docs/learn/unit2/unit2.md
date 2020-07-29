@@ -11,5 +11,4 @@ nav_order: 3
 
 {: .no_toc }
 
-In development
-{: .label .label-purple }
+In development {: .label .label-purple }

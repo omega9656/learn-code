@@ -9,6 +9,4 @@ nav_order: 5
 
 # Unit 5: Quiz
 
-Coming soon
-{: .label .label-yellow }
-{% include quizzes/unit-5.html %}
+Coming soon {: .label .label-yellow } {% include quizzes/unit-5.html %}
