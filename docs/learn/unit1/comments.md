@@ -7,16 +7,16 @@ grand_parent: Learn
 nav_order: 2
 ---
 
+<!-- prettier-ignore-start -->
 # Unit 1: Comments
-
 {: .no_toc }
 
 ## Table of Contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
+<!-- prettier-ignore-end -->
 
 ## What are comments?
 

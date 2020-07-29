@@ -7,16 +7,16 @@ grand_parent: Learn
 nav_order: 1
 ---
 
+<!-- prettier-ignore-start -->
 # Unit 1: Introduction to Java
-
 {: .no_toc }
 
 ## Table of Contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
+<!-- prettier-ignore-end -->
 
 ## What is programming?
 

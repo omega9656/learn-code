@@ -7,16 +7,16 @@ grand_parent: Learn
 nav_order: 9
 ---
 
+<!-- prettier-ignore-start -->
 # Unit 1: Practice
-
 {: .no_toc }
 
 ## Table of Contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
+<!-- prettier-ignore-end -->
 
 ## Practice
 

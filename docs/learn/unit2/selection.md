@@ -7,16 +7,16 @@ grand_parent: Learn
 nav_order: 2
 ---
 
+<!-- prettier-ignore-start -->
 # Unit 2: Selection
-
 {: .no_toc }
 
 ## Table of Contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
+<!-- prettier-ignore-end -->
 
 Selection in programming languages makes it possible to take a certain action if a condition is met. This offers many possibilities as you can make the program do anything once something else was true or false.
 

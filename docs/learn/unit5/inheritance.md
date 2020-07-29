@@ -7,18 +7,19 @@ grand_parent: Learn
 nav_order: 2
 ---
 
+<!-- prettier-ignore-start -->
 # Unit 5: Inheritance
-
 {: .no_toc }
+
 In development
 {: .label .label-purple }
 
 ## Table of Contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
+<!-- prettier-ignore-end -->
 
 ## Inheritance
 
