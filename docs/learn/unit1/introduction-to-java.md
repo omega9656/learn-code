@@ -17,15 +17,10 @@ nav_order: 1
 
 {: .no_toc .text-delta }
 
-<<<<<<< HEAD
 1. TOC
 {:toc}
 
 <!-- prettier-ignore-end -->
-=======
-1. TOC {:toc}
- <!-- prettier-ignore-end -->
->>>>>>> f545e7a1c3c019296419c310c3c94459d06236d8
 
 ## What is programming?
 
