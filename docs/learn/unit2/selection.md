@@ -10,14 +10,12 @@ nav_order: 2
 <!-- prettier-ignore-start -->
 
 # Unit 2: Selection
-
 {: .no_toc }
 
 In development
 {: .label .label-purple }
 
 ## Table of Contents
-
 {: .no_toc .text-delta }
 
 1. TOC

@@ -10,13 +10,12 @@ nav_order: 2
 <!-- prettier-ignore-start -->
 
 # Unit 5: Inheritance
-
 {: .no_toc }
 
-In development {: .label .label-purple }
+In development
+{: .label .label-purple }
 
 ## Table of Contents
-
 {: .no_toc .text-delta }
 
 1. TOC

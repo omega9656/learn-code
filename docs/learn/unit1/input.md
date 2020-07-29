@@ -10,11 +10,9 @@ nav_order: 5
 <!-- prettier-ignore-start -->
 
 # Unit 1: Input
-
 {: .no_toc }
 
 ## Table of Contents
-
 {: .no_toc .text-delta }
 
 1. TOC
