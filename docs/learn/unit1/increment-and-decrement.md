@@ -8,22 +8,25 @@ nav_order: 8
 ---
 
 # Unit 1: Increment and Decrement
+
 {: .no_toc }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ## Increment and Decrement
+
 Other operations that come up often in computer science is increment and decrement (adding 1 and subtracting 1).
 
 Increment operator: `++`
 
 Decrement operator: `--`
 
-Note that the increment and decrement operators are *unary operators*, which mean they operate on 1 thing (arithmetic, assignment, and augmented assignment operators are all *binary operators*).
+Note that the increment and decrement operators are _unary operators_, which mean they operate on 1 thing (arithmetic, assignment, and augmented assignment operators are all _binary operators_).
 
 There are 2 types of increment and decrement: post and pre. These determine when the variable is incremented or decremented. Analyze the code below.
 
@@ -52,6 +55,7 @@ System.out.println("j: " + j + ", i: " + i);
 ```
 
 Output:
+
 ```
 j: 2, i: 2
 j: 1, i: 2
@@ -59,6 +63,6 @@ j: 0, i: 0
 j: 1, i: 0
 ```
 
-Note that pre-increment and pre-decrement puts the `++` or `--` *before* the variable name, while post-increment and post-decrement puts the `++` or `--` *after* the variable name.
+Note that pre-increment and pre-decrement puts the `++` or `--` _before_ the variable name, while post-increment and post-decrement puts the `++` or `--` _after_ the variable name.
 
 **Note**: If you are simply incrementing or decrementing a variable and not doing anything else, post- and pre-increment or decrement won't matter. You only need to be careful when you're mixing a bunch of operators.

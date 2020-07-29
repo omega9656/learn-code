@@ -8,15 +8,18 @@ nav_order: 3
 ---
 
 # Unit 1: Output
+
 {: .no_toc }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ## Printing
+
 You can use the `System.out.println` method to print something to the console.
 
 ```java
@@ -25,11 +28,12 @@ System.out.println("Hello world!");
 ```
 
 Output:
+
 ```
 Hello world!
 ```
 
-The `System.out.println` method automatically adds a newline character (`\n`) to the end of whatever it prints. Basically that means that whatever you put in parentheses is printed on its own line. 
+The `System.out.println` method automatically adds a newline character (`\n`) to the end of whatever it prints. Basically that means that whatever you put in parentheses is printed on its own line.
 
 On the other hand, if you want things to be printed right next to each other, use `System.out.print`.
 
@@ -40,6 +44,7 @@ System.out.print(" not");
 ```
 
 Output:
+
 ```
 This starts a new line
 This does not

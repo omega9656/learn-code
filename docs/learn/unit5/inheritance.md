@@ -8,18 +8,22 @@ nav_order: 2
 ---
 
 # Unit 5: Inheritance
+
 {: .no_toc }
 In development
 {: .label .label-purple }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ## Inheritance
+
 Inheritance is something in java that allows a class to extend, or get all attributes from another class and then add onto it. For example, we could have a class named `Animal`, and the `Human` class could extend it. When a class is extended, not only all values are used from the parent or superclass, but also the methods such as the constructor:
+
 ```java
 public class Animal {
     public int age;

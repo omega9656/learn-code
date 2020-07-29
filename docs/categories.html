@@ -10,19 +10,22 @@ nav_order: 1
 
 <div id="archives">
     {% for category in site.categories %}
-      <div class="archive-group">
+    <div class="archive-group">
         {% capture category_name %}{{ category | first }}{% endcapture %}
         <div id="#{{ category_name | slugize }}"></div>
         <p></p>
-    
+
         <h2 class="category-head">{{ category_name | capitalize }}</h2>
         <a name="{{ category_name | slugize }}"></a>
         {% for post in site.categories[category_name] %}
         <article class="archive-item">
-          <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+            <li>
+                <span>{{ post.date | date_to_string }}</span> &nbsp;
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </li>
         </article>
         {% endfor %}
-      </div>
+    </div>
     {% endfor %}
 </div>
 

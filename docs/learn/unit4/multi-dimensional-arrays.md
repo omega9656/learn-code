@@ -8,14 +8,16 @@ nav_order: 2
 ---
 
 # Unit 4: Multi-Dimensional Arrays
+
 {: .no_toc }
 Coming soon
 {: .label .label-yellow }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ## Iteration (Nested Loops)

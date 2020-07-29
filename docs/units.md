@@ -6,6 +6,7 @@ nav_order: 3
 ---
 
 # Units
+
 Source code is divided by unit:
 
 1. [Introduction to Java](/learn-code/learn/unit1)
@@ -23,6 +24,7 @@ Source code is divided by unit:
 Units 1-7 are **Java Coding** while Units 8-11 are **FTC-Specific Coding**.
 
 ## File Navigation
+
 All source code can be found under `src/com/omegarobotics`.
 
 All compiled class files can be found under `out/production/HowToCode`. <br>
@@ -34,7 +36,9 @@ Generated Javadoc files can be found under `javadoc`. <br>
 All code for this website can be found under `docs`.
 
 ## Unit Packages
+
 Inside of each unit folder are 3 packages:
+
 1. `challenges` - Challenge programs to solidify skills
 2. `lessons` - Demonstration programs to teach concepts
 3. `practice` - Warm-ups and practice programs

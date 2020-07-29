@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <style>
     .date-author {
         font-weight: 700;
@@ -12,9 +13,12 @@ layout: default
 </style>
 
 <h1>{{ page.title }}</h1>
-<p class="date-author">{{ page.date | date_to_string: "ordinal", "US" }} - {{ page.author }}, {{ page.author_position }}</p>
+<p class="date-author">
+    {{ page.date | date_to_string: "ordinal", "US" }} - {{ page.author }}, {{
+    page.author_position }}
+</p>
 
 {{ content }}
 
-<br>
+<br />
 <div class="categories">Categories: {% include categories.html %}</div>

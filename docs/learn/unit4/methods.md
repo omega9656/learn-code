@@ -8,29 +8,36 @@ nav_order: 1
 ---
 
 # Unit 4: Methods
+
 {: .no_toc }
 Coming soon
 {: .label .label-yellow }
 
 ## Table of Contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ## What are methods?
 
 ## Method Signature
-aka *header*
+
+aka _header_
 
 ## Modifiers
 
 ## Return Type
+
 include return keyword as well
 
 ## Parameters
+
 ### Parameters vs. Arguments
+
 ### Pass by value vs. Pass by reference
 
 ## Calling Methods
+
 calling = using
