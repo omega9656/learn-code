@@ -18,14 +18,14 @@ nav_order: 1
 {: .no_toc .text-delta }
 
 <<<<<<< HEAD
-1. TOC
-{:toc}
 
-<!-- prettier-ignore-end -->
-=======
 1. TOC {:toc}
- <!-- prettier-ignore-end -->
->>>>>>> f545e7a1c3c019296419c310c3c94459d06236d8
+
+# <!-- prettier-ignore-end -->
+
+1. TOC {:toc}
+     <!-- prettier-ignore-end -->
+    > > > > > > > f545e7a1c3c019296419c310c3c94459d06236d8
 
 ## What is programming?
 
@@ -165,8 +165,8 @@ System.out.println("Hello world!");}}
 It's just _a lot_ harder to read and is considered bad style. So make sure you
 leave whitespace appropriately and indent!
 
-Speaking of hard to read, try to keep your lines of code within your frame
-of view (80 characters or less per line)
+Speaking of hard to read, try to keep your lines of code within your frame of
+view (80 characters or less per line)
 
 **Note: From now on, in some code snippets, we will omit the class and main
 method declarations for brevity. Just know that in order for the program to

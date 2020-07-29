@@ -62,6 +62,7 @@ public class CircleArea {
 ```
 
 <<<<<<< HEAD
+
 <!-- prettier-ignore -->
 [Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/practice/CircleArea.java){: .btn }
 
@@ -86,9 +87,9 @@ double division
 
 import {: .label } Scanner {: .label } double division {: .label }
 
->>>>>>> f545e7a1c3c019296419c310c3c94459d06236d8
-Create a class called `ComputeAverage` which prompts the user for 3 numbers
-(`double`). Calculate the average and print the result.
+> > > > > > > f545e7a1c3c019296419c310c3c94459d06236d8 Create a class called
+> > > > > > > `ComputeAverage` which prompts the user for 3 numbers (`double`).
+> > > > > > > Calculate the average and print the result.
 
 **Template Code**
 
@@ -101,6 +102,7 @@ public class ComputeAverage {
 ```
 
 <<<<<<< HEAD
+
 <!-- prettier-ignore -->
 [Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/practice/ComputeAverage.java){: .btn }
 
@@ -183,9 +185,10 @@ constants
 
 Scanner {: .label } modulus {: .label } constants {: .label }
 
->>>>>>> f545e7a1c3c019296419c310c3c94459d06236d8
-Create a class called `ConvertMinutes` which prompts the user to enter a number
-of minutes. Convert the total minutes to hours and minutes. Print the result.
+> > > > > > > f545e7a1c3c019296419c310c3c94459d06236d8 Create a class called
+> > > > > > > `ConvertMinutes` which prompts the user to enter a number of
+> > > > > > > minutes. Convert the total minutes to hours and minutes. Print the
+> > > > > > > result.
 
 **Example Output**
 
@@ -206,18 +209,22 @@ public class ConvertMinutes {
 ```
 
 <<<<<<< HEAD
+
 <!-- prettier-ignore -->
 [Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/practice/ConvertMinutes.java){: .btn }
 =======
+
 [Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/practice/ConvertMinutes.java){:
 .btn }
->>>>>>> f545e7a1c3c019296419c310c3c94459d06236d8
+
+> > > > > > > f545e7a1c3c019296419c310c3c94459d06236d8
 
 ## Challenges
 
 ### Population
 
 <<<<<<< HEAD
+
 <!-- prettier-ignore-start -->
 
 Scanner
@@ -229,13 +236,13 @@ arithmetic operators
 
 <!-- prettier-ignore-end -->
 
-=======
-Scanner {: .label } constants {: .label } arithmetic operators {: .label }
+======= Scanner {: .label } constants {: .label } arithmetic operators {: .label
+}
 
->>>>>>> f545e7a1c3c019296419c310c3c94459d06236d8
-Given a number of years from 0, create a class `Population` which calculates the
-population as a function of birth, death, and migrations per second over that
-period of years.
+> > > > > > > f545e7a1c3c019296419c310c3c94459d06236d8 Given a number of years
+> > > > > > > from 0, create a class `Population` which calculates the
+> > > > > > > population as a function of birth, death, and migrations per
+> > > > > > > second over that period of years.
 
 Assume that the number of births, deaths, and migrations per year remains
 constant over that period of years.
@@ -260,9 +267,12 @@ public class Population {
 ```
 
 <<<<<<< HEAD
+
 <!-- prettier-ignore -->
 [Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/challenges/Population.java){: .btn }
 =======
+
 [Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/challenges/Population.java){:
 .btn }
->>>>>>> f545e7a1c3c019296419c310c3c94459d06236d8
+
+> > > > > > > f545e7a1c3c019296419c310c3c94459d06236d8

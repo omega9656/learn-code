@@ -130,12 +130,13 @@ public class HelloWorld{
 ## Ternary Operator
 
 <<<<<<< HEAD
+
 <!-- prettier-ignore-start -->
 
-Coming soon
-{: .label .label-yellow }
-
-<!-- prettier-ignore-end -->
-=======
 Coming soon {: .label .label-yellow }
->>>>>>> f545e7a1c3c019296419c310c3c94459d06236d8
+
+# <!-- prettier-ignore-end -->
+
+Coming soon {: .label .label-yellow }
+
+> > > > > > > f545e7a1c3c019296419c310c3c94459d06236d8
