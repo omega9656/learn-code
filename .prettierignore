@@ -1,2 +1,2 @@
 # Ignore workflow files
-main.yml
+.github/workflows/
