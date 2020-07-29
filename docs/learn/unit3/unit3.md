@@ -9,5 +9,9 @@ nav_order: 4
 
 # Unit 3: Loops and 1D Arrays
 
+<!-- prettier-ignore-start -->
+
 Coming soon
 {: .label .label-yellow }
+
+<!-- prettier-ignore-end -->

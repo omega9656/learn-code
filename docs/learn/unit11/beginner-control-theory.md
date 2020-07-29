@@ -7,17 +7,20 @@ grand_parent: Learn
 nav_order: 1
 ---
 
-# Unit 11: Beginner Control Theory
+<!-- prettier-ignore-start -->
 
+# Unit 11: Beginner Control Theory
 {: .no_toc }
+
 Coming soon
 {: .label .label-yellow }
 
 ## Table of Contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
+
+<!-- prettier-ignore-end -->
 
 ## Beginner Control Theory

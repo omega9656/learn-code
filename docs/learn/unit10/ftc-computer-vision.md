@@ -7,17 +7,20 @@ grand_parent: Learn
 nav_order: 1
 ---
 
-# Unit 10: FTC Computer Vision
+<!-- prettier-ignore-start -->
 
+# Unit 10: FTC Computer Vision
 {: .no_toc }
+
 Coming soon
 {: .label .label-yellow }
 
 ## Table of Contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
+
+<!-- prettier-ignore-end -->
 
 ## FTC Computer Vision

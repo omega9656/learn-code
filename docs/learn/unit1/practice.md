@@ -7,20 +7,24 @@ grand_parent: Learn
 nav_order: 9
 ---
 
-# Unit 1: Practice
+<!-- prettier-ignore-start -->
 
+# Unit 1: Practice
 {: .no_toc }
 
 ## Table of Contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
+
+<!-- prettier-ignore-end -->
 
 ## Practice
 
 ### Circle Area
+
+<!-- prettier-ignore-start -->
 
 import
 {: .label }
@@ -29,13 +33,16 @@ Scanner
 variables
 {: .label }
 constants
-{: .label }
+{: .label } 
 concatenation
 {: .label }
 
-Create a class called `CircleArea` which prompts the user to enter the radius of a circle.
-Calculate the area of that circle and print the result. Hint: You should use the built-in constant
-`Math.PI` rather than your own constant for pi since it will be more accurate.
+<!-- prettier-ignore-end -->
+
+Create a class called `CircleArea` which prompts the user to enter the radius of
+a circle. Calculate the area of that circle and print the result. Hint: You
+should use the built-in constant `Math.PI` rather than your own constant for pi
+since it will be more accurate.
 
 **Template Code**
 
@@ -47,9 +54,12 @@ public class CircleArea {
 }
 ```
 
+<!-- prettier-ignore -->
 [Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/practice/CircleArea.java){: .btn }
 
 ### Compute Average
+
+<!-- prettier-ignore-start -->
 
 import
 {: .label }
@@ -58,8 +68,10 @@ Scanner
 double division
 {: .label }
 
-Create a class called `ComputeAverage` which prompts the user for 3 numbers (`double`).
-Calculate the average and print the result.
+<!-- prettier-ignore-end -->
+
+Create a class called `ComputeAverage` which prompts the user for 3 numbers
+(`double`). Calculate the average and print the result.
 
 **Template Code**
 
@@ -71,9 +83,12 @@ public class ComputeAverage {
 }
 ```
 
+<!-- prettier-ignore -->
 [Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/practice/ComputeAverage.java){: .btn }
 
 ### Compute Change
+
+<!-- prettier-ignore-start -->
 
 constants
 {: .label }
@@ -88,10 +103,11 @@ tab
 newline
 {: .label }
 
-Prompt the user for an amount of money in standard format (ex. 11.56).
-Print the number of dollars, quarters, dimes, nickels, and
-pennies that makes up the given amount of money.
-Hint: Convert the amount of money to cents.
+<!-- prettier-ignore-end -->
+
+Prompt the user for an amount of money in standard format (ex. 11.56). Print the
+number of dollars, quarters, dimes, nickels, and pennies that makes up the given
+amount of money. Hint: Convert the amount of money to cents.
 
 **Example Output**
 
@@ -115,9 +131,12 @@ public class ComputeChange {
 }
 ```
 
+<!-- prettier-ignore -->
 [Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/practice/ComputeChange.java){: .btn }
 
 ### Convert Minutes
+
+<!-- prettier-ignore-start -->
 
 Scanner
 {: .label }
@@ -126,8 +145,10 @@ modulus
 constants
 {: .label }
 
-Create a class called `ConvertMinutes` which prompts the user to enter a number of minutes.
-Convert the total minutes to hours and minutes. Print the result.
+<!-- prettier-ignore-end -->
+
+Create a class called `ConvertMinutes` which prompts the user to enter a number
+of minutes. Convert the total minutes to hours and minutes. Print the result.
 
 **Example Output**
 
@@ -147,11 +168,14 @@ public class ConvertMinutes {
 }
 ```
 
+<!-- prettier-ignore -->
 [Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/practice/ConvertMinutes.java){: .btn }
 
 ## Challenges
 
 ### Population
+
+<!-- prettier-ignore-start -->
 
 Scanner
 {: .label }
@@ -160,12 +184,14 @@ constants
 arithmetic operators
 {: .label }
 
-Given a number of years from 0, create a class `Population`
-which calculates the population as a function of birth, death, and
-migrations per second over that period of years.
+<!-- prettier-ignore-end -->
 
-Assume that the number of births, deaths, and migrations
-per year remains constant over that period of years.
+Given a number of years from 0, create a class `Population` which calculates the
+population as a function of birth, death, and migrations per second over that
+period of years.
+
+Assume that the number of births, deaths, and migrations per year remains
+constant over that period of years.
 
 Values you'll need:
 
@@ -186,4 +212,5 @@ public class Population {
 }
 ```
 
+<!-- prettier-ignore -->
 [Solution]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit1/challenges/Population.java){: .btn }

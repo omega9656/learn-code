@@ -7,4 +7,6 @@ author_position: Co-Captain
 categories: [updates]
 ---
 
-Hello World! This is Rebecca from FTC Omega 9656. This blog post marks the first milestone for creating this site using GitHub Pages and Jekyll. More coding content is coming soon!
+Hello World! This is Rebecca from FTC Omega 9656. This blog post marks the first
+milestone for creating this site using GitHub Pages and Jekyll. More coding
+content is coming soon!

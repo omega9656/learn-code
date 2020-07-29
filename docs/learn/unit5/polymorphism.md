@@ -7,19 +7,23 @@ grand_parent: Learn
 nav_order: 3
 ---
 
-# Unit 5: Polymorphism
+<!-- prettier-ignore-start -->
 
+# Unit 5: Polymorphism
 {: .no_toc }
+
 In development
 {: .label .label-purple }
 
 ## Table of Contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
+
+<!-- prettier-ignore-end -->
 
 ## Polymorphism
 
-Polymorphism is how an object can take on many forms. An example of this is how a Cat is not only an Animal, but also is Carnivorous.
+Polymorphism is how an object can take on many forms. An example of this is how
+a Cat is not only an Animal, but also is Carnivorous.

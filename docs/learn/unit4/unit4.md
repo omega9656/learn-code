@@ -9,5 +9,9 @@ nav_order: 5
 
 # Unit 4: Methods and Multi-Dimensional Arrays
 
+<!-- prettier-ignore-start -->
+
 Coming soon
 {: .label .label-yellow }
+
+<!-- prettier-ignore-end -->

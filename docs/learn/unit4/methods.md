@@ -7,18 +7,21 @@ grand_parent: Learn
 nav_order: 1
 ---
 
-# Unit 4: Methods
+<!-- prettier-ignore-start -->
 
+# Unit 4: Methods
 {: .no_toc }
+
 Coming soon
 {: .label .label-yellow }
 
 ## Table of Contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
+
+<!-- prettier-ignore-end -->
 
 ## What are methods?
 

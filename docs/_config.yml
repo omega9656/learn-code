@@ -7,11 +7,10 @@
 title: Learn Code
 email: ftc9656omega@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Want to learn how to code or teach others how to code?
-    FTC 9656 Omega Robotics presents Learn Code, a website
-    full of programming resources for beginners with a focus
-    on FTC-related topics. Get started with Java, command line,
-    Git, Roadrunner, and more!
+    Want to learn how to code or teach others how to code? FTC 9656 Omega
+    Robotics presents Learn Code, a website full of programming resources for
+    beginners with a focus on FTC-related topics. Get started with Java, command
+    line, Git, Roadrunner, and more!
 baseurl: "/learn-code" # the subpath of your site, e.g. /blog
 url: "https://omega9656.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: omega9656

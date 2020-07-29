@@ -9,7 +9,11 @@ nav_order: 2
 
 # Unit 1: Introduction to Java
 
+<!-- prettier-ignore-start -->
+
 New release
 {: .label .label-purple }
 Stable
 {: .label .label-green }
+
+<!-- prettier-ignore-end -->

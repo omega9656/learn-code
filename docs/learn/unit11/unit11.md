@@ -8,3 +8,10 @@ nav_order: 12
 ---
 
 # Unit 11: Control Theory
+
+<!-- prettier-ignore-start -->
+
+Coming soon
+{: .label .label-yellow }
+
+<!-- prettier-ignore-end -->

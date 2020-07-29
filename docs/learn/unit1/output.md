@@ -7,16 +7,18 @@ grand_parent: Learn
 nav_order: 3
 ---
 
-# Unit 1: Output
+<!-- prettier-ignore-start -->
 
+# Unit 1: Output
 {: .no_toc }
 
 ## Table of Contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
+
+<!-- prettier-ignore-end -->
 
 ## Printing
 
@@ -33,9 +35,12 @@ Output:
 Hello world!
 ```
 
-The `System.out.println` method automatically adds a newline character (`\n`) to the end of whatever it prints. Basically that means that whatever you put in parentheses is printed on its own line.
+The `System.out.println` method automatically adds a newline character (`\n`) to
+the end of whatever it prints. Basically that means that whatever you put in
+parentheses is printed on its own line.
 
-On the other hand, if you want things to be printed right next to each other, use `System.out.print`.
+On the other hand, if you want things to be printed right next to each other,
+use `System.out.print`.
 
 ```java
 System.out.println("This starts a new line");
@@ -50,6 +55,9 @@ This starts a new line
 This does not
 ```
 
-Another way to print things is using the `System.out.printf` method, which allows you to format output. We'll cover this in more detail in [Variables](/learn-code/learn/unit1/variables/).
+Another way to print things is using the `System.out.printf` method, which
+allows you to format output. We'll cover this in more detail in
+[Variables](/learn-code/learn/unit1/variables/).
 
-**Note**: Besides the newline character (`\n`), there are other special types of characters such as the tab character (`\t`) which inserts a tab.
+**Note**: Besides the newline character (`\n`), there are other special types of
+characters such as the tab character (`\t`) which inserts a tab.

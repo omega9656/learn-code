@@ -7,18 +7,21 @@ grand_parent: Learn
 nav_order: 3
 ---
 
-# Unit 7: Git
+<!-- prettier-ignore-start -->
 
+# Unit 7: Git
 {: .no_toc }
+
 Coming soon
 {: .label .label-yellow }
 
 ## Table of Contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
+
+<!-- prettier-ignore-end -->
 
 ## Git
 

@@ -7,18 +7,21 @@ grand_parent: Learn
 nav_order: 1
 ---
 
-# Unit 6: Abstract Classes
+<!-- prettier-ignore-start -->
 
+# Unit 6: Abstract Classes
 {: .no_toc }
+
 Coming soon
 {: .label .label-yellow }
 
 ## Table of Contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
+
+<!-- prettier-ignore-end -->
 
 ## Abstract Classes
 
