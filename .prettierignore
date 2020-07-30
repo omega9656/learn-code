@@ -1,2 +1,4 @@
 # Ignore workflow files
 .github/workflows/
+
+WhyWeUseBraces.java
