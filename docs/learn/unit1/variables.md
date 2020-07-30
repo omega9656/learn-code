@@ -125,6 +125,14 @@ Output:
 Jane Doe
 ```
 
+Note that you can also declare and initialize multiple variables of the same
+type at the same time. For example:
+
+```java
+int a, b, c;
+int d = 1, e = 2, f = 3;
+```
+
 ## Casting
 
 Sometimes, you will need to convert from one data type to another (assuming it
