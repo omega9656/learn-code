@@ -11,13 +11,13 @@ permalink: changelog
 
 ### v0.2.0
 
--   Unit 2 published completely
+-   Unit 2 published completely #10
 
 ### v0.1.1
 
--   Fix Prettier CI
+-   Fix Prettier CI #9
 
 ### v0.1.0
 
--   Unit sections split into child pages
--   Unit 1 published completely
+-   Unit sections split into child pages #8
+-   Unit 1 published completely #7
