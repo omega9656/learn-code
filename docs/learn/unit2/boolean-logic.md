@@ -22,11 +22,14 @@ nav_order: 1
 
 ## Boolean Logic
 
+Boolean logic, named after mathematician [George Boole](https://en.wikipedia.org/wiki/George_Boole),
+is how we form conditional statements in programming. This is important because sometimes we only want certain code to run if certain conditions are met.
+
+## Logical Operators
+
 Boolean logic in programming revolves around three key components: AND, OR, and
 NOT. These operators can compare multiple booleans together to see if a
 statement is true or false. In Java, these operators use different symbols.
-
-## Logical Operators
 
 ### AND
 
@@ -35,29 +38,32 @@ if the two boolean statements are both true. If they are both true, then the
 complete boolean statement would be true.
 
 ```java
-public class HelloWorld{
-    public static void main(String[] args){
-        boolean isRaining = true;
-        boolean isCloudy = true;
+boolean isRaining = true;
+boolean isCloudy = true;
 
-        System.out.println(isRaining && isCloudy); //prints true
-    }
-}
+System.out.println(isRaining && isCloudy); // prints true
 ```
 
 However, if one or both of the booleans are false, then the whole boolean
 statement would be false.
 
 ```java
-public class HelloWorld{
-    public static void main(String[] args){
-        boolean isRaining = false;
-        boolean isCloudy = true;
+boolean isRaining = true;
+boolean isCloudy = false;
 
-        System.out.println(isRaining && isCloudy); //prints false
-    }
-}
+System.out.println(isRaining && isCloudy); // prints false
 ```
+
+**Truth Table**
+
+| `var1`  | `var2`  | `var1 && var2` |
+| :------ | :------ | :------------- |
+| `true`  | `true`  | `true`         |
+| `true`  | `false` | `false`        |
+| `false` | `true`  | `false`        |
+| `false` | `false` | `false`        |
+
+**Note**: The logical AND (`&&`) is different from the bitwise AND (`&`)!
 
 ### OR
 
@@ -66,43 +72,32 @@ booleans statements is true. If both are true, then the complete boolean
 statement would be true.
 
 ```java
-public class HelloWorld{
-    public static void main(String[] args){
-        boolean isRaining = true;
-        boolean isCloudy = true;
+boolean isRaining = true;
+boolean isCloudy = false;
 
-        System.out.println(isRaining || isCloudy); //prints true
-    }
-}
-```
-
-If one boolean statement is true, and the other was false, the OR operator would
-still return true.
-
-```java
-public class HelloWorld{
-    public static void main(String[] args){
-        boolean isRaining = false;
-        boolean isCloudy = true;
-
-        System.out.println(isRaining && isCloudy); //prints true
-    }
-}
+System.out.println(isRaining || isCloudy); // prints true
 ```
 
 Only if both statements were false, then the complete boolean statement would
 return false.
 
 ```java
-public class HelloWorld{
-    public static void main(String[] args){
-        boolean isRaining = false;
-        boolean isCloudy = false;
+boolean isRaining = false;
+boolean isCloudy = false;
 
-        System.out.println(isRaining && isCloudy); //prints false
-    }
-}
+System.out.println(isRaining || isCloudy); // prints false
 ```
+
+**Truth Table**
+
+| `var1`  | `var2`  | `var1 || var2` |
+| :------ | :------ | :------------- |
+| `true`  | `true`  | `true`         |
+| `true`  | `false` | `true`         |
+| `false` | `true`  | `true`         |
+| `false` | `false` | `false`        |
+
+**Note**: The logical OR (`||`) is different from the bitwise OR (`|`)!
 
 ### NOT
 
@@ -112,28 +107,55 @@ operator simply gives the opposite of a boolean statement. In this example, if
 the NOT operator is used, the print statement would print true.
 
 ```java
-public class HelloWorld{
-    public static void main(String[] args){
-        boolean isRaining = false;
+boolean isRaining = false;
 
-        System.out.println(!isRaining); //prints true
-    }
-}
+System.out.println(!isRaining); // prints true
 ```
 
-The NOT operator can be used on any boolean statements, which means that it can
-be used with the AND and OR operators as well.
+**Truth Table**
 
-```java
-public class HelloWorld{
-    public static void main(String[] args){
-        boolean isRaining = false;
-        boolean isCloudy = true;
+| `var`   | `!var`  |
+| :------ | :------ |
+| `true`  | `false` |
+| `false` | `true`  |
 
-        System.out.println(!(isRaining && isCloudy)); //prints true
-    }
-}
-```
+Note that you can combine operators however you wish. Just make sure
+that you use parentheses to make it clear in what order you want
+the boolean expressions to be evaluated!
 
-Note that there needs to be parentheses around the operators if you are using
-multiple.
+### XOR
+
+There is another logical operator called XOR (exclusive OR), which is `^`.
+It is not commonly used, but it's nice to know for reference. The result of an XOR
+is `true` only if _exactly one_ value is `true`.
+
+**Truth Table**
+
+| `var1`  | `var2`  | `var1 ^ var2` |
+| :------ | :------ | :------------ |
+| `true`  | `true`  | `false`       |
+| `true`  | `false` | `true`        |
+| `false` | `true`  | `true`        |
+| `false` | `false` | `false`       |
+
+## Relational Operators
+
+As their name suggests, relational operators deal with
+the relationships between two values.
+
+| Relational Operator | In words                 | Example             |
+| :------------------ | :----------------------- | :------------------ |
+| `>`                 | greater than             | `5 > 3` is `true`   |
+| `<`                 | less than                | `5 < 3` is `false`  |
+| `>=`                | greater than or equal to | `5 >= 5` is `true`  |
+| `<=`                | less than or equal to    | `3 <= 2` is `false` |
+| `==`                | equal to                 | `5 == 5` is `true`  |
+| `!=`                | not equal to             | `5 != 5` is `false` |
+
+The greater `>`, `<`, `>=`, and `<=` operators are used with
+numbers. `==` and `!=` can be used with numbers or other values.
+Note that the equality and inequality operators can be tricky
+because technically they check if two values are located in the
+same place in memory. We will later learn that even if the value
+of a variable is identical to another, it may not be "equal" using
+the equality operator.
