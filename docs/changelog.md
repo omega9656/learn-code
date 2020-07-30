@@ -9,6 +9,10 @@ permalink: changelog
 
 ## v0 - Initial release
 
+### v0.2.0
+
+-   Unit 2 published completely
+
 ### v0.1.1
 
 -   Fix Prettier CI
