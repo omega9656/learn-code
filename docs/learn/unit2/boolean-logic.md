@@ -22,8 +22,10 @@ nav_order: 1
 
 ## Boolean Logic
 
-Boolean logic, named after mathematician [George Boole](https://en.wikipedia.org/wiki/George_Boole),
-is how we form conditional statements in programming. This is important because sometimes we only want certain code to run if certain conditions are met.
+Boolean logic, named after mathematician
+[George Boole](https://en.wikipedia.org/wiki/George_Boole), is how we form
+conditional statements in programming. This is important because sometimes we
+only want certain code to run if certain conditions are met.
 
 ## Logical Operators
 
@@ -119,15 +121,15 @@ System.out.println(!isRaining); // prints true
 | `true`  | `false` |
 | `false` | `true`  |
 
-Note that you can combine operators however you wish. Just make sure
-that you use parentheses to make it clear in what order you want
-the boolean expressions to be evaluated!
+Note that you can combine operators however you wish. Just make sure that you
+use parentheses to make it clear in what order you want the boolean expressions
+to be evaluated!
 
 ### XOR
 
-There is another logical operator called XOR (exclusive OR), which is `^`.
-It is not commonly used, but it's nice to know for reference. The result of an XOR
-is `true` only if _exactly one_ value is `true`.
+There is another logical operator called XOR (exclusive OR), which is `^`. It is
+not commonly used, but it's nice to know for reference. The result of an XOR is
+`true` only if _exactly one_ value is `true`.
 
 **Truth Table**
 
@@ -140,8 +142,8 @@ is `true` only if _exactly one_ value is `true`.
 
 ## Relational Operators
 
-As their name suggests, relational operators deal with
-the relationships between two values.
+As their name suggests, relational operators deal with the relationships between
+two values.
 
 | Relational Operator | In words                 | Example             |
 | :------------------ | :----------------------- | :------------------ |
@@ -152,10 +154,9 @@ the relationships between two values.
 | `==`                | equal to                 | `5 == 5` is `true`  |
 | `!=`                | not equal to             | `5 != 5` is `false` |
 
-The greater `>`, `<`, `>=`, and `<=` operators are used with
-numbers. `==` and `!=` can be used with numbers or other values.
-Note that the equality and inequality operators can be tricky
-because technically they check if two values are located in the
-same place in memory. We will later learn that even if the value
-of a variable is identical to another, it may not be "equal" using
-the equality operator.
+The greater `>`, `<`, `>=`, and `<=` operators are used with numbers. `==` and
+`!=` can be used with numbers or other values. Note that the equality and
+inequality operators can be tricky because technically they check if two values
+are located in the same place in memory. We will later learn that even if the
+value of a variable is identical to another, it may not be "equal" using the
+equality operator.

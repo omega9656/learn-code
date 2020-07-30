@@ -73,8 +73,8 @@ switch
 <!-- prettier-ignore-end -->
 
 Create a class called `Month` which prompts the user for a number from 1 to 12
-Using a switch, print the month that corresponds with that number.
-If the number is not from 1 to 12, give an error message.
+Using a switch, print the month that corresponds with that number. If the number
+is not from 1 to 12, give an error message.
 
 **Example Output**
 
@@ -109,8 +109,8 @@ relational operators
 
 <!-- prettier-ignore-end -->
 
-Create a class called `Vote` which prompts the user for their age.
-Depending on their age, print to the console whether or not they can vote.
+Create a class called `Vote` which prompts the user for their age. Depending on
+their age, print to the console whether or not they can vote.
 
 **Example Output**
 
@@ -146,9 +146,11 @@ modulus
 <!-- prettier-ignore-end -->
 
 Create a class called `Zodiac` which prompts the user for their birth year.
-Using a switch, print their zodiac sign. Hint: Zodiac signs repeat every 12 years.
+Using a switch, print their zodiac sign. Hint: Zodiac signs repeat every 12
+years.
 
 Order of zodiac signs:
+
 1. monkey
 2. rooster
 3. dog
@@ -201,20 +203,24 @@ relational operators
 
 <!-- prettier-ignore-end -->
 
-Create a class called `Intervals` which prompts the user to enter start and end times
-for an earlier interval and a later interval in 24-hour format.
+Create a class called `Intervals` which prompts the user to enter start and end
+times for an earlier interval and a later interval in 24-hour format.
 
-The program should then calculate the duration of each time interval and display:
-- The duration of each interval
-- Which interval is longer
-- Whether the intervals of time overlap
+The program should then calculate the duration of each time interval and
+display:
 
-Bonus points if you can implement a solution where if the user switches the start and end times
-and/or switches earlier and later intervals, the program will still function properly.
+-   The duration of each interval
+-   Which interval is longer
+-   Whether the intervals of time overlap
+
+Bonus points if you can implement a solution where if the user switches the
+start and end times and/or switches earlier and later intervals, the program
+will still function properly.
 
 Hint: Use modulus and convert everything into minutes after midnight (00:00).
 
-Note: You can use 2 consecutive calls to `nextInt()` to get 2 integers that are separated by a space.
+Note: You can use 2 consecutive calls to `nextInt()` to get 2 integers that are
+separated by a space.
 
 **Example Output**
 
@@ -257,17 +263,19 @@ print formatting
 
 <!-- prettier-ignore-end -->
 
-Create a class called `PayCalculator` which prompts the user to enter the
-number of hours worked that week and the hourly pay rate.
+Create a class called `PayCalculator` which prompts the user to enter the number
+of hours worked that week and the hourly pay rate.
 
-The program will compute the total pay for that week, paying time and a half
-for any hours over 40.
+The program will compute the total pay for that week, paying time and a half for
+any hours over 40.
 
-It should format the total pay in standard money form - that is, 2 decimal places of precision.
+It should format the total pay in standard money form - that is, 2 decimal
+places of precision.
 
-Hint: Time and a half means that if you work over 40 hours, your total will be the number
-of hours you worked * pay rate, plus an overtime bonus. The overtime bonus is calculated by
-taking the number of hours overtime worked * half the normal pay rate. (Hence, time and a half.)
+Hint: Time and a half means that if you work over 40 hours, your total will be
+the number of hours you worked _ pay rate, plus an overtime bonus. The overtime
+bonus is calculated by taking the number of hours overtime worked _ half the
+normal pay rate. (Hence, time and a half.)
 
 **Example Output 1**
 

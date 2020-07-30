@@ -52,8 +52,8 @@ if (age >= 18) {
 ### Else
 
 You can also make the program do something when a condition is not met by using
-an else statement after the if statement. In the example below, assume a `Scanner`
-object `input` has already been initialized.
+an else statement after the if statement. In the example below, assume a
+`Scanner` object `input` has already been initialized.
 
 ```java
 // prompt user for their age
@@ -104,8 +104,8 @@ if (age >= 18) {
 }
 ```
 
-Note that having the final `else` clause is not technically required,
-but is recommended to catch all other conditions you may not have thought of.
+Note that having the final `else` clause is not technically required, but is
+recommended to catch all other conditions you may not have thought of.
 
 Example output 1:
 
@@ -130,9 +130,10 @@ You can't vote and you're not a teen.
 
 ### Why We Use Braces
 
-Technically, for if statements with only one line of code in them, you don't need the curly
-braces for the code to work. That might make you tempted to omit braces entirely. However,
-we _highly recommend_ that you _always_ use braces no matter what to avoid logic errors.
+Technically, for if statements with only one line of code in them, you don't
+need the curly braces for the code to work. That might make you tempted to omit
+braces entirely. However, we _highly recommend_ that you _always_ use braces no
+matter what to avoid logic errors.
 
 Analyze the following code to avoid 4 common errors.
 
@@ -173,17 +174,17 @@ if (even) {
 int i = 1, j = 2, k = 3;
 
 // not wrong, but ambiguous - to which if does the last else belong to?
-if (i > j) 
-    if (i > k) 
+if (i > j)
+    if (i > k)
         System.out.println("A");
 else System.out.println("B");
 
 // equivalent to above code with correct indentation
-if (i > j) 
+if (i > j)
     if (i > k)
         System.out.println("A");
     else
-        // else clause always matches most recent 
+        // else clause always matches most recent
         // unmatched if clause in the same block
         System.out.println("B");
 ```
@@ -230,9 +231,9 @@ System.out.println("The tuition is " + tuition);
 
 ## Switch Statement
 
-Switch statements are an easier way to execute code based on the value of a variable.
-Once again, assume in the example below that a `Scanner` object called `input` has been
-initialized.
+Switch statements are an easier way to execute code based on the value of a
+variable. Once again, assume in the example below that a `Scanner` object called
+`input` has been initialized.
 
 ```java
 // prompt user for their rating
@@ -278,7 +279,6 @@ if (rating == 1) {
 }
 ```
 
-
 Example output 1:
 
 ```
@@ -293,19 +293,20 @@ Enter your rating: 3 [Enter ↩]
 Fair
 ```
 
-Note that you can basically have as many cases as you want and execute
-basically as much code as you want for each case.
+Note that you can basically have as many cases as you want and execute basically
+as much code as you want for each case.
 
 ### Fall Through
 
 Notice that at the end of each case in a switch statement, there is a `break`
-statement. This `break` statement is important because it ends the switch statement
-once a case has been executed. If you don't write a `break` statement, you will
-observe what is called _fall through behavior_.
+statement. This `break` statement is important because it ends the switch
+statement once a case has been executed. If you don't write a `break` statement,
+you will observe what is called _fall through behavior_.
 
-What happens is that the switch checks the value of the variable against the cases
-from top to bottom. Once it matches a case, all of the code for that case and the ones
-below it are executed, until either the switch statement ends or there is a `break`.
+What happens is that the switch checks the value of the variable against the
+cases from top to bottom. Once it matches a case, all of the code for that case
+and the ones below it are executed, until either the switch statement ends or
+there is a `break`.
 
 For example, analyze the code below. Notice that we have removed the `break`
 statements for cases 1-3 and that `rating` is set to `2`.
@@ -337,18 +338,18 @@ Fair
 Good
 ```
 
-Notice that since `rating` is `2`, it matches `case 2` and the code there
-is executed. Since there are no `break` statement in `case 2` and `case 3`,
-it falls through and the code in `case 3` and `case 4` are executed. Once
-we finish the code in `case 4`, there is a `break` statement, so we exit
-the switch statement.
+Notice that since `rating` is `2`, it matches `case 2` and the code there is
+executed. Since there are no `break` statement in `case 2` and `case 3`, it
+falls through and the code in `case 3` and `case 4` are executed. Once we finish
+the code in `case 4`, there is a `break` statement, so we exit the switch
+statement.
 
 ### Default
 
-There is another special optional case in a switch statement called
-the `default` case. If the value of the variable fails to match any
-of the explicit cases, the code in the `default` case will run. It's
-similar to having an `else` clause.
+There is another special optional case in a switch statement called the
+`default` case. If the value of the variable fails to match any of the explicit
+cases, the code in the `default` case will run. It's similar to having an `else`
+clause.
 
 ```java
 int rating = 10;
@@ -374,9 +375,9 @@ switch (rating) {
 }
 ```
 
-_Note that there is no `break` at the end of the `default` case._
-_You could technically have a `break`, but since it's the end of the switch_
-_it doesn't matter if you have one or not._
+_Note that there is no `break` at the end of the `default` case._ _You could
+technically have a `break`, but since it's the end of the switch_ _it doesn't
+matter if you have one or not._
 
 Output:
 
@@ -386,9 +387,9 @@ Not a valid rating
 
 ## Ternary Operator
 
-The final selection structure we'll discuss is the ternary operator.
-It is not commonly used, but for reference we'll include it. It's essentially
-a shortened way to write an if-else statement to assign a value to a variable.
+The final selection structure we'll discuss is the ternary operator. It is not
+commonly used, but for reference we'll include it. It's essentially a shortened
+way to write an if-else statement to assign a value to a variable.
 
 The general form of a statement using the ternary operator is:
 
@@ -396,10 +397,10 @@ The general form of a statement using the ternary operator is:
 var = (condition) ? ifValue : elseValue;
 ```
 
-If `condition` is `true`, then `var` will be assigned the value
-of `ifValue`. Otherwise, it will be assigned the value of `elseValue`.
-For example, let's use a ternary operator to decide how many days
-are in the month of February. (Assume all variables are declared and initialized.)
+If `condition` is `true`, then `var` will be assigned the value of `ifValue`.
+Otherwise, it will be assigned the value of `elseValue`. For example, let's use
+a ternary operator to decide how many days are in the month of February. (Assume
+all variables are declared and initialized.)
 
 ```java
 daysInMonth = (month == 2 && isLeapYear) ? 29 : 28;
