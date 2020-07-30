@@ -9,11 +9,4 @@ nav_order: 4
 
 # Unit 2: Quiz
 
-<!-- prettier-ignore-start -->
-
-Coming soon
-{: .label .label-yellow }
-
-<!-- prettier-ignore-end -->
-
 {% include quizzes/unit-2.html %}

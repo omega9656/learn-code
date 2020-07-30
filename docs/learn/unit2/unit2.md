@@ -11,7 +11,9 @@ nav_order: 3
 
 <!-- prettier-ignore-start -->
 
-In development
+New release
 {: .label .label-purple }
+Stable
+{: .label .label-green }
 
 <!-- prettier-ignore-end -->
