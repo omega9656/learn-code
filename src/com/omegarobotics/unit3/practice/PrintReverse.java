@@ -4,7 +4,8 @@ public class PrintReverse {
 
     public static void main(String[] args) {
         /*
-        Given an array of numbers (below), print the items in reverse order.
+        Given an array of numbers (below), print the items in reverse order
+        using a for loop.
          */
         int[] numbers = { 1, 2, 3, 4, 5 };
 
