@@ -139,7 +139,7 @@ String[] quote = {
 with a new line is valid. In fact, it is good practice in this case since the array is so long.
 
 **Note**: Some developers prefer to add what is called a _trailing comma_ at the end of the last element
-in the array. This may seem odd since there's no comma afterward, which is why I normally don't do this.
+in the array. This may seem odd since there's no comma afterward, which is why we normally don't do this.
 However, there are [some benefits](https://medium.com/@nikgraf/why-you-should-enforce-dangling-commas-for-multiline-statements-d034c98e36f8).
 
 **Example Output**

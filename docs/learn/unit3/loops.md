@@ -23,7 +23,7 @@ nav_order: 1
 ## What are loops?
 
 So far, we've gone over selection structures. Those are all neat and good,
-but what if we want to repeat code? I could just copy and paste the code,
+but what if we want to repeat code? You could just copy and paste the code,
 but that takes way too much effort and is hard to maintain.
 
 Enter loops. Loops are programming structures that allow us to repeat code
@@ -32,7 +32,7 @@ in specific ways.
 ## For Loop
 
 _For loops_ are used when you have a relatively good idea of how many times
-you want your code to run. For example, if I wanted you to print `"Hello World"`
+you want your code to run. For example, if you wanted you to print `"Hello World"`
 100 times, a for loop would be a great choice.
 
 The general form of a for loop is as follows:
