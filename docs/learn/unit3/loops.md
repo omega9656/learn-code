@@ -88,6 +88,34 @@ current state of the control variable `i`.
 | `99`  | `true`              | `Hello World` (x100)                            |
 | `100` | `false` (loop ends) | `Hello World` (x100 - no change)                |
 
+### Multiple Initializations and Actions
+
+You can technically have more than one initialization and action in a for loop.
+In that case, you would separate each statement with a colon rather than a semicolon.
+However, this is not very common.
+
+Example:
+
+```java
+int i = 0;
+int j = 0;
+
+for (i = 1, j = 1; i < 7; i++, j += 2) {
+    System.out.printf("i: %d, j: %d, i + j: %d\n", i, j, i + j);
+}
+```
+
+Output:
+
+```
+i: 1, j: 1, i + j: 2
+i: 2, j: 3, i + j: 5
+i: 3, j: 5, i + j: 8
+i: 4, j: 7, i + j: 11
+i: 5, j: 9, i + j: 14
+i: 6, j: 11, i + j: 17
+```
+
 ## While Loop
 
 What if we want to repeat code, but we're not exactly sure how many times we want
@@ -191,3 +219,99 @@ Is it raining? Enter true or false: true [Enter ↩]
 Is it raining? Enter true or false: true [Enter ↩]
 Is it raining? Enter true or false: false [Enter ↩]
 ```
+
+## Break and Continue
+
+Loops are great, but sometimes we want to stop looping
+or skip the current iteration of the loop. That's where
+`break` and `continue` come in.
+
+Note that you can use these keywords inside the bodies
+of any type of loop (whether it's a for loop or while loop).
+
+### Break
+
+The `break` statement, as you may recall from [Unit 2](/learn-code/learn/unit2/selection#switch-statement),
+is used to immediately terminate a control structure. In the case of loops,
+once you hit a `break` statement, you immediately exit the loop. Any code that is
+inside the loop body but _after_ the `break` statement will _not_ run.
+
+### Continue
+
+The `continue` statement is used to terminate the _current iteration_ of the loop
+rather than terminate the loop completely. Like the `break` statement, any code
+inside the loop body but _after_ the `continue` statement will _not_ run.
+
+### Break vs Continue
+
+Analyze the code below to learn the difference between `break` and `continue`.
+
+```java
+// Testing the continue keyword
+System.out.println("Testing continue");
+
+int sum = 0;
+int number = 0;
+
+// Print the current number from 1-10,
+// but skip 7 and 8.
+// Also keep a running sum of the numbers.
+while (number < 10) {
+    number++;
+    if (number == 7 || number == 8) {
+        continue;
+    }
+    sum += number;
+    System.out.printf("number: %d sum: %d.\n", number, sum);
+}
+
+System.out.println("The sum is " + sum);
+
+// Testing the break keyword
+System.out.println("\n\nTesting break");
+
+sum = 0;
+number = 0;
+
+// Print the current number from 1-6.
+// Also keep a running sum of the numbers.
+while (number < 10) {
+    number++;
+    if (number == 7) { // will never reach 8
+        break;
+    }
+    sum += number; // 7 is never added to the sum
+    System.out.printf("number: %d sum: %d.\n", number, sum);
+}
+
+System.out.println("The sum is " + sum);
+```
+
+Output
+
+```
+Testing continue
+number: 1 sum: 1.
+number: 2 sum: 3.
+number: 3 sum: 6.
+number: 4 sum: 10.
+number: 5 sum: 15.
+number: 6 sum: 21.
+number: 9 sum: 30.
+number: 10 sum: 40.
+The sum is 40
+
+
+Testing break
+number: 1 sum: 1.
+number: 2 sum: 3.
+number: 3 sum: 6.
+number: 4 sum: 10.
+number: 5 sum: 15.
+number: 6 sum: 21.
+The sum is 21
+```
+
+Notice that when we tested `continue`, we skipped when `number` was `7` or `8`, but
+the loop kept going. On the other hand, when we tested `break`, once `number` hit `7`,
+the loop ended completely.
