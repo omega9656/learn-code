@@ -19,6 +19,8 @@ public class Quotient {
         int n1 = input.nextInt();
         int n2 = input.nextInt();
 
+        input.close();
+
         try {
             System.out.println(n1 + " / " + n2 + " = " + (n1 / n2));
         } catch (ArithmeticException ex) {

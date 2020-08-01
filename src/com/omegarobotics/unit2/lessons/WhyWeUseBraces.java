@@ -24,8 +24,10 @@ public class WhyWeUseBraces {
 
         // common error 2: wrong semicolon at the if line
         if (radius >= 0); // logic error: this line is equivalent to: if (radius >= 0) { }; (an empty if block)
+        {
             area = radius * radius * Math.PI;
             System.out.println("The area is " + area);
+        }
 
         // common error 3: redundant testing of boolean values
         boolean even = 6 % 2 == 0;
@@ -57,4 +59,5 @@ public class WhyWeUseBraces {
                 // else clause always matches most recent 
                 // unmatched if clause in the same block
                 System.out.println("B"); 
+    }
 }

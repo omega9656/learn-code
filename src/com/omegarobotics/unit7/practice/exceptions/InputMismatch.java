@@ -33,5 +33,7 @@ public class InputMismatch {
                 input.nextLine(); // discard input
             }
         } while (continueInput);
+
+        input.close();
     }
 }
