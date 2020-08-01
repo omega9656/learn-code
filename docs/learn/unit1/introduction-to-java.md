@@ -130,7 +130,7 @@ As you may have noticed, the rest of the code is what actually does the magic of
 printing "Hello world!" to the console. We'll talk more about what specifically
 those remaining 2 lines means in the next section.
 
-Before we get to that, I want to point out some things about Java:
+Before we get to that, here are some things you should know about Java:
 
 -   All Java statements end with a semicolon (for example,
     `System.out.println("Hello world!");`)

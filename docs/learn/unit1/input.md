@@ -44,10 +44,18 @@ import java.util.Scanner;
 public class Input {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter the price of an apple: ");
+        System.out.print("Enter the price of an apple: $");
         double price = input.nextDouble();
+        System.out.println("Apple price: $" + price);
     }
 }
+```
+
+Example output:
+
+```
+Enter the price of an apple: $5.36 [Enter ↩]
+Apple price: $5.36
 ```
 
 Let's break down this code. First, we imported the `Scanner` class using
@@ -83,3 +91,6 @@ Here are commonly used `Scanner` methods you should know:
 | `nextLine()`   | `String`    | `input.nextLine();`   |
 
 Note that there is no `nextChar()` method.
+
+Note that to close the input stream, you use the `close()` method. You technically
+don't need to do this, put it's generally good practice.

@@ -19,9 +19,11 @@ public class PracticeArrays {
         Bonus points if you can also code a solution using a for each loop!
 
         Part 2:
-        As the user to enter the length of an array.
+        Ask the user to enter the length of an array.
         Initialize an array of integers of the given length.
         Use a for loop to assign even numbers to the array.
+        Use another for loop to print the result.
+
         EXAMPLE OUTPUT:
         Enter the length of the array: 6
         0
@@ -30,8 +32,6 @@ public class PracticeArrays {
         6
         8
         10
-
-        Use another for loop to print the result.
          */
 
         // PART 1

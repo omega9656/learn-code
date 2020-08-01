@@ -143,8 +143,8 @@ Output:
 Pi is approximately 3.14
 ```
 
-Notice that to display up to 2 decimals of precision, we prepended `.2` to `f`.
-If I wanted to do 4 decimals of precision, I would write `%.4f`.
+Notice that to display 2 decimals of precision, you prepend `.2` to `f`.
+If you want to have 4 decimals of precision, write `%.4f`.
 
 If you want to learn more about string formatting in Java, see
 [this article](https://dzone.com/articles/java-string-format-examples).
