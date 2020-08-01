@@ -50,5 +50,7 @@ public class RetrieveElement {
                 System.out.println("Invalid index");
             }
         } while (!quit);
+
+        input.close();
     }
 }
