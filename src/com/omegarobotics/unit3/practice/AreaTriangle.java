@@ -38,7 +38,9 @@ public class AreaTriangle {
             System.out.println("The area of that triangle is " + area);
         } else {
             // otherwise, print error message
-            System.out.println("Error, those sides do not form a valid triangle.");
+            System.out.println(
+                "Error, those sides do not form a valid triangle."
+            );
         }
     }
 }
