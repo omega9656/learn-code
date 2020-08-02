@@ -21,6 +21,7 @@ public class Max {
     }
 
     /**
+     * Returns the maximum of 2 numbers
      * @param n1  first number
      * @param n2  second number
      * @return the maximum of the 2 numbers
@@ -28,8 +29,7 @@ public class Max {
     public static double max(double n1, double n2) {
         if (n1 > n2) {
             return n1;
-        } else {
-            return n2;
         }
+        return n2;
     }
 }

@@ -13,10 +13,11 @@ public class Grades {
     /*
     Create a method called printGrade which takes the test score
     of a student and prints the letter grade. It does not return anything.
+    Call printGrade in the main method with 3 different scores.
 
     Create another method called getGrade which takes the test score
-    of a student and prints the letter grade. It returns the grade, a char.
-    Print the result of the call in the main method.
+    of a student and returns the grade, a char. Print the result of calling printGrade
+    in the main method with 3 different scores.
      */
 
     public static void main(String[] args) {

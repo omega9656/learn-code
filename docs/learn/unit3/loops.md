@@ -22,17 +22,17 @@ nav_order: 1
 
 ## What are loops?
 
-So far, we've gone over selection structures. Those are all neat and good,
-but what if we want to repeat code? You could just copy and paste the code,
-but that takes way too much effort and is hard to maintain.
+So far, we've gone over selection structures. Those are all neat and good, but
+what if we want to repeat code? You could just copy and paste the code, but that
+takes way too much effort and is hard to maintain.
 
-Enter loops. Loops are programming structures that allow us to repeat code
-in specific ways.
+Enter loops. Loops are programming structures that allow us to repeat code in
+specific ways.
 
 ## For Loop
 
-_For loops_ are used when you have a relatively good idea of how many times
-you want your code to run. For example, if you wanted you to print `"Hello World"`
+_For loops_ are used when you have a relatively good idea of how many times you
+want your code to run. For example, if you wanted you to print `"Hello World"`
 100 times, a for loop would be a great choice.
 
 The general form of a for loop is as follows:
@@ -55,29 +55,30 @@ Let's break down this code.
 
 ### Initialization
 
-The first part of the for loop above was `int i = 0`. This initializes
-the loop's control variable. The control variable usually changes throughout
-each iteration of the loop so that eventually we will exit the loop.
+The first part of the for loop above was `int i = 0`. This initializes the
+loop's control variable. The control variable usually changes throughout each
+iteration of the loop so that eventually we will exit the loop.
 
-Note that you can call it whatever you want, and it doesn't necessarily need
-to be `i`, be an `int`, or start at `0`.
+Note that you can call it whatever you want, and it doesn't necessarily need to
+be `i`, be an `int`, or start at `0`.
 
 ### Condition
 
-The second part of the for loop was `i < 100`. This is the condition that
-is checked at the beginning of each iteration of the loop. The for loop continues
+The second part of the for loop was `i < 100`. This is the condition that is
+checked at the beginning of each iteration of the loop. The for loop continues
 repeating the code in the for loop body as long as that condition is `true`.
 
 ### Action
 
 The last part of the for loop was `i++`. This part of the for loop is executed
 every time the current iteration of the loop ends. In this case, each loop, `i`
-is incremented. This is also crucial to making sure the loop eventually terminates,
-because eventually `i` will equal `100` and thus `i < 100` is `false`.
+is incremented. This is also crucial to making sure the loop eventually
+terminates, because eventually `i` will equal `100` and thus `i < 100` is
+`false`.
 
-If you're still having trouble thinking about how this translates to `"Hello World"`
-being printed 100 times, consider this table which tracks the loop's output and
-current state of the control variable `i`.
+If you're still having trouble thinking about how this translates to
+`"Hello World"` being printed 100 times, consider this table which tracks the
+loop's output and current state of the control variable `i`.
 
 | `i`   | `i < 100`           | Output                                          |
 | :---- | :------------------ | :---------------------------------------------- |
@@ -91,8 +92,8 @@ current state of the control variable `i`.
 ### Multiple Initializations and Actions
 
 You can technically have more than one initialization and action in a for loop.
-In that case, you would separate each statement with a colon rather than a semicolon.
-However, this is not very common.
+In that case, you would separate each statement with a colon rather than a
+semicolon. However, this is not very common.
 
 Example:
 
@@ -118,9 +119,9 @@ i: 6, j: 11, i + j: 17
 
 ## While Loop
 
-What if we want to repeat code, but we're not exactly sure how many times we want
-to repeat it? In that case, a _while loop_ would be useful. The code inside of a
-while loop runs as long as a certain condition is `true`.
+What if we want to repeat code, but we're not exactly sure how many times we
+want to repeat it? In that case, a _while loop_ would be useful. The code inside
+of a while loop runs as long as a certain condition is `true`.
 
 The general form of a while loop is below.
 
@@ -130,8 +131,8 @@ while (condition) {
 }
 ```
 
-The condition is checked at the beginning of each loop to determine whether another
-iteration of the while loop will run.
+The condition is checked at the beginning of each loop to determine whether
+another iteration of the while loop will run.
 
 Here's an example of a while loop in action.
 
@@ -154,17 +155,17 @@ Output:
 
 Let's see what happened here with a table.
 
-| `n`   | `n > 2`             | Output             |
-| :---- | :------------------ | :----------------- |
-| `50`  | `true`              | `16`               |
-| `16`  | `true`              | `16`<br>`5`        |
-| `1`   | `false` (loop ends) | `16`<br>`5`<br>`1` |
+| `n`  | `n > 2`             | Output             |
+| :--- | :------------------ | :----------------- |
+| `50` | `true`              | `16`               |
+| `16` | `true`              | `16`<br>`5`        |
+| `1`  | `false` (loop ends) | `16`<br>`5`<br>`1` |
 
 ### Infinite Loops
 
-An _infinite loop_ happens when a loop runs forever. This usually happens
-if the programmer forgets to update the control variable or sets a condition
-that will never be `false`, and thus the loop will never terminate.
+An _infinite loop_ happens when a loop runs forever. This usually happens if the
+programmer forgets to update the control variable or sets a condition that will
+never be `false`, and thus the loop will never terminate.
 
 Here is an example of an infinite loop.
 
@@ -176,19 +177,21 @@ while (n < 50) {
 }
 ```
 
-Notice that the `n++` happens _outside_ of the while loop, so `n` will always be `1`
-inside the while loop. Thus, `n < 50` will _always_ be true, and the loop will print `1`
-forever (well, until the computer crashes or the programmer manually stops the program).
+Notice that the `n++` happens _outside_ of the while loop, so `n` will always be
+`1` inside the while loop. Thus, `n < 50` will _always_ be true, and the loop
+will print `1` forever (well, until the computer crashes or the programmer
+manually stops the program).
 
-To avoid infinite loops, make sure that your condition is reachable and that your control
-variable is being updated somehow.
+To avoid infinite loops, make sure that your condition is reachable and that
+your control variable is being updated somehow.
 
 ## Do While Loop
 
-There is another kind of while loop called a _do while loop_ which basically is the same
-as a while loop, except that you are guaranteed that the code inside the loop will run
-at least once. This is good for things like continuously getting user input, since you know
-you'll always need to ask the user at least once.
+There is another kind of while loop called a _do while loop_ which basically is
+the same as a while loop, except that you are guaranteed that the code inside
+the loop will run at least once. This is good for things like continuously
+getting user input, since you know you'll always need to ask the user at least
+once.
 
 The general form of a do while loop is as follows.
 
@@ -201,8 +204,8 @@ do {
 
 Notice that there is a semicolon at the end of the do while loop.
 
-In the example below, assume `isRaining` has been declared and that
-a `Scanner` object called `input` has been initialized.
+In the example below, assume `isRaining` has been declared and that a `Scanner`
+object called `input` has been initialized.
 
 ```java
 do {
@@ -222,25 +225,25 @@ Is it raining? Enter true or false: false [Enter ↩]
 
 ## Break and Continue
 
-Loops are great, but sometimes we want to stop looping
-or skip the current iteration of the loop. That's where
-`break` and `continue` come in.
+Loops are great, but sometimes we want to stop looping or skip the current
+iteration of the loop. That's where `break` and `continue` come in.
 
-Note that you can use these keywords inside the bodies
-of any type of loop (whether it's a for loop or while loop).
+Note that you can use these keywords inside the bodies of any type of loop
+(whether it's a for loop or while loop).
 
 ### Break
 
-The `break` statement, as you may recall from [Unit 2](/learn-code/learn/unit2/selection#switch-statement),
-is used to immediately terminate a control structure. In the case of loops,
-once you hit a `break` statement, you immediately exit the loop. Any code that is
-inside the loop body but _after_ the `break` statement will _not_ run.
+The `break` statement, as you may recall from
+[Unit 2](/learn-code/learn/unit2/selection#switch-statement), is used to
+immediately terminate a control structure. In the case of loops, once you hit a
+`break` statement, you immediately exit the loop. Any code that is inside the
+loop body but _after_ the `break` statement will _not_ run.
 
 ### Continue
 
-The `continue` statement is used to terminate the _current iteration_ of the loop
-rather than terminate the loop completely. Like the `break` statement, any code
-inside the loop body but _after_ the `continue` statement will _not_ run.
+The `continue` statement is used to terminate the _current iteration_ of the
+loop rather than terminate the loop completely. Like the `break` statement, any
+code inside the loop body but _after_ the `continue` statement will _not_ run.
 
 ### Break vs Continue
 
@@ -312,6 +315,6 @@ number: 6 sum: 21.
 The sum is 21
 ```
 
-Notice that when we tested `continue`, we skipped when `number` was `7` or `8`, but
-the loop kept going. On the other hand, when we tested `break`, once `number` hit `7`,
-the loop ended completely.
+Notice that when we tested `continue`, we skipped when `number` was `7` or `8`,
+but the loop kept going. On the other hand, when we tested `break`, once
+`number` hit `7`, the loop ended completely.
