@@ -16,7 +16,8 @@ permalink: changelog
 ### v0.3.0
 
 -   Published Unit 3 completely [#11]({{ site.github.repository_url }}/pull/11)
--   Added [Website Navigation](/learn-code/units#website-navigation) section to [Units](/learn-code/units)
+-   Added [Website Navigation](/learn-code/units#website-navigation) section to
+    [Units](/learn-code/units)
 -   Added minor changes to the [Assessment](/learn-code/teach/assessment) page
 -   Removed all "I" statements
 

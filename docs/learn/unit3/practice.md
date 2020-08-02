@@ -35,10 +35,12 @@ Math class
 
 <!-- prettier-ignore-end -->
 
-Create a class called `AreaTriangle` which prompts the user for 3 sides of a triangle.
-Given those sides, calculate and print the area. (Your program should also check to make
-sure that the side lengths given form a [valid triangle](https://www.mathsisfun.com/geometry/triangle-inequality-theorem.html). If they do not, print an error message
-instead of the triangle's area.) Hint: Use [Heron's formula](https://www.mathsisfun.com/geometry/herons-formula.html).
+Create a class called `AreaTriangle` which prompts the user for 3 sides of a
+triangle. Given those sides, calculate and print the area. (Your program should
+also check to make sure that the side lengths given form a
+[valid triangle](https://www.mathsisfun.com/geometry/triangle-inequality-theorem.html).
+If they do not, print an error message instead of the triangle's area.) Hint:
+Use [Heron's formula](https://www.mathsisfun.com/geometry/herons-formula.html).
 
 **Example Output**
 
@@ -71,8 +73,10 @@ Math class
 
 <!-- prettier-ignore-end -->
 
-Create a class called `ComputeDistance` which prompts the user to enter 2 (x, y) coordinates.
-Given those 2 points, calculate and print the [distance](https://www.mathsisfun.com/algebra/distance-2-points.html) between them.
+Create a class called `ComputeDistance` which prompts the user to enter 2 (x, y)
+coordinates. Given those 2 points, calculate and print the
+[distance](https://www.mathsisfun.com/algebra/distance-2-points.html) between
+them.
 
 **Example Output**
 
@@ -106,16 +110,17 @@ for loops
 
 <!-- prettier-ignore-end -->
 
-Create a class called `PracticeArrays` with solution code for the exercises below.
+Create a class called `PracticeArrays` with solution code for the exercises
+below.
 
 #### Part 1
-Initialize an array of `String`s which contain words in your favorite quote.
-Use a for loop to print the entire quote in one line.
-Bonus points if you can also code a solution using a for each loop!
 
-**Example Quote to Array**
-Quote: "The man dies in all who keep silent in the face of tyranny".
-Array:
+Initialize an array of `String`s which contain words in your favorite quote. Use
+a for loop to print the entire quote in one line. Bonus points if you can also
+code a solution using a for each loop!
+
+**Example Quote to Array** Quote: "The man dies in all who keep silent in the
+face of tyranny". Array:
 
 ```java
 String[] quote = {
@@ -135,12 +140,14 @@ String[] quote = {
 };
 ```
 
-**Note**: Remember that Java ignores whitespace (for the most part), so separating each element
-with a new line is valid. In fact, it is good practice in this case since the array is so long.
+**Note**: Remember that Java ignores whitespace (for the most part), so
+separating each element with a new line is valid. In fact, it is good practice
+in this case since the array is so long.
 
-**Note**: Some developers prefer to add what is called a _trailing comma_ at the end of the last element
-in the array. This may seem odd since there's no comma afterward, which is why we normally don't do this.
-However, there are [some benefits](https://medium.com/@nikgraf/why-you-should-enforce-dangling-commas-for-multiline-statements-d034c98e36f8).
+**Note**: Some developers prefer to add what is called a _trailing comma_ at the
+end of the last element in the array. This may seem odd since there's no comma
+afterward, which is why we normally don't do this. However, there are
+[some benefits](https://medium.com/@nikgraf/why-you-should-enforce-dangling-commas-for-multiline-statements-d034c98e36f8).
 
 **Example Output**
 
@@ -149,8 +156,10 @@ The man dies in all who keep silent in the face of tyranny
 ```
 
 #### Part 2
-Ask the user to enter the length of an array. Initialize an array of integers of the given length.
-Use a for loop to assign even numbers to the array. Use another for loop to print the result.
+
+Ask the user to enter the length of an array. Initialize an array of integers of
+the given length. Use a for loop to assign even numbers to the array. Use
+another for loop to print the result.
 
 **Example Output**
 
@@ -188,8 +197,8 @@ loops
 
 <!-- prettier-ignore-end -->
 
-Given an array of numbers (below), print the items in reverse order
-using a for loop. Your code should be in a class called `PrintReverse`.
+Given an array of numbers (below), print the items in reverse order using a for
+loop. Your code should be in a class called `PrintReverse`.
 
 **Array**
 
@@ -229,9 +238,9 @@ loops
 
 <!-- prettier-ignore-end -->
 
-Create a class called `RepeatPrint` which prints a message of your choice to the console 5 times.
-Bonus points if you can solve this problem in 2 ways: one solution with a for loop, and the other
-with a while loop.
+Create a class called `RepeatPrint` which prints a message of your choice to the
+console 5 times. Bonus points if you can solve this problem in 2 ways: one
+solution with a for loop, and the other with a while loop.
 
 **Example Output**
 
@@ -271,8 +280,8 @@ boolean logic
 
 <!-- prettier-ignore-end -->
 
-Create a class called `FindFactor` which asks the user for a number greater than 2.
-Find and print the smallest factor of that number that is not 1.
+Create a class called `FindFactor` which asks the user for a number greater
+than 2. Find and print the smallest factor of that number that is not 1.
 
 Bonus points if you can do it in 3 ways:
 
@@ -313,15 +322,15 @@ arithmetic operators
 
 <!-- prettier-ignore-end -->
 
-Create a class called `Hailstone` which asks the user for a positive integer n and
-display their input (the first number in the hailstone sequence).
+Create a class called `Hailstone` which asks the user for a positive integer n
+and display their input (the first number in the hailstone sequence).
 
-If n is even, divide n by 2. If n is odd, multiply n by 3 and add 1.
-Print the result (the current number in the hailstone sequence).
+If n is even, divide n by 2. If n is odd, multiply n by 3 and add 1. Print the
+result (the current number in the hailstone sequence).
 
 Keep doing this until n converges on 1 (it is the last item in the sequence,
-which you should also print) then print the number of items in the sequence
-and the average of all the numbers in the sequence.
+which you should also print) then print the number of items in the sequence and
+the average of all the numbers in the sequence.
 
 **Example Output**
 
@@ -368,32 +377,31 @@ logical operators
 
 Create a class called `LockerPuzzle` which contains your solution code.
 
-In a school, there are 100 lockers numbered 1 to 100. There are 100 students in the school.
-All of the lockers are initially closed.
+In a school, there are 100 lockers numbered 1 to 100. There are 100 students in
+the school. All of the lockers are initially closed.
 
 Student 1 goes through each locker and opens them.
 
-Student 2 goes through every other locker and opens them if they are closed,
-and closes them if they are open.
+Student 2 goes through every other locker and opens them if they are closed, and
+closes them if they are open.
 
-Student 3 goes through every 3 lockers and opens them if they are closed,
-and closes them if they are open.
+Student 3 goes through every 3 lockers and opens them if they are closed, and
+closes them if they are open.
 
-Students 4-100 follow the same pattern, opening/closing
-every 4th locker, 5th locker, 6th locker, ..., and 100th locker.
+Students 4-100 follow the same pattern, opening/closing every 4th locker, 5th
+locker, 6th locker, ..., and 100th locker.
 
-**Visualization of Lockers**
-(0 is closed, 1 is open)
+**Visualization of Lockers** (0 is closed, 1 is open)
 
-| Locker Numbers             | 1    | 2    | 3    | 4    | 5    |
-| :------------------------- | :--- | :--- | :--- | :--- | :--- |
-| Initial State (all closed) | 0    | 0    | 0    | 0    | 0    |
-| After Student 1            | 1    | 1    | 1    | 1    | 1    |
-| After Student 2            | 1    | 0    | 1    | 0    | 1    |
-| After Student 3            | 1    | 0    | 0    | 0    | 1    |
+| Locker Numbers             | 1   | 2   | 3   | 4   | 5   |
+| :------------------------- | :-- | :-- | :-- | :-- | :-- |
+| Initial State (all closed) | 0   | 0   | 0   | 0   | 0   |
+| After Student 1            | 1   | 1   | 1   | 1   | 1   |
+| After Student 2            | 1   | 0   | 1   | 0   | 1   |
+| After Student 3            | 1   | 0   | 0   | 0   | 1   |
 
-Print the numbers of the lockers that are open after student 100 is
-done opening/closing their locker(s).
+Print the numbers of the lockers that are open after student 100 is done
+opening/closing their locker(s).
 
 You should get the same output every time (it's a series of special numbers).
 
@@ -435,21 +443,24 @@ any characters that aren't letters or digits.
 
 Use a for loop or while loop.
 
-Hint 1: Wait, what's a phone word? Look at your phone's keypad. There are usually
-3 letters that correspond with each number that could be combined to form a phone number.
-For example, the phone word for3V3R would translate into 367-3837.
+Hint 1: Wait, what's a phone word? Look at your phone's keypad. There are
+usually 3 letters that correspond with each number that could be combined to
+form a phone number. For example, the phone word for3V3R would translate into
+367-3837.
 
 (Basically, your program should preserve numbers as they are and convert letters
 to numbers based on a phone keypad.)
 
-Hint 2: You might want to use [regular expressions](https://howtodoinjava.com/java-regular-expression-tutorials/) to get rid of all the characters
-that aren't numbers or letters!
+Hint 2: You might want to use
+[regular expressions](https://howtodoinjava.com/java-regular-expression-tutorials/)
+to get rid of all the characters that aren't numbers or letters!
 
-Bonus points if you can format the phone number such that there is a hyphen where
-there usually is (between the 3rd and 4th digit).
+Bonus points if you can format the phone number such that there is a hyphen
+where there usually is (between the 3rd and 4th digit).
 
-**Note**: To complete this challenge, you will need to know `String` methods in Java.
-You can read about them [here](https://www.w3schools.com/java/java_ref_string.asp).
+**Note**: To complete this challenge, you will need to know `String` methods in
+Java. You can read about them
+[here](https://www.w3schools.com/java/java_ref_string.asp).
 
 **Example Output**
 
@@ -491,17 +502,22 @@ boolean logic
 
 <!-- prettier-ignore-end -->
 
-Create a class called `Statistics` which asks the user to enter prices until they want
-to quit. After the user quits, display the number of items, average price (if possible),
-and sample standard deviation of the prices (if possible). Make sure the standard deviation
-is only up to 2 decimal points of precision (use `System.out.printf` and `%.2f`).
+Create a class called `Statistics` which asks the user to enter prices until
+they want to quit. After the user quits, display the number of items, average
+price (if possible), and sample standard deviation of the prices (if possible).
+Make sure the standard deviation is only up to 2 decimal points of precision
+(use `System.out.printf` and `%.2f`).
 
-**Note**: How to calculate sample standard deviation for this problem (since you don't know all the data at once)
+**Note**: How to calculate sample standard deviation for this problem (since you
+don't know all the data at once)
 
 1. Keep a count of the number of items (e.g. numItems)
-2. Keep a running sum of each price squared (e.g. sumSquares) (ex. if the prices are 5, 6, and 1, the sum of each price squared is 25 + 36 + 1)
-3. Keep a running sum of each price (e.g. sumItems) (ex. if the prices are 5, 6, and 1, the sum is 12)
-4. Sample standard deviation will be (not in Java syntax): `sqrt((numItems * sumSquares - sumItems * sumItems) / (numItems * (numItems - 1)))`
+2. Keep a running sum of each price squared (e.g. sumSquares) (ex. if the prices
+   are 5, 6, and 1, the sum of each price squared is 25 + 36 + 1)
+3. Keep a running sum of each price (e.g. sumItems) (ex. if the prices are 5, 6,
+   and 1, the sum is 12)
+4. Sample standard deviation will be (not in Java syntax):
+   `sqrt((numItems * sumSquares - sumItems * sumItems) / (numItems * (numItems - 1)))`
 
 **Example Output 1**
 
