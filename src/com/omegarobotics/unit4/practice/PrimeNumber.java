@@ -23,6 +23,7 @@ public class PrimeNumber {
     }
 
     /**
+     * Returns whether the number is prime or not
      * @param number  number to check if it's prime or not
      * @return whether the number is prime or not
      */
