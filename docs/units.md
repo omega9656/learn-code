@@ -40,6 +40,9 @@ Each problem is labeled with concepts that it covers and contains the instructio
 template code (which is meant to be copied and pasted), and solution code (link to the 
 code on GitHub).
 
+They may also contain example input and/or output. When displaying example output,
+`[Enter ↩]` indicates that the user has entered a value and pressed the Enter or Return key.
+
 ## File Navigation
 
 All source code can be found under `src/com/omegarobotics`.
