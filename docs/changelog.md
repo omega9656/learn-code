@@ -11,7 +11,7 @@ permalink: changelog
 
 ### v0.4.0
 
--   Unit 4 published completely
+-   Unit 4 published completely [#12]({{ site.github.repository_url }}/pull/12)
 
 ### v0.3.0
 
