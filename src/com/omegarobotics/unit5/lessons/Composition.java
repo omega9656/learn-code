@@ -2,10 +2,10 @@ package com.omegarobotics.unit5.lessons;
 
 /*
  * Topics:
- * - Aggregation/Modularity
+ * - Aggregation/Composition
  */
 
-public class Modularity {
+public class Composition {
 
     public static void main(String[] args) {
         Toaster myToaster = new Toaster();

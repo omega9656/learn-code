@@ -2,7 +2,7 @@ package com.omegarobotics.unit5.lessons.robot;
 
 /*
  * Topics:
- * - Aggregation/Modularity
+ * - Aggregation/Composition
  */
 
 public class Intake {

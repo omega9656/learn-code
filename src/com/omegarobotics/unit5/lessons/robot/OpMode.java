@@ -2,7 +2,8 @@ package com.omegarobotics.unit5.lessons.robot;
 
 /*
  * Topics:
- * - Aggregation/Modularity
+ * - Aggregation/Composition
+ * - Modularity
  */
 
 public class OpMode {
