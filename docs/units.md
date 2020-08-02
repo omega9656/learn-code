@@ -25,23 +25,26 @@ Units 1-7 are **Java Coding** while Units 8-11 are **FTC-Specific Coding**.
 
 ## Website Navigation
 
-All curriculum is under [Learn](/learn-code/learn). Student and teacher tips
-can be found under [Students](/learn-code/learn/students) and [Teach](/learn-code/teach).
+All curriculum is under [Learn](/learn-code/learn). Student and teacher tips can
+be found under [Students](/learn-code/learn/students) and
+[Teach](/learn-code/teach).
 
-All units under curriculum contain sections with content. The final 2 sections of each
-unit contain the unit's practice problems and quiz.
+All units under curriculum contain sections with content. The final 2 sections
+of each unit contain the unit's practice problems and quiz.
 
 ### Practice
 
-All unit practice pages contain **practice** problems (should be doable if you know
-the content) and **challenge** problems (require critical thinking and planning).
+All unit practice pages contain **practice** problems (should be doable if you
+know the content) and **challenge** problems (require critical thinking and
+planning).
 
-Each problem is labeled with concepts that it covers and contains the instructions,
-template code (which is meant to be copied and pasted), and solution code (link to the 
-code on GitHub).
+Each problem is labeled with concepts that it covers and contains the
+instructions, template code (which is meant to be copied and pasted), and
+solution code (link to the code on GitHub).
 
-They may also contain example input and/or output. When displaying example output,
-`[Enter ↩]` indicates that the user has entered a value and pressed the Enter or Return key.
+They may also contain example input and/or output. When displaying example
+output, `[Enter ↩]` indicates that the user has entered a value and pressed the
+Enter or Return key.
 
 ## File Navigation
 

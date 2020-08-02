@@ -41,13 +41,13 @@ if statement
 
 Create a class called `Grades` which contains your solution code.
 
-Create a method called `printGrade` which takes the test score
-of a student and prints the letter grade. It does not return anything.
-Call `printGrade` in the `main` method with 3 different scores.
+Create a method called `printGrade` which takes the test score of a student and
+prints the letter grade. It does not return anything. Call `printGrade` in the
+`main` method with 3 different scores.
 
-Create another method called `getGrade` which takes the test score
-of a student and returns the grade, a `char`. Print the result of calling `printGrade`
-in the `main` method with 3 different scores.
+Create another method called `getGrade` which takes the test score of a student
+and returns the grade, a `char`. Print the result of calling `printGrade` in the
+`main` method with 3 different scores.
 
 **Template Code**
 
@@ -83,12 +83,12 @@ Create a class called `LinearSearch` which contains your solution code.
 
 Create a method called `search` (method signature is given in template code)
 that returns the index of the item in the list if the key matches it and `-1`
-otherwise. Call the method to test it in the `main` method. (Print the value that is returned.)
+otherwise. Call the method to test it in the `main` method. (Print the value
+that is returned.)
 
 **Example Input**
 
-Array: `{ 5, 1, 2, 4, 3 }`
-Key: 3
+Array: `{ 5, 1, 2, 4, 3 }` Key: 3
 
 **Example Output**
 
@@ -128,9 +128,9 @@ return
 
 Create a class called `Max` which contains your solution code.
 
-Create a method called `max` which has 2 parameters, which are numbers
-(both `double`). Return the maximum of those 2 numbers. Call the method
-in the `main` method and print the result of calling it on 3 sets of 2 numbers.
+Create a method called `max` which has 2 parameters, which are numbers (both
+`double`). Return the maximum of those 2 numbers. Call the method in the `main`
+method and print the result of calling it on 3 sets of 2 numbers.
 
 **Template Code**
 
@@ -164,9 +164,9 @@ return
 
 Create a class called `PrimeNumber` which contains your solution code.
 
-Create a method called `isPrime` that returns `true` if the number (`int`)
-given as an argument is prime and `false` otherwise. Call it in the `main`
-method and print the result of that call.
+Create a method called `isPrime` that returns `true` if the number (`int`) given
+as an argument is prime and `false` otherwise. Call it in the `main` method and
+print the result of that call.
 
 **Template Code**
 
@@ -198,15 +198,13 @@ return
 
 Create a class called `SumRow` which contains your solution code.
 
-Given a 2D array of integers, print the sum of each row.
-Note: The subarrays are not necessarily of equal length.
-To do this, create a method called `sumRow` (see template code
-for the method signature). Test `sumRow` by calling it in the `main` method.
-You should use a loop to iterate through each array in a 2D array and
-call `sumRow` on the current inner array.
+Given a 2D array of integers, print the sum of each row. Note: The subarrays are
+not necessarily of equal length. To do this, create a method called `sumRow`
+(see template code for the method signature). Test `sumRow` by calling it in the
+`main` method. You should use a loop to iterate through each array in a 2D array
+and call `sumRow` on the current inner array.
 
-**Example Input**
-Array:
+**Example Input** Array:
 
 ```java
 int[][] numbers = {
@@ -266,11 +264,11 @@ return
 
 Create a class called `DigitSum` which contains your solution code.
 
-Write a method called `sumDigits` that computes the sum of the
-digits in a positive integer. The method header is in the template code below.
+Write a method called `sumDigits` that computes the sum of the digits in a
+positive integer. The method header is in the template code below.
 
-The `main` method will repeatedly ask for a number, call `sumDigits` with that number,
-and print the result, until the user enters `-1`.
+The `main` method will repeatedly ask for a number, call `sumDigits` with that
+number, and print the result, until the user enters `-1`.
 
 **Example Output**
 
@@ -278,11 +276,11 @@ and print the result, until the user enters `-1`.
 Enter a positive integer, or -1 to quit: 12345 [Enter ↩]
 Total of the sum of the digits in the number: 15
 Enter a positive integer, or -1 to quit: 1000 [Enter ↩]
-Total of the sum of the digits in the number: 1 
+Total of the sum of the digits in the number: 1
 Enter a positive integer, or -1 to quit: 0 [Enter ↩]
-Total of the sum of the digits in the number: 0 
+Total of the sum of the digits in the number: 0
 Enter a positive integer, or -1 to quit: 34 [Enter ↩]
-Total of the sum of the digits in the number: 7 
+Total of the sum of the digits in the number: 7
 Enter a positive integer, or -1 to quit: -1 [Enter ↩]
 ```
 
@@ -328,8 +326,10 @@ Print the coordinates of that pair and the distance between them.
 Hint: Create multiple methods to break the problem into parts.
 
 -   `distance` - returns the distance between 2 points
--   `findClosestPair` - returns a 2D `double` array containing the 2 closest points
--   `printPair` - prints the 2 closest points and the distance between them in a readable way
+-   `findClosestPair` - returns a 2D `double` array containing the 2 closest
+    points
+-   `printPair` - prints the 2 closest points and the distance between them in a
+    readable way
 
 See the template code below for method signatures.
 
@@ -351,7 +351,7 @@ double[][] coordinates = {
 **Example Output**
 
 ```
-The closest pair is: 
+The closest pair is:
 (1.000000, 1.000000) and (2.000000, 0.500000)
 The distance between those points is 1.118033988749895
 ```
@@ -374,7 +374,7 @@ public class FindClosestPair {
         // write your code here
     }
 
-    /** 
+    /**
      * Prints the 2 closest points and
      * the distance between them in a readable way
      */
@@ -402,17 +402,19 @@ Scanner
 
 <!-- prettier-ignore-end -->
 
-Create a class called `MatrixMult` which asks the user to enter values
-for 2 matrices `A`, `B` and then multiplies them (if possible).
+Create a class called `MatrixMult` which asks the user to enter values for 2
+matrices `A`, `B` and then multiplies them (if possible).
 
-If `AB` exists, the program displays the product matrix `C`. 
-If `AB` doesn't exist, an error message is displayed.
+If `AB` exists, the program displays the product matrix `C`. If `AB` doesn't
+exist, an error message is displayed.
 
-You can read more about matrix multiplication [here](https://www.mathsisfun.com/algebra/matrix-multiplying.html).
+You can read more about matrix multiplication
+[here](https://www.mathsisfun.com/algebra/matrix-multiplying.html).
 
 Hint: Break the problem into multiple methods.
 
--   `multiplyMatrix` - returns a 2D array which is the result of multiplying 2 matrices
+-   `multiplyMatrix` - returns a 2D array which is the result of multiplying 2
+    matrices
 -   `getMatrix` - returns a 2D array which represents a matrix from user input
 
 See the template code below for method signatures.
@@ -434,9 +436,9 @@ Enter row 1: 7 8 [Enter ↩]
 Enter row 2: 9 10 [Enter ↩]
 
 Matrix C is
-25.0 28.0 
-57.0 64.0 
-89.0 100.0 
+25.0 28.0
+57.0 64.0
+89.0 100.0
 ```
 
 **Template Code**
@@ -447,7 +449,7 @@ public class MatrixMult {
         // write your code here
     }
 
-    /** 
+    /**
      * Returns a 2D array which is the
      * result of multiplying 2 matrices
      */
@@ -455,7 +457,7 @@ public class MatrixMult {
         // write your code here
     }
 
-    /** 
+    /**
      * Returns a 2D array which represents
      * a matrix from user input
      */
@@ -486,8 +488,8 @@ Scanner
 <!-- prettier-ignore-end -->
 
 Create a class called `Merge` which asks the user to enter 2 lists of integers
-ordered from least to greatest, then prints each list and a merged list
-(with duplicates).
+ordered from least to greatest, then prints each list and a merged list (with
+duplicates).
 
 Create 3 methods:
 
@@ -497,8 +499,9 @@ Create 3 methods:
 
 See the template code below for method signatures.
 
-You might find [this animation](http://cs.armstrong.edu/liang/animation/web/MergeList.html) to be helpful
-when figuring out how to merge the arrays.
+You might find
+[this animation](http://cs.armstrong.edu/liang/animation/web/MergeList.html) to
+be helpful when figuring out how to merge the arrays.
 
 **Example Output**
 
@@ -520,9 +523,9 @@ public class Merge {
         // write your code here
     }
 
-    /** 
+    /**
      * Merges 2 arrays of integers
-     * that are sorted in ascending order 
+     * that are sorted in ascending order
      */
     public static int[] merge(int[] list1, int[] list2) {
         // write your code here
@@ -568,8 +571,9 @@ if statement
 
 Create a class called `SelectionSort` which contains your solution code.
 
-Create a method called `sort` which sorts an array of integers using
-the [Selection Sort](https://www.tutorialspoint.com/data_structures_algorithms/selection_sort_algorithm.htm) algorithm.
+Create a method called `sort` which sorts an array of integers using the
+[Selection Sort](https://www.tutorialspoint.com/data_structures_algorithms/selection_sort_algorithm.htm)
+algorithm.
 
 In the `main` method, call the `sort` method on an unsorted array of integers.
 Print the unsorted array and then the sorted array.
@@ -577,8 +581,8 @@ Print the unsorted array and then the sorted array.
 **Example Output**
 
 ```
-5 23 -25 0 -14 100 34 
--25 -14 0 5 23 34 100 
+5 23 -25 0 -14 100 34
+-25 -14 0 5 23 34 100
 ```
 
 **Template Code**

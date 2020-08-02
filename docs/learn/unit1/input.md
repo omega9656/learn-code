@@ -92,5 +92,5 @@ Here are commonly used `Scanner` methods you should know:
 
 Note that there is no `nextChar()` method.
 
-Note that to close the input stream, you use the `close()` method. You technically
-don't need to do this, put it's generally good practice.
+Note that to close the input stream, you use the `close()` method. You
+technically don't need to do this, put it's generally good practice.
