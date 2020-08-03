@@ -22,14 +22,15 @@ nav_order: 4
 
 ## UML
 
-UML stands for Unified Modeling Language. UML diagrams are used by developers
-to repesent classes and relationships between classes. There are quite a bit of rules
-on how to make these diagrams, so we'll just go over the basics.
+UML stands for Unified Modeling Language. UML diagrams are used by developers to
+repesent classes and relationships between classes. There are quite a bit of
+rules on how to make these diagrams, so we'll just go over the basics.
 
 ## Overall Structure
 
-A UML diagram for a class is essentially a table with 3 rows. The 1st row contains
-the class name, the 2nd row contains the fields, and the 3rd row contains the methods.
+A UML diagram for a class is essentially a table with 3 rows. The 1st row
+contains the class name, the 2nd row contains the fields, and the 3rd row
+contains the methods.
 
 Let's start creating a UML diagram for the `Human` class.
 
@@ -95,34 +96,36 @@ public class Human {
 
 ## Visibility Modifiers
 
-When listing fields and methods, you should use special symbols to denote the visibility modifier
-associated with that field/method.
+When listing fields and methods, you should use special symbols to denote the
+visibility modifier associated with that field/method.
 
 | Visibility Modifier | UML Diagram Symbol |
-| :--- | :--- |
-| `private` | - |
-| default | n/a |
-| `protected` | # |
-| `public` | + |
+| :------------------ | :----------------- |
+| `private`           | -                  |
+| default             | n/a                |
+| `protected`         | #                  |
+| `public`            | +                  |
 
 Static fields or methods are underlined.
 
 ## Fields
 
-To list a field, you need to specify its visibility, name, and type. For example:
+To list a field, you need to specify its visibility, name, and type. For
+example:
 
 {% include uml/human2.html %}
 
 ## Methods
 
-To list a method, you need to specify its visibility, name, parameter names, parameter
-types, and return type.
+To list a method, you need to specify its visibility, name, parameter names,
+parameter types, and return type.
 
-Note that for constructors, you don't need to specify a return type. However, if a method
-returns `void`, you need to explicitly specify that in the diagram.
+Note that for constructors, you don't need to specify a return type. However, if
+a method returns `void`, you need to explicitly specify that in the diagram.
 
 {% include uml/human3.html %}
 
 ## More UML Rules
 
-If you want to learn more rules regarding UML diagrams, you can read this [tutorial](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/).
+If you want to learn more rules regarding UML diagrams, you can read this
+[tutorial](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/).

@@ -23,14 +23,15 @@ nav_order: 2
 ## Inheritance
 
 Inheritance is something in Java that allows a class to _extend_ or get all
-attributes and behaviors from another class and then add onto it. Inheritance describes an _is-a_
-relationship. For example, we could have a class named `Animal` which the `Chicken`
-class extends. This makes sense because all chickens are animals, and thus have the
-characteristics and behaviors of animals in addition to whatever characteristics
-and behaviors that are unique to chickens.
+attributes and behaviors from another class and then add onto it. Inheritance
+describes an _is-a_ relationship. For example, we could have a class named
+`Animal` which the `Chicken` class extends. This makes sense because all
+chickens are animals, and thus have the characteristics and behaviors of animals
+in addition to whatever characteristics and behaviors that are unique to
+chickens.
 
-**Note**: A class can only extend _one_ other class. When a subclass extends
-a superclass, it inherits all of the fields and methods from its superclass.
+**Note**: A class can only extend _one_ other class. When a subclass extends a
+superclass, it inherits all of the fields and methods from its superclass.
 
 To inherit from a class (referred to as the _parent class_ or _superclass_), you
 use the `extends` keyword. (The class that extends another class is referred to
@@ -109,22 +110,23 @@ public class Chicken extends Animal {
 ```
 
 You may have noticed in the code that there is a keyword `super`. Similar to the
-`this` keyword, `super` refers to the instance of the superclass. To call a superclass
-constructor, you would use `super(args)` (if there are any arguments to be given).
+`this` keyword, `super` refers to the instance of the superclass. To call a
+superclass constructor, you would use `super(args)` (if there are any arguments
+to be given).
 
-You can reference superclass variables and methods using `super` as well. Just use
-dot notation. For example, I could use `super.eat()` in the `Chicken` class. In this case,
-you can't use `super.name` because `name` is a `private` field. (Instead, you would use
-the getter method.)
+You can reference superclass variables and methods using `super` as well. Just
+use dot notation. For example, I could use `super.eat()` in the `Chicken` class.
+In this case, you can't use `super.name` because `name` is a `private` field.
+(Instead, you would use the getter method.)
 
-**Note**: You may have noticed that we set the default number of feathers
-for a `Chicken` to be `5_000`. This is the same as `5000`. The `_` is there
-to make it easier to read long numbers, and is valid Java syntax.
+**Note**: You may have noticed that we set the default number of feathers for a
+`Chicken` to be `5_000`. This is the same as `5000`. The `_` is there to make it
+easier to read long numbers, and is valid Java syntax.
 
 ### Subclass Constructors
 
-Subclass constructors implicitly call the default superclass constructor. That is,
-these two versions of declaring the `Chicken` constructor are equivalent.
+Subclass constructors implicitly call the default superclass constructor. That
+is, these two versions of declaring the `Chicken` constructor are equivalent.
 
 ```java
 public Chicken() {
@@ -138,8 +140,8 @@ public Chicken() {
 ```
 
 You have the option to explicitly call a superclass constructor with argument(s)
-if you want to customize how the subclass constructor works. For example, this is done
-in the 1- and 2-argument `Chicken` constructors.
+if you want to customize how the subclass constructor works. For example, this
+is done in the 1- and 2-argument `Chicken` constructors.
 
 ```java
 public Chicken(String name) {
@@ -157,9 +159,9 @@ If you would like to learn about constructor chaining, you can take a look at
 
 ### Geometric Object
 
-You can also use inheritance to model relationships between shapes.
-Let's create a class called `GeometricObject` which models a general shape
-and a subclass called `Circle` which inherits from `GeometricObject`.
+You can also use inheritance to model relationships between shapes. Let's create
+a class called `GeometricObject` which models a general shape and a subclass
+called `Circle` which inherits from `GeometricObject`.
 
 **GeometricObject Class**
 
@@ -363,12 +365,13 @@ instead of the `Circle` class.
 
 ## Overriding Methods
 
-You may have noticed the `@Override` annotation above the `toString` method in the `Circle`
-class. What does _override_ mean? What does the `@Override` do? And what is the `toString` method?
+You may have noticed the `@Override` annotation above the `toString` method in
+the `Circle` class. What does _override_ mean? What does the `@Override` do? And
+what is the `toString` method?
 
-Overriding a method occurs when a subclass changes the implementation of a method
-defined in the superclass. Let's look at the `Animal` and `Chicken` classes again.
-(Some fields and methods have been omitted for brevity.)
+Overriding a method occurs when a subclass changes the implementation of a
+method defined in the superclass. Let's look at the `Animal` and `Chicken`
+classes again. (Some fields and methods have been omitted for brevity.)
 
 **Animal Class**
 
@@ -418,24 +421,25 @@ Makes noise
 Cluck!
 ```
 
-Notice that the method signatures in both classes are _exactly the same_. However,
-the method bodies are different - we call that a different _implementation_ because
-they do different things.
+Notice that the method signatures in both classes are _exactly the same_.
+However, the method bodies are different - we call that a different
+_implementation_ because they do different things.
 
 ### @Override
 
-The `@Override` annotation is an optional thing you can put directly above method signatures
-in order to indicate that the method you are writing overrides another method. This is useful
-not only so that you and other people on your programming team know that it overrides a method,
-but also helps you avoid errors during compile. If the Java compiler detects an `@Override` annotation
-on a method that doesn't actually override anything, it will give you an error.
+The `@Override` annotation is an optional thing you can put directly above
+method signatures in order to indicate that the method you are writing overrides
+another method. This is useful not only so that you and other people on your
+programming team know that it overrides a method, but also helps you avoid
+errors during compile. If the Java compiler detects an `@Override` annotation on
+a method that doesn't actually override anything, it will give you an error.
 
 ### To String
 
-The `toString` method is used to get the object in `String` form.
-All classes have a `toString` method, even if you don't realize it. This is
-because all classes automatically extend the built-in `Object` class, which
-defines common fields and methods for _all_ classes in Java.
+The `toString` method is used to get the object in `String` form. All classes
+have a `toString` method, even if you don't realize it. This is because all
+classes automatically extend the built-in `Object` class, which defines common
+fields and methods for _all_ classes in Java.
 
 This is the method signature for the `toString` method:
 
@@ -448,10 +452,11 @@ information about where the object is in memory, which isn't very helpful to
 humans. That's why we often override the `toString` method so that it displays
 something readable.
 
-**Note**: The `toString` method is called implicitly whenever you attempt to print
-an object.
+**Note**: The `toString` method is called implicitly whenever you attempt to
+print an object.
 
-To see an example of the `toString` method in action, analyze the following code.
+To see an example of the `toString` method in action, analyze the following
+code.
 
 **Point Class**
 
@@ -496,26 +501,29 @@ public class TestPoint {
 
 ### Equals
 
-Another commonly overriden method that originates from the `Object` class
-is the `equals` method. This method is used to check if two objects have
-the same content. It should return `true` if the given object and this object
-are equal in content, and return `false` otherwise.
+Another commonly overriden method that originates from the `Object` class is the
+`equals` method. This method is used to check if two objects have the same
+content. It should return `true` if the given object and this object are equal
+in content, and return `false` otherwise.
 
 You might be thinking, wait, why do we need a method for that when we already
-have the equality operator (`==`)? Well, we need a method for this because
-the equality operator actually checks if two things reference the same location
-in memory. For things like primitives, it happens to be that this means that they're equal.
-However, for objects, even if two objects are the exact same type and have the exact same
-fields, they won't be "equal" according to the equality operator.
+have the equality operator (`==`)? Well, we need a method for this because the
+equality operator actually checks if two things reference the same location in
+memory. For things like primitives, it happens to be that this means that
+they're equal. However, for objects, even if two objects are the exact same type
+and have the exact same fields, they won't be "equal" according to the equality
+operator.
 
-If you're interested in seeing a demonstration of this concept, you can take a look
-at [CompareObjects.java]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit5/lessons/CompareObjects.java).
+If you're interested in seeing a demonstration of this concept, you can take a
+look at
+[CompareObjects.java]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit5/lessons/CompareObjects.java).
 
 Another reason why having an `equals` method is important is because it allows
-the developer to decide under what circumstances 2 objects are equal. How do
-we tell if 2 `Circle`s are equal? We could compare area, circumference, radius,
-diameter, center point, color, etc. Having an `equals` method in the `Circle` class
-allows us to specify exactly what we mean when we say 2 `Circle`s are equal.
+the developer to decide under what circumstances 2 objects are equal. How do we
+tell if 2 `Circle`s are equal? We could compare area, circumference, radius,
+diameter, center point, color, etc. Having an `equals` method in the `Circle`
+class allows us to specify exactly what we mean when we say 2 `Circle`s are
+equal.
 
 This is the method signature for the `equals` method:
 
@@ -540,24 +548,25 @@ public class Circle extends GeometricObject {
 }
 ```
 
-Time to break down what the code above is actually doing. First, we have the `@Override`
-annotation to tell the Java compiler that we are overriding a method. Next, we match
-the `equals` method signature that is in the `Object` class in order to override it.
+Time to break down what the code above is actually doing. First, we have the
+`@Override` annotation to tell the Java compiler that we are overriding a
+method. Next, we match the `equals` method signature that is in the `Object`
+class in order to override it.
 
-Next, we check if the given `Object` is an instance of `Circle` using the `instanceof`
-keyword. If this is not the case, we definitely know the two objects are not equal,
-so we return `false`. 
+Next, we check if the given `Object` is an instance of `Circle` using the
+`instanceof` keyword. If this is not the case, we definitely know the two
+objects are not equal, so we return `false`.
 
-However, if the object is an instance of `Circle`, we check if they have the same area.
-Notice that we need to cast `obj` to a `Circle` in order to use the `getArea` method.
-If the 2 `Circle`s have the same area, we consider them equal and return `true`. Otherwise,
-we return `false`.
+However, if the object is an instance of `Circle`, we check if they have the
+same area. Notice that we need to cast `obj` to a `Circle` in order to use the
+`getArea` method. If the 2 `Circle`s have the same area, we consider them equal
+and return `true`. Otherwise, we return `false`.
 
 ### Overload vs Override
 
-Programmers often confuse overloading and overriding methods. Sometimes they use the terms
-interchangeably. However, they are definitely _not the same thing!_ Here are some pointers
-to help you remember the difference.
+Programmers often confuse overloading and overriding methods. Sometimes they use
+the terms interchangeably. However, they are definitely _not the same thing!_
+Here are some pointers to help you remember the difference.
 
 | Overloading                                        | Overriding                       |
 | :------------------------------------------------- | :------------------------------- |

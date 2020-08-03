@@ -22,9 +22,9 @@ nav_order: 3
 
 ## Polymorphism
 
-Polymorphism is how an object can take on many forms. More specifically, the concept
-deals with the fact that an instance of a subclass is both an instance of the subclass
-_and_ of the superclass.
+Polymorphism is how an object can take on many forms. More specifically, the
+concept deals with the fact that an instance of a subclass is both an instance
+of the subclass _and_ of the superclass.
 
 For example, let's look at the `Animal` and `Chicken` classes again.
 
@@ -127,11 +127,11 @@ public class Lion extends Animal {
 }
 ```
 
-Recall that `Chicken` and `Lion` extend `Animal`. Thus, all `Chicken` and `Lion` objects
-are also `Animal` objects. This allows us to do fun things like making an array
-of `Animal` objects that can contain `Chicken`s and `Lion`s - even though they're not
-exactly the same type, they can be treated as such because of their relationship through
-inheritance.
+Recall that `Chicken` and `Lion` extend `Animal`. Thus, all `Chicken` and `Lion`
+objects are also `Animal` objects. This allows us to do fun things like making
+an array of `Animal` objects that can contain `Chicken`s and `Lion`s - even
+though they're not exactly the same type, they can be treated as such because of
+their relationship through inheritance.
 
 ```java
 public class TestAnimals {
@@ -158,9 +158,9 @@ public class TestAnimals {
 **Output**
 
 ```
-Lion, name: 
-Animal, name: 
-Chicken, name: 
+Lion, name:
+Animal, name:
+Chicken, name:
 Animal, name: Kaz
 Lion, name: Matthias
 Chicken, name: Jordie
@@ -168,9 +168,10 @@ Chicken, name: Inej
 Lion, name: Nina
 ```
 
-**Note**: In the example above, we noted that the `Chicken` and `Lion` objects in the `animals` array
-were treated as `Animal` objects because of their relationship through inheritance.
+**Note**: In the example above, we noted that the `Chicken` and `Lion` objects
+in the `animals` array were treated as `Animal` objects because of their
+relationship through inheritance.
 
-Because they are treated as `Animal` objects, if you attempt to access a subclass-specific field
-or method during runtime, you will receive an error unless you first cast the object to its
-subclass type.
+Because they are treated as `Animal` objects, if you attempt to access a
+subclass-specific field or method during runtime, you will receive an error
+unless you first cast the object to its subclass type.
