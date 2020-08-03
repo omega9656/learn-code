@@ -23,13 +23,14 @@ nav_order: 2
 ## Inheritance
 
 Inheritance is something in Java that allows a class to _extend_ or get all
-attributes from another class and then add onto it. Inheritance describes an _is-a_
+attributes and behaviors from another class and then add onto it. Inheritance describes an _is-a_
 relationship. For example, we could have a class named `Animal` which the `Chicken`
 class extends. This makes sense because all chickens are animals, and thus have the
 characteristics and behaviors of animals in addition to whatever characteristics
 and behaviors that are unique to chickens.
 
-**Note**: A class can only extend _one_ other class.
+**Note**: A class can only extend _one_ other class. When a subclass extends
+a superclass, it inherits all of the fields and methods from its superclass.
 
 To inherit from a class (referred to as the _parent class_ or _superclass_), you
 use the `extends` keyword. (The class that extends another class is referred to
