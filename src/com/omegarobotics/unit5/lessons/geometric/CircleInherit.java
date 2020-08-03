@@ -92,4 +92,12 @@ public class CircleInherit extends GeometricObject {
     public String toString() {
         return "Circle radius " + radius;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Circle) {
+            return ((Circle) obj).getArea() == this.getArea();
+        }
+        return false;
+    }
 }

@@ -27,8 +27,9 @@ repeat a loop? What about repeat a selection structure? We can use something
 called _methods_ to group blocks of code and reuse them so that we don't have to
 rewrite similar processes every time.
 
-Methods also make your program easier to read and maintain. They also allow
-other people to use your code without needing to understand exactly how it
+Methods also make your program easier to read and maintain since you can break a
+big problem into smaller tasks. (This is called _modularity_.) Methods also
+allow other people to use your code without needing to understand exactly how it
 works. For example, think about the `Math.sqrt()` method. We don't really know
 _how_ the square root is calculated. We just need to know what it does.
 

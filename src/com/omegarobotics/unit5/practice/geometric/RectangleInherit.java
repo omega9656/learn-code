@@ -115,6 +115,14 @@ public class RectangleInherit extends GeometricObject {
 
     @Override
     public String toString() {
-        return "Rectangle length: " + length + ", width: " + width;
+        return "RectangleInherit length: " + length + ", width: " + width;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof RectangleInherit) {
+            return ((RectangleInherit) obj).getArea() == this.getArea();
+        }
+        return false;
     }
 }

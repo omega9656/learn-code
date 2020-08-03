@@ -1,7 +1,7 @@
 package com.omegarobotics.unit5.challenges.finance;
 
 /*
- * Create an array of Account objects and prints
+ * Create an array of Account objects and print
  * the status of each account after depositing
  * and withdrawing a certain amount.
  */

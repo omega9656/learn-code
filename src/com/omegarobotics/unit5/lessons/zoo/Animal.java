@@ -4,9 +4,7 @@ public class Animal {
     String name = "";
     int hunger = 50;
 
-    public Animal() {
-        // default
-    }
+    public Animal() {}
 
     public Animal(String name) {
         this.name = name;
