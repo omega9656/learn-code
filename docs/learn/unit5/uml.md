@@ -120,3 +120,7 @@ Note that for constructors, you don't need to specify a return type. However, if
 returns `void`, you need to explicitly specify that in the diagram.
 
 {% include uml/human3.html %}
+
+## More UML Rules
+
+If you want to learn more rules regarding UML diagrams, you can read this [tutorial](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/).
