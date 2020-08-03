@@ -143,6 +143,19 @@ class and the abstract class (see [Polymorphism](/learn-code/learn/unit5/polymor
 in simple terms, you can't create an instance of an abstract class using `new`, but you
 can use it as a data type.
 
+## Applications in FTC
+
+In the FTC SDK, there are some abstract classes that you will use often, such as `OpMode` and `LinearOpMode`.
+When you create your own opmodes to control your robot during auto or teleop, you extend
+one of those abstract classes. This forces you to implement methods like `init()`, `loop()`, or
+`runOpMode()`, which are executed in varying stages of the game.
+
+See [Unit 8](/learn-code/learn/unit8) for more on the FTC SDK.
+
+You can view `OpMode` and `LinearOpMode` documentation
+[here](https://ftctechnh.github.io/ftc_app/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpMode.html) 
+and [here](https://ftctechnh.github.io/ftc_app/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/LinearOpMode.html), respectively.
+
 ## Notes on Abstract Classes
 
 _This section is an excerpt from Ch. 13.2.2 Interesting Points about Abstract Classes in
