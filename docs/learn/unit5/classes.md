@@ -305,12 +305,20 @@ creating an object, you would get an error.
 
 ## Applications
 
-You might be wondering why classes are so important or useful. Well, similar to methods,
-they allow us to avoid repeating code. Classes are also easy to maintain and are an intuitive
-model for things in real life.
+### Why Classes
 
-So far, our class fields have been primitive types. However, you can have classes with fields
-that are other classes! This is called _composition_ because there are classes that are part of
+You may be thinking, why do I need to write classes though? Can't I just put
+everything in the `main` method and turn fields into regular old variables?
+Can't I just write regular old `static` methods and call them in `main`?
+
+Well, yes, you could do that. But it's just unwieldy, results in a lot of
+repeated code, and is generally harder to maintain. Writing classes is an
+intuitive way to represent every aspect of something in real life. So do it!
+
+If you're still not convinced, you can take a look at [WhyClasses.java]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit5/lessons/WhyClasses.java).
+
+So far, our class fields have been primitive types. However, you can have classes which make up
+other classes! This is called _composition_ because there are classes that are part of
 a "bigger" class. You can read more about composition (a special type of _aggregation_) [here](https://www.geeksforgeeks.org/association-composition-aggregation-java/).
 
 ### Toaster
