@@ -9,11 +9,11 @@ public class Lion extends Animal {
 
     public Lion(String name) {
         // super();
-        // super(name);
+        super(name);
     }
 
     public Lion(String name, int numberOfTeeth) {
-        // super(name);
+        super(name);
         this.numberOfTeeth = numberOfTeeth;
     }
 

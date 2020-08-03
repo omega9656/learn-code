@@ -8,11 +8,11 @@ public class Chicken extends Animal {
     }
 
     public Chicken(String name) {
-        // super();
-        // super(name);
+        super(name);
     }
 
     public Chicken(String name, int numberOfFeathers) {
+        super(name);
         this.numberOfFeathers = numberOfFeathers;
     }
 

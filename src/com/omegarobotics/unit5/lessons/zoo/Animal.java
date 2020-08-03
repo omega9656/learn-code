@@ -5,7 +5,6 @@ public class Animal {
     int hunger = 50;
 
     public Animal() {
-        // default
     }
 
     public Animal(String name) {
