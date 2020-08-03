@@ -105,6 +105,8 @@ associated with that field/method.
 | `protected` | # |
 | `public` | + |
 
+Static fields or methods are underlined.
+
 ## Fields
 
 To list a field, you need to specify its visibility, name, and type. For example:
