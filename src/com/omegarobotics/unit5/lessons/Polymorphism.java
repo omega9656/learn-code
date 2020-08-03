@@ -1,14 +1,14 @@
 package com.omegarobotics.unit5.lessons;
 
 import com.omegarobotics.unit5.lessons.geometric.CircleInherit;
+import com.omegarobotics.unit5.lessons.geometric.GeometricObject;
+import com.omegarobotics.unit5.practice.geometric.RectangleInherit;
+
 /*
 Topics:
 - Polymorphism - a variable of a supertype can refer to a subtype object
 - instanceof operator, casting
  */
-
-import com.omegarobotics.unit5.lessons.geometric.GeometricObject;
-import com.omegarobotics.unit5.practice.geometric.RectangleInherit;
 
 public class Polymorphism {
 
