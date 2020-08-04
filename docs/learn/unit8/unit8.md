@@ -15,3 +15,5 @@ Coming soon
 {: .label .label-yellow }
 
 <!-- prettier-ignore-end -->
+
+{% include next-prev.html %}

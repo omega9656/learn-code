@@ -1,7 +1,7 @@
 <style>
     .grid-container {
         display: grid;
-        grid-template-columns: 1.25fr 6fr 1fr;
+        grid-template-columns: 1.25fr 4fr 1fr;
         margin-top: 5rem;
     }
 
@@ -24,13 +24,13 @@ page.nav_order %}
     <a
         href="/learn-code/learn/unit{{ prev_unit }}"
         class="btn btn-cardinal prev-btn prev-container"
-        >&larr;Previous</a
+        >&larr;Previous Unit</a
     >
     {% endif %} {% if next_unit <= 11 %}
     <a
         href="/learn-code/learn/unit{{ next_unit }}"
         class="btn btn-cardinal next-btn next-container"
-        >Next&rarr;</a
+        >Next Unit&rarr;</a
     >
     {% endif %}
 </div>

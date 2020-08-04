@@ -17,3 +17,5 @@ Stable
 {: .label .label-green }
 
 <!-- prettier-ignore-end -->
+
+{% include next-prev.html %}
