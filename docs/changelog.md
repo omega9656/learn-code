@@ -11,7 +11,8 @@ permalink: changelog
 
 ### v0.6.0
 
--   [Unit 6](/learn-code/learn/unit5) published completely [#14]({{ site.github.repository_url }}/pull/14)
+-   [Unit 6](/learn-code/learn/unit5) published completely
+    [#14]({{ site.github.repository_url }}/pull/14)
 
 ### v0.5.0
 
