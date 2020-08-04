@@ -294,7 +294,8 @@ Less than
 
 **Note**: The `compareTo` method is often used to determine the `natural ordering`
 of elements. That is why the `Arrays.sort(arr)` method sorts elements in an array
-using the `compareTo` method.
+using the `compareTo` method. If you'd like to see a demonstration, see
+[SortPoints.java]({{ site.github.repository_url }}/tree/master/src/com/omegarobotics/unit6/lessons/comparable/SortPoints.java).
 
 **Note**: When implementing the `compareTo` and `equals` methods, you should make sure
 that `compareTo` returns `0` if and only if `equals` returns `true` to be consistent.
