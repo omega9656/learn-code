@@ -11,8 +11,10 @@ nav_order: 8
 
 <!-- prettier-ignore-start -->
 
-Coming soon
-{: .label .label-yellow }
+New release
+{: .label .label-purple }
+Stable
+{: .label .label-green }
 
 <!-- prettier-ignore-end -->
 
