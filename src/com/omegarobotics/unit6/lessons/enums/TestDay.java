@@ -37,10 +37,12 @@ public class TestDay {
                 break;
         }
 
+        System.out.println();
+
         // values method returns an
         // array of all the enum's values
         Day[] days = Day.values();
-        for (Day d : days) {
+        for (Day d: days) {
             System.out.println(d);
         }
     }
