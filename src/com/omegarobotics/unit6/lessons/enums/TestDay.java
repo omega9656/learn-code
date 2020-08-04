@@ -37,6 +37,8 @@ public class TestDay {
                 break;
         }
 
+        System.out.println();
+
         // values method returns an
         // array of all the enum's values
         Day[] days = Day.values();

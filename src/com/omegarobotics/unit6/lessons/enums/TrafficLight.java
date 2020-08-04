@@ -6,9 +6,10 @@ package com.omegarobotics.unit6.lessons.enums;
  */
 
 public enum TrafficLight {
-    RED("Please stop"),
+    // enum values
+    RED("Please stop"), // invoke constructor
     GREEN("Please go"),
-    YELLOW("Please caution");
+    YELLOW("Please caution"); // semicolon at the end
 
     private String description;
 

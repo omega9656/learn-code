@@ -1,4 +1,4 @@
-package com.omegarobotics.unit6.lessons.graph;
+package com.omegarobotics.unit6.lessons.comparable;
 
 import java.util.Arrays;
 
@@ -7,7 +7,7 @@ import java.util.Arrays;
  * - Comparable interface (touch on generics)
  */
 
-public class TestPoint {
+public class SortPoints {
 
     public static void main(String[] args) {
         Point[] points = {

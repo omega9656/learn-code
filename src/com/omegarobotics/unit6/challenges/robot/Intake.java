@@ -11,16 +11,17 @@ package com.omegarobotics.unit6.challenges.robot;
  * Partially rewrite the Intake class so that
  * there are 2 fields left and right, both of type DcMotor.
  *
- * Create an enum called Direction which stores the
- * names of each direction and its corresponding left and right power
- * values as constants (see link below).
+ * Create an enum called Direction whose values are the names of each
+ * direction the intake can be going in. It should have 2 fields, LEFT_POWER
+ * and RIGHT_POWER, both constant doubles. Write a constructor for the enum
+ * so that each direction has its corresponding left and right power values.
  *
- * Write a method called runIntake which takes a Direction
- * and sets the power of the Intake's left and right motors to
- * the Direction's left and right power values, respectively.
+ * Write a method called runIntake which takes a Direction and sets the
+ * power of the Intake's left and right motors to the Direction's left
+ * and right power values, respectively.
  *
  * Use with:
- * https://github.com/FTC-9656-Omega-Robotics/skystone-worlds/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/hardware/Intake.java
+ * https://github.com/omega9656/skystone-worlds/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/hardware/Intake.java
  */
 
 public class Intake {
@@ -42,8 +43,8 @@ public class Intake {
         }
     }
 
-    public void runIntake(Direction d) {
-        left.setPower(d.LEFT_POWER);
-        right.setPower(d.RIGHT_POWER);
+    public void runIntake(Direction dir) {
+        left.setPower(dir.LEFT_POWER);
+        right.setPower(dir.RIGHT_POWER);
     }
 }
