@@ -292,6 +292,10 @@ Less than
 Less than
 ```
 
+**Note**: The `compareTo` method is often used to determine the `natural ordering`
+of elements. That is why the `Arrays.sort(arr)` method sorts elements in an array
+using the `compareTo` method.
+
 **Note**: When implementing the `compareTo` and `equals` methods, you should make sure
 that `compareTo` returns `0` if and only if `equals` returns `true` to be consistent.
 
