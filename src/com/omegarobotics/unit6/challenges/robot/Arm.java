@@ -8,19 +8,19 @@ package com.omegarobotics.unit6.challenges.robot;
  */
 
 /*
- * Partially rewrite the Arm class so that
+ * Partially rewrite the Arm class (see link below) so that
  * there is only 1 field called motor of type DcMotor.
  *
- * Create an enum called Position which stores the
- * names of each position and its corresponding encoder value
- * as a constant (see link below).
+ * Create an enum called Position whose values are the names of each
+ * position the arm can be in. It should have 1 field, ENCODER_VALUE, a constant int.
+ * Write a constructor for the enum so that each arm position has its corresponding
+ * encoder value.
  *
- * Write a method called moveArm which takes a Position
- * and sets the position of the Arm's motor to
- * the Position's encoder value.
+ * The Arm class should have 1 method called moveArm which takes a Position
+ * and sets the position of the Arm's motor to the Position's encoder value.
  *
  * Use with:
- * https://github.com/FTC-9656-Omega-Robotics/skystone-worlds/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/hardware/Arm.java
+ * https://github.com/omega9656/skystone-worlds/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/hardware/Arm.java
  */
 
 public class Arm {
@@ -41,13 +41,13 @@ public class Arm {
         }
     }
 
-    public void moveArm(Position position) {
-        motor.setPosition(position.ENCODER_VALUE);
+    public void moveArm(Position pos) {
+        motor.setPosition(pos.ENCODER_VALUE);
     }
     // alternatively, if the enum doesn't have fields,
-    // use a switch statement to set position/power
-    //	public void moveArm(Position position) {
-    //		switch (position) {
+    // use a switch statement to set position
+    //	public void moveArm(Position pos) {
+    //		switch (pos) {
     //			case INIT:
     //				motor.setPosition(-250);
     //				break;

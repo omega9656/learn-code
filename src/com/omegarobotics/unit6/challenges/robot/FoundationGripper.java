@@ -11,16 +11,16 @@ package com.omegarobotics.unit6.challenges.robot;
  * Partially rewrite the FoundationGripper class so that
  * there is only 1 field called gripper of type Servo.
  *
- * Create an enum called Position which stores the
- * names of each position and its corresponding servo position
- * as a constant (see link below).
+ * Create an enum called Position whose values are the names of each
+ * position the foundation gripper can be in. It should have 1 field, SERVO_POSITION,
+ * a constant double. Write a constructor for the enum so that each foundation gripper
+ * position has its corresponding servo position value.
  *
- * Write a method called moveGripper which takes a Position
- * and sets the position of the Foundation Gripper's servo to
- * the Position's servo position value.
+ * Write a method called moveGripper which takes a Position and sets the position
+ * of the foundation gripper's servo (gripper) to the Position's SERVO_POSITION value.
  *
  * Use with:
- * https://github.com/FTC-9656-Omega-Robotics/skystone-worlds/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/hardware/FoundationGripper.java
+ * https://github.com/omega9656/skystone-worlds/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/hardware/FoundationGripper.java
  */
 
 public class FoundationGripper {
@@ -38,7 +38,7 @@ public class FoundationGripper {
         }
     }
 
-    public void moveGripper(Position p) {
-        gripper.setPosition(p.SERVO_POSITION);
+    public void moveGripper(Position pos) {
+        gripper.setPosition(pos.SERVO_POSITION);
     }
 }
