@@ -1,6 +1,7 @@
 package com.omegarobotics.unit6.lessons.comparable;
 
 public class TestPoint {
+
     public static void main(String[] args) {
         Point[] points = {
             new Point(5, 5),
