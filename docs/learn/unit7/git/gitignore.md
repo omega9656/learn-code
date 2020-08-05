@@ -1,10 +1,10 @@
 ---
 layout: default
 title: gitignore
-permalink: learn/unit7/git/gitignore
-parent: Git
-grand_parent: Unit 7
-nav_order: 7
+permalink: learn/unit7/gitignore
+parent: Unit 7
+grand_parent: Learn
+nav_order: 11
 ---
 
 <!-- prettier-ignore-start -->
@@ -19,3 +19,5 @@ nav_order: 7
 {:toc}
 
 <!-- prettier-ignore-end -->
+
+## .gitignore

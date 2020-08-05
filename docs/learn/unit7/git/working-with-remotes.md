@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Working with Remotes
-permalink: learn/unit7/git/working-with-remotes
-parent: Git
+permalink: learn/unit7/working-with-remotes
+parent: Unit 7
 grand_parent: Learn
-nav_order: 5
+nav_order: 8
 ---
 
 <!-- prettier-ignore-start -->
@@ -19,5 +19,7 @@ nav_order: 5
 {:toc}
 
 <!-- prettier-ignore-end -->
+
+### Working with Remotes
 
 # Basic Git Workflow

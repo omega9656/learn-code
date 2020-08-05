@@ -4,7 +4,7 @@ title: Unit 7 Practice
 permalink: learn/unit7/practice
 parent: Unit 7
 grand_parent: Learn
-nav_order: 4
+nav_order: 12
 ---
 
 <!-- prettier-ignore-start -->
