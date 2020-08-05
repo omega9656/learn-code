@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: unit
 title: Unit 8
 permalink: learn/unit8
 parent: Learn
@@ -15,5 +15,3 @@ Coming soon
 {: .label .label-yellow }
 
 <!-- prettier-ignore-end -->
-
-{% include next-prev.html %}
