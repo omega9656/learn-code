@@ -1,36 +1,22 @@
-<style>
-    .grid-container {
-        display: grid;
-        grid-template-columns: 1.25fr 4fr 1fr;
-        margin-top: 5rem;
-    }
+<!---
+    Code from: https://github.com/pmarsceill/just-the-docs/pull/394/files
+    Author: https://github.com/jeffreycwitt
+    NOTE: This code does not work unless all pages are on the same level
+-->
 
-    .prev-container {
-        grid-column-start: 1;
-        grid-column-end: 2;
-    }
+<div style="display: flex; justify-content: space-between;">
+{%- assign ordered_pages_list = site.html_pages | where_exp:"item", "item.nav_order != nil" -%}
+{%- assign sorted_ordered_pages_list = ordered_pages_list | sort:"nav_order" -%}
 
-    .next-container {
-        grid-column-start: 3;
-        grid-column-end: 4;
-    }
-</style>
+{%- for node in sorted_ordered_pages_list -%}
+    {%- assign next_page = page.nav_order | plus: 1 -%}
+    {%- assign previous_page = page.nav_order | minus: 1 -%}
+    {%- if previous_page == node.nav_order -%}
+    <a href="{{ node.url | absolute_url }}">previous</a>
+    {%- endif -%}
+    {%- if next_page == node.nav_order -%}
+    <a href="{{ node.url | absolute_url }}">next</a> 
+    {%- endif -%}
 
-{% assign prev_unit = page.nav_order | minus: 2 %} {% assign next_unit =
-page.nav_order %}
-
-<div class="grid-container">
-    {% if prev_unit > 0 %}
-    <a
-        href="/learn-code/learn/unit{{ prev_unit }}"
-        class="btn btn-cardinal prev-btn prev-container"
-        >&larr;Previous Unit</a
-    >
-    {% endif %} {% if next_unit <= 11 %}
-    <a
-        href="/learn-code/learn/unit{{ next_unit }}"
-        class="btn btn-cardinal next-btn next-container"
-        >Next Unit&rarr;</a
-    >
-    {% endif %}
+{%- endfor -%}
 </div>
