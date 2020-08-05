@@ -144,6 +144,8 @@ You can use `..` in a relative path. Start in `src/com/omegarobotics`. For examp
 $ cd ../../..
 ```
 
+Note that `.` refers to the current directory.
+
 You should now be in the root directory of the U7 repo.
 
 To go to the home directory, use:

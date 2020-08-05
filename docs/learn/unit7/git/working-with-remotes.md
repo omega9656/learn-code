@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Unit 7 Practice
-permalink: learn/unit7/practice
-parent: Unit 7
+title: Working with Remotes
+permalink: learn/unit7/git/working-with-remotes
+parent: Git
 grand_parent: Learn
-nav_order: 4
+nav_order: 5
 ---
 
 <!-- prettier-ignore-start -->
 
-# Unit 7: Practice
+# Unit 7: Git - Working with Remotes
 {: .no_toc }
 
 ## Table of Contents
@@ -20,6 +20,4 @@ nav_order: 4
 
 <!-- prettier-ignore-end -->
 
-## Practice
-
-## Challenges
+# Basic Git Workflow

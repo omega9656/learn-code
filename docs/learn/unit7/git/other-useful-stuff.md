@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Unit 7 Practice
-permalink: learn/unit7/practice
-parent: Unit 7
-grand_parent: Learn
-nav_order: 4
+title: Other Useful Stuff
+permalink: learn/unit7/git/other-useful-stuff
+parent: Git
+grand_parent: Unit 7
+nav_order: 6
 ---
 
 <!-- prettier-ignore-start -->
 
-# Unit 7: Practice
+# Unit 7: Git - Other Useful Stuff
 {: .no_toc }
 
 ## Table of Contents
@@ -19,7 +19,3 @@ nav_order: 4
 {:toc}
 
 <!-- prettier-ignore-end -->
-
-## Practice
-
-## Challenges
