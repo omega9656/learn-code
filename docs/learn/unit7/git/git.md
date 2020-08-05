@@ -20,18 +20,6 @@ nav_order: 3
 
 <!-- prettier-ignore-end -->
 
-# Git
-# Setup
-# Configuring Git
-# Getting Started
-
-
-
-
-## Note on examples
-
-Example output is _example output_, so what you see on your terminal may differ from what is displayed here.
-
 ## Git
 
 [Git](https://git-scm.com/) is a distributed version control system (VCS).
@@ -39,29 +27,30 @@ Basically Git is Google Docs for code - it manages the different versions of you
 
 **Note**: Git is _not_ the same thing as GitHub, as we will soon learn.
 
-### Setup Git
+### Install Git
 
 1. [Download Git](https://git-scm.com/downloads) for your operating system and follow the instructions from the installation wizard
 2. After installing, enter `git --version` into the terminal to verify that Git is ready to use. It should print the Git version you just installed on your computer.
 
 ## Terms You Should Know
 
-| Term | Definition |
-| :--- | :--- |
+| Term              | Definition                                                   |
+| :---------------- | :----------------------------------------------------------- |
 | repository (repo) | Place where your project's code is stored and tracked by Git |
-| local | The version of a repository on your computer |
-| remote | The version of a respository on the internet |
-| `master` | Default branch that is created; is the "main" branch |
-| `README.md` | A markdown (`.md`) file that talks about your repo (optional, but highly recommended) |
-
+| local             | The version of a repository on your computer                 |
+| remote            | The version of a respository on the internet                 |
+| `master`          | Default branch that is created; is the "main" branch         |
+| `README.md`       | A markdown (`.md`) file that talks about your repo (optional, but highly recommended) |
 
 ## Git Commands
 
 All Git commands begin with `git`.
 
-### Configuring Git
+**Note**: Example output is _example output_, so what you see on your terminal may differ from what is displayed here.
 
-#### git config
+## Configuring Git
+
+### git config
 
 Use `git config` to configure your user settings. You should set the global username and email to your name and email by using the commands below.
 
@@ -79,7 +68,11 @@ $ git config --global user.name "Jane Doe"
 $ git config --global user.email "janedoe@example.com"
 ```
 
-You may also find it useful to turn on automatic colorization of Git command line output by using the command:
+The user name and email that you set above will be associated with
+all of the commits you make on your computer.
+
+You may also find it useful to turn on automatic colorization of Git
+command line output by using the command:
 
 ```bash
 $ git config --global color.ui auto
@@ -91,9 +84,9 @@ To list all current config settings, you can use the command:
 $ git config --list
 ```
 
-### Getting Started
+## Getting Started
 
-#### git init
+### git init
 
 Use `git init` to initialize a Git repo in the current directory.
 
@@ -102,9 +95,15 @@ $ git init
 Initialized empty Git repository in /Users/janedoe/Desktop/project-directory/.git/
 ```
 
-#### git status
+On a conceptual level, what this does is it sets up tracking for all of
+the subdirectories and files in the project directory. Any modification that is made,
+whether it's adding 1000 lines of code, deleting a file, renaming a file,
+or adding a single space to a line of code, will be tracked.
 
-Use `git status` to show the current status of a Git repo. It usually displays staged files, unstaged files, number of commits ahead/behind, and more.
+### git status
+
+Use `git status` to show the current status of a Git repo. It usually displays
+staged files, unstaged files, number of commits ahead/behind, and more.
 
 ```bash
 $ git status
