@@ -20,9 +20,26 @@ nav_order: 4
 
 <!-- prettier-ignore-end -->
 
-### Changes to Code
+## Changes to Code
 
-#### git add
+When you make changes to the code in your repository, Git tracks that.
+However, it will not automatically version your files - it needs you
+to tell it when is a good time to preserve the current state of the code.
+
+The general workflow when files are modified goes as follows:
+
+1. File is modified
+2. File is added to the staging area (see [`git add`](#git-add))
+3. File in the staging area is committed (see [`git commit`](#git-commit))
+
+The _staging area_ is basically a place to put code right before you
+_commit_ your changes. Think of a commit has a snapshot in time. You will
+later learn how to use these commits to "go back in time" and look at how
+code used to be, or even undo commits.
+
+## Git Commands
+
+### git add
 
 Use `git add` to add file(s) to the staging area. You must add a file to the staging area before committing it.
 
@@ -44,7 +61,7 @@ To add all files in a directory, use:
 $ git add .
 ```
 
-#### git commit
+### git commit
 
 Use `git commit` to commit files added to the staging area. You should always have a commit message attached to a commit. Be sure to follow good [commit message conventions](https://chris.beams.io/posts/git-commit/).
 
