@@ -113,3 +113,26 @@ No commits yet
 
 nothing to commit (create/copy files and use "git add" to track)
 ```
+
+Another helpful thing about `git status` is that it gives you
+helpful hints about different Git commands you can use depending
+on the current status of your repository. For example, this is
+what a `git status` might look like while I am trying to resolve
+a [merge conflict](/learn-code/learn/unit7/branching#merge-conflicts).
+
+```bash
+$ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	both modified:   message.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+Using this output, I know that I can use `git merge --abort` if I
+want to abort the merge.
