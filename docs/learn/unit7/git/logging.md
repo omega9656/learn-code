@@ -20,9 +20,12 @@ nav_order: 6
 
 <!-- prettier-ignore-end -->
 
-### Logging
+## Logging
 
-#### git log
+An important part of Git is keeping track of history and being
+able to access different points in time. Logging commands help with just that!
+
+## git log
 
 `git log` displays commit history, which includes the author of the commit, the full commit message, timestamp, and commit hash (the seemingly random sequence of letters and numbers that is a unique identifier for each commit).
 
@@ -51,6 +54,8 @@ Date:   Mon Aug 3 23:13:39 2020 -0700
     Update changelog for v0.7.0
 ```
 
+### --oneline
+
 Use the `--oneline` flag to display a condensed log where each commit only takes up one line. This also shows the shorter version of the commit hash, which is really all you need.
 
 ```bash
@@ -59,6 +64,8 @@ ed19c25 (HEAD -> units, origin/units) Add Command Line page
 ca9d3c8 Add Exception Handling page, add/edit lesson code
 2f49c4d Update changelog for v0.7.0
 ```
+
+### --graph
 
 Use the `--graph` flag to display the log as a visual timeline.
 
@@ -83,7 +90,7 @@ $ git log --graph
 |     Update changelog for v0.7.0
 ```
 
-#### git shortlog
+## git shortlog
 
 `git shortlog` displays a shorter version of `git log`. Each commit is grouped by author and commit header.
 
