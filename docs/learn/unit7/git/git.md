@@ -46,7 +46,14 @@ Basically Git is Google Docs for code - it manages the different versions of you
 
 All Git commands begin with `git`.
 
-**Note**: Example output is _example output_, so what you see on your terminal may differ from what is displayed here.
+If you ever need help with using a Git command, you can
+enter the command and add the `-h` (for help) flag to view
+different options and the command's syntax.
+
+To view the Git manual for that command, add the `--help` flag.
+
+**Note**: Example output is _example output_, so what you see on
+your terminal may differ from what is displayed here.
 
 ## Configuring Git
 
