@@ -295,6 +295,10 @@ can adhere to in order to have a smooth workflow.
 7. Do steps 5-6 again as needed
 8. Push local changes to remote
 
+![git workflow](https://jlord.us/git-it/assets/imgs/remotes.png)
+
+[Image Credit](http://jlord.us/git-it/challenges/remote_control.html)
+
 Another thing to note about is that it is highly recommended
 for any **new changes to be committed to a branch** instead of
 working directly on `master`. `master` is typically treated as

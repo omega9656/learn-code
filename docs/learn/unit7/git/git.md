@@ -22,6 +22,8 @@ nav_order: 3
 
 ## Git
 
+![git logo](https://git-scm.com/images/logos/1color-orange-lightbg@2x.png)
+
 [Git](https://git-scm.com/) is a distributed version control system (VCS).
 Basically Git is Google Docs for code - it manages the different versions of your files. More specifically, it allows you to keep track of changes, go back to older edits, and collaborate with other coders.
 
