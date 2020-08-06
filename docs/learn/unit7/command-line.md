@@ -485,12 +485,16 @@ Echo by Jason Walker
 
 ## Further Reading
 
-You might find these references to be useful:
+In no way is our lesson on the command line comprehensive. If you would like
+to learn more about the command line, see the following reference materials
+and guides.
+
+### Reference Material
 
 - [Bash reference](https://ss64.com/bash/)
 - [DOS Reference](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
 
-Practical guides:
+### Guides
 
 - [Ubuntu Tutorials: Command Line for Beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
 - [lifehacker: A Command Line Primer for Beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
