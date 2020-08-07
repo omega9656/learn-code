@@ -6,8 +6,6 @@ layout: default
 
 <!-- prettier-ignore-start -->
 
-{{ content }}
-
-{% include quizzes/{{ page.parent | slugify }}.html %}
+{{ content }} {% include quizzes/{{ page.parent | slugify }}.html %}
 
 <!-- prettier-ignore-end -->
