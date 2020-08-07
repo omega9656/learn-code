@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<h1>{{ page.parent }}: Quiz</h1>
+
+{{ content }}
+
+{% include quizzes/{{ page.parent | slugify }}.html %}

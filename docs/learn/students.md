@@ -57,6 +57,12 @@ view these quizzes at the bottom of each unit's page.
 1. [Unit 1](https://docs.google.com/forms/d/e/1FAIpQLSfkSQ05YI-tb9I6yapqMijTjv3h8z_vs87OpCmsw57laPi-4Q/viewform?usp=sf_link)
 2. [Unit 2](https://docs.google.com/forms/d/e/1FAIpQLSdBDAeHlnDl6LZQQMsg8GQAhOhu0aXELp-9Bv-UXyTTd99nIg/viewform?usp=sf_link)
 3. [Unit 3](https://docs.google.com/forms/d/e/1FAIpQLSer5kFZwZe5kwINd1TyJC_84HGEX4CKB1nx4Rm7Ow4jOl1xEA/viewform?usp=sf_link)
+4. [Unit 4](https://docs.google.com/forms/d/e/1FAIpQLSc0N_XlC3psuEEobWyRZGZ6CKGWK052CnNmenec3bGgfKA3_A/viewform?usp=sf_link)
+5. [Unit 5](https://docs.google.com/forms/d/e/1FAIpQLSerFXC4UJdlXQn1VasontgDYD-UNLC9eBS7Rllcp55e0l8kjw/viewform?usp=sf_link)
+6. [Unit 6](https://docs.google.com/forms/d/e/1FAIpQLSfsrZwsmKRVCmCV4cNnS046Q_b1J7fTtV7H2zjshDUODcALdw/viewform?usp=sf_link)
+7. [Unit 7](https://docs.google.com/forms/d/e/1FAIpQLScphGCu208zifFDVJ7q1INoqV4Y2ETT4tbwLoPRq_J4uLQtUQ/viewform?usp=sf_link)
+
+_Quizzes for Units 8-11 are coming soon!_
 
 ## Other Online Resources
 
