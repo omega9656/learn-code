@@ -9,9 +9,17 @@ permalink: changelog
 
 ## v0 - Initial release
 
+### v0.7.0
+
+-   [Unit 7](/learn-code/learn/unit7) published completely
+    [#15]({{ site.github.repository_url }}/pull/15)
+-   Re-added next unit and previous unit buttons to unit pages
+-   Fixed numbering issue in
+    [Introduction to Java](/learn-code/learn/unit1/introduction-to-java)
+
 ### v0.6.0
 
--   [Unit 6](/learn-code/learn/unit5) published completely
+-   [Unit 6](/learn-code/learn/unit6) published completely
     [#14]({{ site.github.repository_url }}/pull/14)
 
 ### v0.5.0

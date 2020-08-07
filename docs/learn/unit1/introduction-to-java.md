@@ -57,13 +57,14 @@ To preface this exercise, we will explain everything later. For now, just type
 what you see exactly as you see it. (We also recommend _not_ copying and pasting
 example code because that kinda defeats the point of learning how to code.)
 
+<!-- prettier-ignore-start -->
+
 1. Open your IDE or editor. From now on, we'll assume that you're using
    IntelliJ, but other IDEs and editors probably use similar user interfaces.
    (You may need to create a new project or working directory (folder)).
 2. Create a new file by going to File > New > Java class
 3. Name it `HelloWorld.java`
 4. Type the following code into the file:
-
 ```java
 public class HelloWorld {
     public static void main(String[] args) {
@@ -72,13 +73,13 @@ public class HelloWorld {
     }
 }
 ```
-
 5. Press the green play button next to `public class HelloWorld`. This should
    run your program and you should see this output:
-
 ```
 Hello world!
 ```
+
+<!-- prettier-ignore-end -->
 
 Wow, you've just written your first few lines of Java code! Let's break down
 what happened.

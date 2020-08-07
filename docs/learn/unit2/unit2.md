@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: unit
 title: Unit 2
 permalink: learn/unit2
 parent: Learn
