@@ -1,4 +1,4 @@
-package com.omegarobotics.unit7.practice.exceptions;
+package com.omegarobotics.unit7.challenges;
 
 /*
  * Write a program called RetrieveElement that meets

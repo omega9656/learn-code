@@ -1,4 +1,4 @@
-package com.omegarobotics.unit7.lessons.exceptions;
+package com.omegarobotics.unit7.lessons;
 
 public class TestException {
     public static void main(String[] args) {
