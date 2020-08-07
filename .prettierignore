@@ -1,4 +1,10 @@
 # Ignore workflow files
 .github/workflows/
 
+# Includes bad style on purpose
 WhyWeUseBraces.java
+
+# Includes ordered lists with code blocks
+# in between. Can't have extra line of space
+# otherwise the numbers restart.
+/docs/learn/unit7/solutions/
