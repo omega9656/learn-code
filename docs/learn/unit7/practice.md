@@ -154,19 +154,62 @@ Everything done in this exercise is via the terminal.
 
 <!-- prettier-ignore-start -->
 
+git
+{: .label }
 github
 {: .label }
 command line
 {: .label }
-Unit 7 repository
-{: .label .label-red }
+forking
+{: .label }
+pull requests
+{: .label }
 
 <!-- prettier-ignore-end -->
 
-TODO instructions
+Go to the [Learn Code Unit 7](https://github.com/omega9656/learn-code-unit-7) repository on GitHub.
 
-<!-- prettier-ignore -->
+1. Fork the repository to your account.
+2. Clone your forked repository to local. (Use the terminal.)
+
+Open an IDE or text editor application and do the following
+(from now on you can choose to complete the instructions using
+the application's GUI or using the command line):
+
+<!-- prettier-ignore-start -->
+
+1. Make a new directory called `practice` in the root directory and change into it.
+2. Create a new file called `hello.txt` and add the following: "Hello world, I'm a programmer".
+3. Add and commit the changes with the message `"Add hello.txt"`.
+5. Push the changes to your remote `master` branch.
+6. Checkout the `feature` branch.
+7. Add the line "Java is an object-oriented programming language" to `hello.txt`.
+8. Add and commit the changes with the message `"Add Java description"`.
+9. Checkout the `master` branch.
+10. Replace the line "Hello world, I'm a programmer" in `hello.txt` with 2 lines:
+```
+This is the way the world ends
+Not with a bang, but a whimper
+```
+11. Add and commit the changes with the message `"Add poem lines"`.
+12. Merge `feature` into `master`. Resolve the conflict so that `hello.txt` looks like this:
+```
+Hello world, I'm a programmer
+This is the way the world ends
+Not with a bang, but a whimper
+```
+13. Push the changes to your remote `master` branch.
+
+Go to the official [Learn Code Unit 7](https://github.com/omega9656/learn-code-unit-7) repository.
+
+1. Create a new pull request by comparing `omega9656:master` with `your_username:master` (where
+`your_username` is replaced by your GitHub username).
+2. Be sure to include a concise title and description of what changed.
+3. Label your pull request with the green `practice` label.
+
 [Solution](/learn-code/learn/unit7/practice/github-solution){: .btn }
+
+<!-- prettier-ignore-end -->
 
 ## Challenges
 
