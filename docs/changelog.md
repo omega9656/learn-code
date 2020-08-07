@@ -9,6 +9,11 @@ permalink: changelog
 
 ## v0 - Initial release
 
+### v0.7.1
+
+-   Update kramdown version due to severe security alert
+-   Update Prettier ignore for certain files
+
 ### v0.7.0
 
 -   [Unit 7](/learn-code/learn/unit7) published completely
