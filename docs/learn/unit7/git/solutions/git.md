@@ -52,7 +52,7 @@ $ git commit -m "Add quote.txt"
 7. Change directories into `src/com/omegarobotics`.
 ```bash
 $ cd src/com/omegarobotics
-# alternate solution
+## ALTERNATE SOLUTION ##
 $ cd src
 $ cd com
 $ cd omegarobotics
@@ -119,7 +119,7 @@ Date:   Thu Aug 6 23:41:28 2020 -0700
 $ git branch feature
 $ git checkout feature
 Switched to branch 'feature'
-# alternate solution
+## ALTERNATE SOLUTION ##
 $ git checkout -b feature
 Switched to a new branch 'feature'
 ```
@@ -147,7 +147,7 @@ $ git commit -m "Delete songs.txt"
 [master 34b977d] Delete songs.txt
  1 file changed, 8 deletions(-)
  delete mode 100644 src/com/omegarobotics/songs.txt
-# alternate solution
+## ALTERNATE SOLUTION ##
 $ rm songs.txt
 $ git add songs.txt
 $ git commit -m "Delete songs.txt"
