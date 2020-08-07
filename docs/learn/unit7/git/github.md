@@ -85,6 +85,9 @@ Notice also that on the top left you can switch branches and [tags](/learn-code/
 
 ![switch branches or tags](../../../images/github/branches-tags.png)
 
+Notice also that on the top right you can click on the green button to download
+the code as a ZIP file or copy the repository URL in order clone it via `git clone`.
+
 To view commit history, click on the top right corner where it tells you the number
 of commits made on this repo. It should look something like this:
 
