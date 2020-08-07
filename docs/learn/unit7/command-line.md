@@ -22,17 +22,16 @@ nav_order: 2
 
 ## Command Line
 
-At some point in your life you have probably tried to use
-Command Prompt (Windows) or Terminal (Mac). It was probably very
-confusing and hard to use. That's because they both use
-command line interfaces (CLIs), which are entirely text based, as opposed
-to graphic user interfaces (GUIs), which you're used to (e.g.
-clicking things).
+At some point in your life you have probably tried to use Command Prompt
+(Windows) or Terminal (Mac). It was probably very confusing and hard to use.
+That's because they both use command line interfaces (CLIs), which are entirely
+text based, as opposed to graphic user interfaces (GUIs), which you're used to
+(e.g. clicking things).
 
-However, as a programmer, you will need to familiarize yourself
-with at least the basics of the command line in order to
-navigate file systems and use Git, which is a popular version control system
-we will learn about later (see [Git](/learn-code/learn/unit7/git)).
+However, as a programmer, you will need to familiarize yourself with at least
+the basics of the command line in order to navigate file systems and use Git,
+which is a popular version control system we will learn about later (see
+[Git](/learn-code/learn/unit7/git)).
 
 So let's get started!
 
@@ -42,26 +41,29 @@ So let's get started!
 
 **Be _EXTREMELY_ careful when entering commands into the command line.**
 
-Because it is text based and can modify practically everything on your
-computer, it's very easy to make a typo and then accidentally delete
-everything on your computer. (It probably won't be _that_ bad,
-but it [happened to the animators of Toy Story 2](https://www.mentalfloss.com/uk/entertainment/27204/how-one-line-of-text-nearly-killed-toy-story-2), so just be careful.)
+Because it is text based and can modify practically everything on your computer,
+it's very easy to make a typo and then accidentally delete everything on your
+computer. (It probably won't be _that_ bad, but it
+[happened to the animators of Toy Story 2](https://www.mentalfloss.com/uk/entertainment/27204/how-one-line-of-text-nearly-killed-toy-story-2),
+so just be careful.)
 
 ### Bash
 
-The 2 most popular CLIs are DOS (Windows) and bash (Mac, Linux). Each
-has its own commands. In this course, we will be learning basic bash.
+The 2 most popular CLIs are DOS (Windows) and bash (Mac, Linux). Each has its
+own commands. In this course, we will be learning basic bash.
 
-If you are a knowledgeable Windows user who would like to contribute DOS content, please do! See [Contributing](/learn-code/#contributing).
+If you are a knowledgeable Windows user who would like to contribute DOS
+content, please do! See [Contributing](/learn-code/#contributing).
 
 ### Follow Along
 
-We highly recommend that from now on when you read this section
-and come across an example, you try using that command on your own
-command line. Note that examples should be followed in order if you want it to work properly.
+We highly recommend that from now on when you read this section and come across
+an example, you try using that command on your own command line. Note that
+examples should be followed in order if you want it to work properly.
 
 To follow along, you'll need to download or clone the
-[omega9656/learn-code-unit-7](https://github.com/omega9656/learn-code-unit-7) repository. See the Usage section in the README file.
+[omega9656/learn-code-unit-7](https://github.com/omega9656/learn-code-unit-7)
+repository. See the Usage section in the README file.
 
 Here is a diagram of the file hierarchy on that repository:
 
@@ -79,27 +81,29 @@ Here is a diagram of the file hierarchy on that repository:
 
 ### File Paths
 
-On Windows, file paths use back slashes (\\). On Mac, they use forward slashes (/).
-If you use \ on a Mac it will still understand what you mean though.
+On Windows, file paths use back slashes (\\). On Mac, they use forward slashes
+(/). If you use \ on a Mac it will still understand what you mean though.
 
 ### Examples
 
-In the examples we show you here, anything that starts with `#` is a comment. The `$` symbol indicates the command prompt.
-You aren't supposed to type this in, it should just be there. If the line does not start with `$`, that means it is output displayed on the terminal.
+In the examples we show you here, anything that starts with `#` is a comment.
+The `$` symbol indicates the command prompt. You aren't supposed to type this
+in, it should just be there. If the line does not start with `$`, that means it
+is output displayed on the terminal.
 
 ## Terms You Should Know
 
-| Term | Definition |
-| :--- | :--- |
-| `~` | Home directory |
-| directory | Folder |
-| root directory | Parent directory of a project |
-| path | Directories that lead to a file (for example, `src/com/omegarobotics`) |
-| absolute path | Path from the root to a file |
-| relative path | Path from the current directory to a file |
-| (file) extension | Thing that goes after the file name which tells you what the file type is (for example, `.pdf`) |
-| `src` | "source", usually where all the code is in a project |
-| flag | An option that modifies a command (for example, `-m`). You can also chain flags (for example, `-a -m` is equivalent to `-am` or `-ma`). |
+| Term             | Definition                                                                                                                              |
+| :--------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| `~`              | Home directory                                                                                                                          |
+| directory        | Folder                                                                                                                                  |
+| root directory   | Parent directory of a project                                                                                                           |
+| path             | Directories that lead to a file (for example, `src/com/omegarobotics`)                                                                  |
+| absolute path    | Path from the root to a file                                                                                                            |
+| relative path    | Path from the current directory to a file                                                                                               |
+| (file) extension | Thing that goes after the file name which tells you what the file type is (for example, `.pdf`)                                         |
+| `src`            | "source", usually where all the code is in a project                                                                                    |
+| flag             | An option that modifies a command (for example, `-m`). You can also chain flags (for example, `-a -m` is equivalent to `-am` or `-ma`). |
 
 ## Commands You Should Know
 
@@ -115,7 +119,8 @@ $ cd <path>
 
 **Examples**
 
-Start in the root directory of the Learn Code Unit 7 repository (we'll call this the U7 repo from now on).
+Start in the root directory of the Learn Code Unit 7 repository (we'll call this
+the U7 repo from now on).
 
 ```bash
 $ cd src
@@ -125,8 +130,8 @@ $ cd omegarobotics
 
 You should now be in `src/com/omegarobotics`.
 
-Alternatively, you can give a relative path to
-go to that directory all in one line.
+Alternatively, you can give a relative path to go to that directory all in one
+line.
 
 ```bash
 $ cd src/com/omegarobotics
@@ -138,7 +143,8 @@ To go "up" a directory, use:
 $ cd ..
 ```
 
-You can use `..` in a relative path. Start in `src/com/omegarobotics`. For example:
+You can use `..` in a relative path. Start in `src/com/omegarobotics`. For
+example:
 
 ```bash
 $ cd ../../..
@@ -162,7 +168,8 @@ $ cd -
 
 ### ls
 
-This command allows you to list all of the files and directories in the current directory.
+This command allows you to list all of the files and directories in the current
+directory.
 
 **Usage**
 
@@ -211,8 +218,9 @@ total 32
 -rw-r--r--  1 janedoe  staff  100 Aug  4 22:21 tvshows.txt
 ```
 
-**Note**: You don't really need to worry about what all of that text means. Basically, it's just more details about the file, such as read/write permissions, users, user groups,
-date/times, etc.
+**Note**: You don't really need to worry about what all of that text means.
+Basically, it's just more details about the file, such as read/write
+permissions, users, user groups, date/times, etc.
 
 ### clear
 
@@ -299,8 +307,8 @@ $ rm <path>
 
 **Options**
 
-The `-r` flag (for _recursive_) allows you to remove
-a directory which contains files.
+The `-r` flag (for _recursive_) allows you to remove a directory which contains
+files.
 
 ```bash
 $ rm -r <path>
@@ -328,8 +336,8 @@ omegarobotics
 
 ### rmdir
 
-`rmdir` removes the given directory, assuming it is empty.
-(For non-empty directories, use `rm -r <path>`).
+`rmdir` removes the given directory, assuming it is empty. (For non-empty
+directories, use `rm -r <path>`).
 
 **Usage**
 
@@ -485,16 +493,16 @@ Echo by Jason Walker
 
 ## Further Reading
 
-In no way is our lesson on the command line comprehensive. If you would like
-to learn more about the command line, see the following reference materials
-and guides.
+In no way is our lesson on the command line comprehensive. If you would like to
+learn more about the command line, see the following reference materials and
+guides.
 
 ### Reference Material
 
-- [Bash reference](https://ss64.com/bash/)
-- [DOS Reference](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
+-   [Bash reference](https://ss64.com/bash/)
+-   [DOS Reference](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
 
 ### Guides
 
-- [Ubuntu Tutorials: Command Line for Beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
-- [lifehacker: A Command Line Primer for Beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+-   [Ubuntu Tutorials: Command Line for Beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+-   [lifehacker: A Command Line Primer for Beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)

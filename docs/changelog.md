@@ -14,7 +14,8 @@ permalink: changelog
 -   [Unit 7](/learn-code/learn/unit7) published completely
     [#15]({{ site.github.repository_url }}/pull/15)
 -   Re-added next unit and previous unit buttons to unit pages
--   Fixed numbering issue in [Introduction to Java](/learn-code/learn/unit1/introduction-to-java)
+-   Fixed numbering issue in
+    [Introduction to Java](/learn-code/learn/unit1/introduction-to-java)
 
 ### v0.6.0
 
