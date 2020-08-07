@@ -22,17 +22,17 @@ nav_order: 12
 
 ## A note on all problems
 
-Problems tagged with the red **Unit 7 Repository** label
-utilize the [Learn Code Unit 7](https://github.com/omega9656/learn-code-unit-7) repository.
-Before starting the practice exercises, you need to download or clone a fresh version
-of this repository.
+Problems tagged with the red **Unit 7 Repository** label utilize the
+[Learn Code Unit 7](https://github.com/omega9656/learn-code-unit-7) repository.
+Before starting the practice exercises, you need to download or clone a fresh
+version of this repository.
 
 Also, rather than having "solution code", the solution text file will outline
-the commands you should have done. (There may be slight variation in
-things like commit hashes, but everything else should be exactly the same.)
+the commands you should have done. (There may be slight variation in things like
+commit hashes, but everything else should be exactly the same.)
 
-If you want to restart the problem for any reason, simply delete the repo directory
-and then download/clone it again.
+If you want to restart the problem for any reason, simply delete the repo
+directory and then download/clone it again.
 
 ## Practice
 
@@ -49,10 +49,10 @@ while loop
 
 <!-- prettier-ignore-end -->
 
-Create a class called `Blah` which prompts the user to enter an integer continuously.
-If an `InputMismatchException` occurs, print an error message and keep asking them
-for an `int`. If an `int` has been successfully entered, stop asking the user for input
-and print the `int`.
+Create a class called `Blah` which prompts the user to enter an integer
+continuously. If an `InputMismatchException` occurs, print an error message and
+keep asking them for an `int`. If an `int` has been successfully entered, stop
+asking the user for input and print the `int`.
 
 Note that you will need to import `java.util.InputMismatchException`.
 
@@ -137,14 +137,15 @@ Everything done in this exercise is via the terminal.
 10. Append your favorite TV show to `tvshows.txt`.
 11. Display the status of the repository.
 12. Add all of the modified files to the staging area.
-13. Commit the changes with the message "Add my favorite song, book, and TV show".
+13. Commit the changes with the message "Add my favorite song, book, and TV
+    show".
 14. Display the log of commits.
 15. Create a new branch called `feature` and check it out.
 16. Add another song you like to `songs.txt` and commit that change.
 17. Check out the `master` branch.
 18. Remove `songs.txt` and commit that change.
-19. Merge `feature` into `master`. Resolve the conflict by completing
-    the deletion of `songs.txt`.
+19. Merge `feature` into `master`. Resolve the conflict by completing the
+    deletion of `songs.txt`.
 20. Delete the `feature` branch.
 
 <!-- prettier-ignore -->
@@ -167,14 +168,15 @@ pull requests
 
 <!-- prettier-ignore-end -->
 
-Go to the [Learn Code Unit 7](https://github.com/omega9656/learn-code-unit-7) repository on GitHub.
+Go to the [Learn Code Unit 7](https://github.com/omega9656/learn-code-unit-7)
+repository on GitHub.
 
 1. Fork the repository to your account.
 2. Clone your forked repository to local. (Use the terminal.)
 
-Open an IDE or text editor application and do the following
-(from now on you can choose to complete the instructions using
-the application's GUI or using the command line):
+Open an IDE or text editor application and do the following (from now on you can
+choose to complete the instructions using the application's GUI or using the
+command line):
 
 <!-- prettier-ignore-start -->
 
@@ -226,34 +228,30 @@ Scanner
 
 <!-- prettier-ignore-end -->
 
-Adapted from Exercise 12.3 from _Introduction to Java Programming (Comprehensive)_,
-10th ed. by Y. Daniel Liang
+Adapted from Exercise 12.3 from _Introduction to Java Programming
+(Comprehensive)_, 10th ed. by Y. Daniel Liang
 
-Create a class called `RetrieveElement` which meets
-the following requirements:
-- Creates an array with 100 randomly chosen integers
-  (use `Math.random() * 100` and cast the result to `int`)
-- Continuously prompts the user to enter the index of
-  the array, then displays the corresponding
-  element value. If the specified index is out of
-  bounds, display the message `"Out of Bounds"`.
-- The program should end when the user enters `"quit"`
-  (case insensitive*)
-- If the user enters anything other than an index or
-  `"quit"`, display the message `"Invalid index"`
+Create a class called `RetrieveElement` which meets the following requirements:
 
-*To check if two strings are equal without taking into
-account case, use the `equalsIgnoreCase` method.
+-   Creates an array with 100 randomly chosen integers (use
+    `Math.random() * 100` and cast the result to `int`)
+-   Continuously prompts the user to enter the index of the array, then displays
+    the corresponding element value. If the specified index is out of bounds,
+    display the message `"Out of Bounds"`.
+-   The program should end when the user enters `"quit"` (case insensitive\*)
+-   If the user enters anything other than an index or `"quit"`, display the
+    message `"Invalid index"`
 
-Note that we have not told you what exception classes
-you need to catch. Use your brain - how can you figure out
-which classes to use?
+\*To check if two strings are equal without taking into account case, use the
+`equalsIgnoreCase` method.
 
-Hint: When using `Scanner`, you will need to use the `next`
-method to give the user the flexibility to enter any type.
-The return type of this method is `String`, so you will
-need to use the `Integer.parseInt` method to convert
-the `String` into an `int`.
+Note that we have not told you what exception classes you need to catch. Use
+your brain - how can you figure out which classes to use?
+
+Hint: When using `Scanner`, you will need to use the `next` method to give the
+user the flexibility to enter any type. The return type of this method is
+`String`, so you will need to use the `Integer.parseInt` method to convert the
+`String` into an `int`.
 
 ```java
 public class RetrieveElement {
