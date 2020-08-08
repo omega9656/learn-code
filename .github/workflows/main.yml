@@ -29,7 +29,7 @@ jobs:
     - name: Prettify Java code
       uses: lwerner-lshigh/prettier_action_java@v1.1.1
       with:
-        prettier_options: --write **/*.java --config config/.prettierrc.json
+        prettier_options: --write **/*.java
         branch: ${{ github.head_ref }}
         commit_message: 'Bot: Prettified Java code!'
       env:
@@ -55,7 +55,7 @@ jobs:
   #       reporter: github-pr-review
 
         # this doesn't work yet: https://github.com/nikitasavinov/checkstyle-action/issues/10
-        # checkstyle_config: config/google_checks_mod.xml
+        # checkstyle_config: google_checks_mod.xml
   
   ################ Format ###################
   ### HTML, CSS, SCSS, JS, JSON, MD, YAML ###
@@ -75,9 +75,7 @@ jobs:
           ### Prettier Options ###
           # --write prettifies directory/file given
           # in this case, everything is prettified (if supported)
-          # --ignore-path is the path to the .prettierignore file
-          # (default is ./.prettierignore)
-          prettier_options: --write . --config config/.prettierrc.json
+          prettier_options: --write .
           commit_message: 'Bot: Prettified code!'
 
   ### Lint CSS, SCSS ###
