@@ -70,7 +70,4 @@ color_scheme: omega
 # make light/dark button? or change to dark after a certain time
 
 # Google Analytics Tracking (optional)
-# e.g, UA-1234567-89
-# ga_tracking: UA-5555555-55
-# ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
-# get started: https://support.google.com/analytics/answer/1008015?hl=en
+ga_tracking: UA-174995686-1

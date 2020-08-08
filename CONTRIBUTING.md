@@ -6,22 +6,27 @@ find an error in our existing code?
 
 If so, please make sure you read the entirety of these guidelines before
 submitting a pull request. You may also want to read our
-[Code of Conduct](https://github.com/FTC-9656-Omega-Robotics/HowToCode/blob/master/CODE_OF_CONDUCT.md).
+[Code of Conduct](https://github.com/omega9656/learn-code/blob/master/CODE_OF_CONDUCT.md).
 
 ## Follow good programming style.
 
-### Install Checkstyle
+### Install Linters
 
-You can learn more about Checkstyle [here](https://checkstyle.sourceforge.io/).
+To ensure good style and conventions, we use various linters:
 
-This will save you time because when you submit a pull request (PR) on GitHub,
-we check for good programming style using this linter.
+-   [Checkstyle](https://checkstyle.sourceforge.io/) (Java)
+-   [stylelint](https://stylelint.io) (CSS, SCSS, SASS)
+-   [Prettier](https://prettier.io/) (Java, Markdown, YML, HTML, CSS, etc.)
+-   [HTML5 Validator](https://github.com/svenkreiss/html5validator) (HTML, CSS)
+
+We recommend that you install them to save time because when you submit a pull
+request (PR) on GitHub, we check for good programming style using these linters.
 
 **Your PR will not be approved unless it passes those style checks.**
 
 Also, linters basically enforce all of the style rules that we discuss below, so
 you basically can just skip to the
-[next section](#follow-omega-how-to-code-format).
+[next section](#follow-omega-learn-code-format).
 
 ### Whitespace
 
@@ -47,7 +52,7 @@ you basically can just skip to the
 -   Break up the program into methods if applicable and if methods have been
     introduced already at that point in time
 
-## Follow Omega How to Code format
+## Follow Omega Learn Code format
 
 -   Make sure you put the file(s) in the right directories.
     -   All code filed under `practice` should be practice problems.
@@ -62,9 +67,8 @@ you basically can just skip to the
         -   They must include a multi-line comment at the top of the file (but
             after the package statement and any imports) with a bulleted list of
             topics that are covered (use - as bullets)
-    -   Refer to the
-        [Organization page](https://github.com/FTC-9656-Omega-Robotics/HowToCode/wiki/Organization)
-        on our Wiki to see how units are organized.
+    -   Refer to the [Units page](https://omega9656.github.io/learn-code/) to
+        see how units are organized.
 -   Make sure you have the correct package statement as the first line of your
     code.
 
@@ -77,7 +81,7 @@ you basically can just skip to the
 
 -   Make sure the problem is doable for the skill level of students at that
     point in time.
--   Practice problems shouldn’t take several hours/days.
+-   Practice problems shouldn’t take several days.
 
 ## Cite your sources.
 
@@ -88,50 +92,49 @@ you basically can just skip to the
 -   If you found it in a book, cite the full title and author.
 -   Citations should be included in the multi-line comment that is at the top of
     the file (see
-    [Follow Omega How to Code Format](#follow-omega-how-to-code-format))
+    [Follow Omega Learn Code Format](#follow-omega-learn-code-format))
 
 ## Submitting practice problem(s)
 
-**\*Note 1:** We assume you know basic Git, e.g. committing, pushing, pulling,
-branching, merging, etc. If you want to learn the basic Git you need to
-contribute, we recommend watching
-[this entire playlist.](https://www.youtube.com/watch?v=3RjQznt-8kE&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR&index=1)\*
-
-**\*Note 2:** If you want an overview of the Pull Request (PR) workflow we are
-using, read
-[these articles](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/proposing-changes-to-your-work-with-pull-requests).\*
+**Note:** We assume you know basic Git and GitHub, e.g. committing, pushing,
+pulling, branching, merging, forking, pull requests, etc. If you want to learn
+the basic Git you need to contribute, we recommend reading
+[Unit 7](https://omega9656.github.io/learn-code/learn/unit7).
 
 1. Clone or fork the repository.
 
--   [How to Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
--   [How to Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+    - [How to Clone](https://omega9656.github.io/learn-code/learn/unit7/working-with-remotes#git-clone)
+    - [How to Fork](https://omega9656.github.io/learn-code/learn/unit7/github#forking)
 
-3. Work on the practice problems locally.
+2. Work on the practice problems locally.
 
--   If you cloned the repo, make sure you create and checkout a new branch. **DO
-    NOT MAKE EDITS ON THE MASTER BRANCH.**
--   If you forked the repo, you’re free to work on the master branch or make
-    your own branches (though that is kinda unnecessary).
--   [Git Branches Tutorial](https://www.atlassian.com/git/tutorials/using-branches)
+    - If you cloned the repo, make sure you create and checkout a new branch.
+      **DO NOT MAKE EDITS ON THE MASTER BRANCH.**
+    - If you forked the repo, you’re free to work on the master branch or make
+      your own branches.
+    - [Learn Branching](https://omega9656.github.io/learn-code/learn/unit7/branching)
 
-4. Push your local branch to remote.
+3. Push your local branch to remote.
 
--   [How to Push](https://help.github.com/en/github/using-git/pushing-commits-to-a-remote-repository)
+    - [How to Push](https://omega9656.github.io/learn-code/learn/unit7/working-with-remotes#git-push)
 
-5. Make a pull request to merge your branch with the master branch.
+4. Make a pull request to merge your branch with the master branch.
 
--   Make sure the title of your pull request is descriptive but concise.
--   Follow the PR template.
--   [How to Create a Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+    - Make sure the title of your pull request is descriptive but concise.
+    - Follow the
+      [PR template](https://github.com/omega9656/learn-code/blob/master/pull_request_template.md)
+    - [Learn Pull Requests](https://omega9656.github.io/learn-code/learn/unit7/github#pull-requests)
 
-6. Monitor the status of your Pull Request on GitHub.
+5. Monitor the status of your Pull Request on GitHub.
 
--   It’s possible that the Omega will Request Changes, in which case you will
-    need to commit those changes before your PR will be approved and merged into
-    the official master branch.
+    - It’s possible that the Omega will request changes, in which case you will
+      need to commit and push those changes before your PR will be approved and
+      merged into the official `master` branch.
 
 **Thank you for following these guidelines and contributing to this
 repository!**
 
-_Questions? Message any 9656 member on the FTC Discord, or email us at
-[ftc9656omega@gmail.com](mailto:ftc9656omega@gmail.com)._
+## Questions?
+
+Message any 9656 member on the FTC Discord, or email us at
+[ftc9656omega@gmail.com](mailto:ftc9656omega@gmail.com).
