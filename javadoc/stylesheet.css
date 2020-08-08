@@ -2,7 +2,7 @@
  * Javadoc style sheet
  */
 
-@import url("resources/fonts/dejavu.css");
+@import url('resources/fonts/dejavu.css');
 
 /*
  * Styles for individual HTML elements.
@@ -14,7 +14,7 @@
 body {
     background-color: #fff;
     color: #353833;
-    font-family: "DejaVu Sans", Arial, Helvetica, sans-serif;
+    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
     font-size: 14px;
     height: 100%;
     margin: 0;
@@ -51,7 +51,7 @@ a[name]::before,
 a[name]:target,
 a[id]::before,
 a[id]:target {
-    content: "";
+    content: '';
     display: inline-block;
     margin-top: -129px;
     padding-top: 129px;
@@ -59,7 +59,7 @@ a[id]:target {
 }
 
 pre {
-    font-family: "DejaVu Sans Mono", monospace;
+    font-family: 'DejaVu Sans Mono', monospace;
     font-size: 14px;
 }
 
@@ -94,7 +94,7 @@ ul {
 
 code,
 tt {
-    font-family: "DejaVu Sans Mono", monospace;
+    font-family: 'DejaVu Sans Mono', monospace;
     font-size: 14px;
     line-height: 1.4em;
     margin-top: 8px;
@@ -102,13 +102,13 @@ tt {
 }
 
 dt code {
-    font-family: "DejaVu Sans Mono", monospace;
+    font-family: 'DejaVu Sans Mono', monospace;
     font-size: 14px;
     padding-top: 4px;
 }
 
 table tr td dt code {
-    font-family: "DejaVu Sans Mono", monospace;
+    font-family: 'DejaVu Sans Mono', monospace;
     font-size: 14px;
     padding-top: 4px;
     vertical-align: top;
@@ -119,7 +119,7 @@ sup {
 }
 
 button {
-    font-family: "DejaVu Sans", Arial, Helvetica, sans-serif;
+    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 
@@ -440,7 +440,7 @@ ul.blockList li.blockList h2 {
 .contentContainer .description dl dd,
 .contentContainer .details dl dd,
 .serializedFormContainer dl dd {
-    font-family: "DejaVu Serif", Georgia, "Times New Roman", Times, serif;
+    font-family: 'DejaVu Serif', Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     margin: 5px 0 10px;
 }
@@ -671,10 +671,10 @@ table tr td dl dd {
     width: 5px;
 }
 
-.overviewSummary [role="tablist"] button,
-.memberSummary [role="tablist"] button,
-.typeSummary [role="tablist"] button,
-.packagesSummary [role="tablist"] button {
+.overviewSummary [role='tablist'] button,
+.memberSummary [role='tablist'] button,
+.typeSummary [role='tablist'] button,
+.packagesSummary [role='tablist'] button {
     border: none;
     cursor: pointer;
     font-weight: bold;
@@ -682,18 +682,18 @@ table tr td dl dd {
     padding: 5px 12px 7px;
 }
 
-.overviewSummary [role="tablist"] .activeTableTab,
-.memberSummary [role="tablist"] .activeTableTab,
-.typeSummary [role="tablist"] .activeTableTab,
-.packagesSummary [role="tablist"] .activeTableTab {
+.overviewSummary [role='tablist'] .activeTableTab,
+.memberSummary [role='tablist'] .activeTableTab,
+.typeSummary [role='tablist'] .activeTableTab,
+.packagesSummary [role='tablist'] .activeTableTab {
     background: #f8981d;
     color: #253441;
 }
 
-.overviewSummary [role="tablist"] .tableTab,
-.memberSummary [role="tablist"] .tableTab,
-.typeSummary [role="tablist"] .tableTab,
-.packagesSummary [role="tablist"] .tableTab {
+.overviewSummary [role='tablist'] .tableTab,
+.memberSummary [role='tablist'] .tableTab,
+.typeSummary [role='tablist'] .tableTab,
+.packagesSummary [role='tablist'] .tableTab {
     background: #4d7a97;
     color: #fff;
 }
@@ -858,7 +858,7 @@ ul.blockList ul.blockList ul.blockList li.blockList h3 {
 }
 
 div.block {
-    font-family: "DejaVu Serif", Georgia, "Times New Roman", Times, serif;
+    font-family: 'DejaVu Serif', Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
 }
 
@@ -922,7 +922,7 @@ h1.hidden {
     border-style: solid;
     border-width: thin;
     display: inline-block;
-    font-family: "DejaVu Serif", Georgia, "Times New Roman", Times, serif;
+    font-family: 'DejaVu Serif', Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     margin-bottom: 10px;
     margin-right: 10px;
@@ -1051,7 +1051,7 @@ ul.ui-autocomplete li {
 }
 
 #search {
-    background-image: url("resources/glass.png");
+    background-image: url('resources/glass.png');
     background-position: 2px 3px;
     background-repeat: no-repeat;
     background-size: 13px;
@@ -1063,7 +1063,7 @@ ul.ui-autocomplete li {
 
 #reset {
     background-color: rgb(255, 255, 255);
-    background-image: url("resources/x.png");
+    background-image: url('resources/x.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 12px;
