@@ -22,10 +22,10 @@ nav_order: 5
 
 ## Branching
 
-So far we have only covered committing changes to the default branch, which
-is `master`. But what if you want to modify the code without messing up
-the original? You could make a copy of the directory and set up a totally
-separate respository, but that seems unnecessary.
+So far we have only covered committing changes to the default branch, which is
+`master`. But what if you want to modify the code without messing up the
+original? You could make a copy of the directory and set up a totally separate
+respository, but that seems unnecessary.
 
 Instead of doing that, we can take advantage of a feature of Git called
 _branching_ which allows us to create and work on different branches (versions)
@@ -33,16 +33,16 @@ of the same repository.
 
 ### Freely Experiment
 
-As mentioned earlier, a big advantage of branches is that you can create
-a branch without messing up the "main" code in `master`. This allows you
-to freely experiment with new features or enhancements for your project
-(or in this case probably OpModes).
+As mentioned earlier, a big advantage of branches is that you can create a
+branch without messing up the "main" code in `master`. This allows you to freely
+experiment with new features or enhancements for your project (or in this case
+probably OpModes).
 
 ### Branches Conceptually
 
-It is probably easier to understand what a branch is with a diagram.
-Let's say that the timeline below represents commit history on the master
-branch, where `*` signifies a commit.
+It is probably easier to understand what a branch is with a diagram. Let's say
+that the timeline below represents commit history on the master branch, where
+`*` signifies a commit.
 
 ```
 
@@ -53,15 +53,14 @@ master * -------- * -------- * --------- *
 
 Notice that the most recent commit is referred to as the `HEAD`.
 
-When we use [`git branch`](#git-branch) to create a new branch,
-we branch off from the `master` timeline to start a new one.
-However, all previous history is preserved, so right now
-the new branch created (let's call it `feature`) is _even_
-with `master` (they're the same).
+When we use [`git branch`](#git-branch) to create a new branch, we branch off
+from the `master` timeline to start a new one. However, all previous history is
+preserved, so right now the new branch created (let's call it `feature`) is
+_even_ with `master` (they're the same).
 
 ```
 
-                                 feature   -------                       
+                                 feature   -------
                                           /
 master * -------- * -------- * --------- *
                                         HEAD
@@ -70,7 +69,8 @@ master * -------- * -------- * --------- *
 
 We can use [`git checkout`](#git-checkout) or [`git switch`](#git-switch) to
 switch between branches. As we add different commits to `master` and `feature`,
-their commit histories begin to diverge. They also have different `HEAD` commits.
+their commit histories begin to diverge. They also have different `HEAD`
+commits.
 
 ```
 
@@ -82,10 +82,10 @@ master * -------- * -------- * --------- * --- * -------------- * --------
 ```
 
 Eventually, if we think the new functionality from `feature` is worth
-implementing in our "main" branch (`master`), we can _merge_ the changes
-from each branch so that we can get the best of both worlds by incorporating
-the changes from `feature` into `master`. When merging a branch into another,
-a _merge commit_ is created.
+implementing in our "main" branch (`master`), we can _merge_ the changes from
+each branch so that we can get the best of both worlds by incorporating the
+changes from `feature` into `master`. When merging a branch into another, a
+_merge commit_ is created.
 
 ```
 
@@ -103,32 +103,33 @@ the feature branch safely (since its changes were incorporated into `master`).
 ### Merge Conflicts
 
 When merging two branches, they may have conflicting changes which Git cannot
-merge automatically This leads to a _merge conflict_ which must be resolved manually.
+merge automatically This leads to a _merge conflict_ which must be resolved
+manually.
 
-For example, let's say John was editing on the `master`
-branch and his `message.txt` file looks like this:
+For example, let's say John was editing on the `master` branch and his
+`message.txt` file looks like this:
 
 ```
 Hello world
 ```
 
-Let's suppose Jane then make a branch called `feature` after that and
-edits `message.txt` so that it looks like this:
+Let's suppose Jane then make a branch called `feature` after that and edits
+`message.txt` so that it looks like this:
 
 ```
 My name is Jane
 ```
 
-While Jane committed those changes, let's suppose John then adds on to
-the `message.txt` file so it looks like this:
+While Jane committed those changes, let's suppose John then adds on to the
+`message.txt` file so it looks like this:
 
 ```
 Hello world
 My name is John
 ```
 
-If Jane now attempts to merge `feature` into `master`, it will result in a conflict.
-The output of using `git merge` will look something like this:
+If Jane now attempts to merge `feature` into `master`, it will result in a
+conflict. The output of using `git merge` will look something like this:
 
 ```bash
 $ git merge feature
@@ -137,8 +138,8 @@ CONFLICT (content): Merge conflict in message.txt
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 
-You will notice that the file(s) that contain conflicts will be edited
-in a funky way by Git:
+You will notice that the file(s) that contain conflicts will be edited in a
+funky way by Git:
 
 ```bash
 $ cat message.txt
@@ -150,18 +151,18 @@ My name is Jane
 >>>>>>> feature
 ```
 
-No need to panic! Just read the file carefully. Code within
-`<<<<<<< HEAD` and `=======` is from the current branch. Code within
-`=======` and `>>>>>>> feature` (or whatever the branch name is) is
-from the branch that you are trying to merge.
+No need to panic! Just read the file carefully. Code within `<<<<<<< HEAD` and
+`=======` is from the current branch. Code within `=======` and
+`>>>>>>> feature` (or whatever the branch name is) is from the branch that you
+are trying to merge.
 
-To resolve the merge conflict, get in touch with whoever
-made the change that is conflicting. Work it out and reach an agreement
-on what should the code look like. Then edit the file accordingly.
+To resolve the merge conflict, get in touch with whoever made the change that is
+conflicting. Work it out and reach an agreement on what should the code look
+like. Then edit the file accordingly.
 
-In order for Git to know the merge conflict is resolved, you must delete
-all of the Git stuff. That is, you have to delete all of the `<<<<<<< HEAD`,
-`=======`, and `>>>>>>> feature` stuff.
+In order for Git to know the merge conflict is resolved, you must delete all of
+the Git stuff. That is, you have to delete all of the `<<<<<<< HEAD`, `=======`,
+and `>>>>>>> feature` stuff.
 
 Once you're done, commit your changes to resolve and finish the merge.
 
@@ -171,7 +172,10 @@ Once you're done, commit your changes to resolve and finish the merge.
 
 The `git branch` command is what it sounds like - it deals with branches.
 
-On its own, it will list all branches of the repository. The one that has an `*` next to it is the branch that you are currently on. For example, if I had 4 branches (`exercises`, `feature`, `master`, and `patch`), it would look like this:
+On its own, it will list all branches of the repository. The one that has an `*`
+next to it is the branch that you are currently on. For example, if I had 4
+branches (`exercises`, `feature`, `master`, and `patch`), it would look like
+this:
 
 ```bash
 $ git branch
@@ -215,7 +219,8 @@ Deleted branch exercises (was 9159807).
 
 ### git switch
 
-You can use the new `git switch` command to switch branches. (Before people would use `git checkout`.)
+You can use the new `git switch` command to switch branches. (Before people
+would use `git checkout`.)
 
 For example:
 
@@ -242,7 +247,8 @@ $ git switch -c auto
 Switched to a new branch 'auto'
 ```
 
-**WARNING**: `git switch` is an [experimental](https://git-scm.com/docs/git-switch) command!
+**WARNING**: `git switch` is an
+[experimental](https://git-scm.com/docs/git-switch) command!
 
 ### git checkout
 
@@ -274,7 +280,8 @@ $ git checkout -b teleop
 Switched to a new branch 'teleop'
 ```
 
-For more ways to use `git checkout`, see [Fixing Mistakes/Time Traveling](/learn-code/learn/unit7/fixing-mistakes-time-traveling).
+For more ways to use `git checkout`, see
+[Fixing Mistakes/Time Traveling](/learn-code/learn/unit7/fixing-mistakes-time-traveling).
 
 ### git merge
 
@@ -300,22 +307,21 @@ Fast-forward
  create mode 100644 message.txt
 ```
 
-Notice that there are different methods that Git uses to merge branches.
-You will often see `Fast-forward` and `recursive`.
+Notice that there are different methods that Git uses to merge branches. You
+will often see `Fast-forward` and `recursive`.
 
-The `git merge` output should also tell you the latest commit,
-files changed, how many insertions (2 in the example above) and
-the type of insertions (+ for additions, - for deletions).
+The `git merge` output should also tell you the latest commit, files changed,
+how many insertions (2 in the example above) and the type of insertions (+ for
+additions, - for deletions).
 
-`create mode` means that the file did not exist previously on
-the branch you merged a branch into.
+`create mode` means that the file did not exist previously on the branch you
+merged a branch into.
 
 **Merge Commit Message**
 
-Notice that when you use `git merge` you will need to write
-a merge commit message. Git will open your default text editor
-to do this (e.g. vim, nano, or emacs). For the most part, you
-can just go with the default commit message.
+Notice that when you use `git merge` you will need to write a merge commit
+message. Git will open your default text editor to do this (e.g. vim, nano, or
+emacs). For the most part, you can just go with the default commit message.
 
 This is what it might look like if you use vim:
 
@@ -326,29 +332,28 @@ Merge branch 'feature'
 #
 # Lines starting with '#' will be ignored, and an empty message aborts
 # the commit.
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
 "~/Desktop/project-directory/.git/MERGE_MSG" 6L, 249C
 ```
 
-To finish the merge on vim, you can use Shift + : and then
-type `wq` (for write quit) and press Enter. It will look like this right before
-you press Enter:
+To finish the merge on vim, you can use Shift + : and then type `wq` (for write
+quit) and press Enter. It will look like this right before you press Enter:
 
 ```bash
 Merge branch 'feature'
@@ -357,34 +362,34 @@ Merge branch 'feature'
 #
 # Lines starting with '#' will be ignored, and an empty message aborts
 # the commit.
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
 :wq
 ```
 
-**Note**: If you use vim and you want to edit the message,
-press i (for Insert mode), edit whatever you want, and then press Esc.
-_Then_ do Shift + : and type `wq` and press Enter.
+**Note**: If you use vim and you want to edit the message, press i (for Insert
+mode), edit whatever you want, and then press Esc. _Then_ do Shift + : and type
+`wq` and press Enter.
 
 **Merge Conflicts**
 
-When merging a branch into another one, you may encounter a merge conflict.
-You can learn about them [here](#merge-conflicts).
+When merging a branch into another one, you may encounter a merge conflict. You
+can learn about them [here](#merge-conflicts).
 
 **Abort Merge**
 

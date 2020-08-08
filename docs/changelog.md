@@ -9,12 +9,18 @@ permalink: changelog
 
 ## v0 - Initial release
 
+### v0.7.1
+
+-   Update kramdown version due to severe security alert
+-   Update Prettier ignore for certain files
+
 ### v0.7.0
 
 -   [Unit 7](/learn-code/learn/unit7) published completely
     [#15]({{ site.github.repository_url }}/pull/15)
 -   Re-added next unit and previous unit buttons to unit pages
--   Fixed numbering issue in [Introduction to Java](/learn-code/learn/unit1/introduction-to-java)
+-   Fixed numbering issue in
+    [Introduction to Java](/learn-code/learn/unit1/introduction-to-java)
 
 ### v0.6.0
 
