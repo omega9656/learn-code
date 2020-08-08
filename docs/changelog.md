@@ -9,6 +9,11 @@ permalink: changelog
 
 ## v0 - Initial release
 
+### v0.7.3
+
+-   Update [Contributing Guidelines]({{ site.github.repository_url }}/blob/master/CONTRIBUTING.md)
+    [#18]({{ site.github.repository_url }}/pull/18)
+
 ### v0.7.2
 
 -   Fix stylelint CI [#17]({{ site.github.repository_url }}/pull/17)
