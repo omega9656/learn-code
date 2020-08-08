@@ -97,7 +97,7 @@ jobs:
         uses: samuelmeuli/lint-action@v1
         with:
           github_token: ${{ secrets.github_token }}
-          stylelint: true  # Enables stylelint on Lint Action          
+          stylelint: true  # Enables stylelint on Lint Action
           auto_fix: true  # Enables auto fix (Lint Action will auto commit)
   
   ### Lint HTML ###
