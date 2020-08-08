@@ -8,3 +8,6 @@ WhyWeUseBraces.java
 # in between. Can't have extra line of space
 # otherwise the numbers restart.
 /docs/learn/unit7/solutions/
+
+docs/_layouts/quiz.html
+docs/_layouts/unit-content.html
