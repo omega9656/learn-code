@@ -19,5 +19,6 @@ $sidebar-color: $cardinal-000;
 // Custom button
 .btn-cardinal {
     @include btn-color($white, $cardinal-300);
+
     color: $white !important;
 }
