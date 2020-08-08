@@ -15,12 +15,15 @@ to select all the text, then use Ctrl+C or Cmd+C to copy the text.
 
 ## Parsing
 
-1. Copy and paste the error output to `errors.txt`. It should all be on one line.
+1. Copy and paste the error output to `errors.txt`. It should all be on one
+   line.
 2. Run the parser via the terminal using:
+
 ```bash
 $ python parse.py
 # if it doesn't work try replacing python with python3
 ```
+
 3. Follow instructions during the program. It should catch most input mistakes,
    but it probably won't catch all of them.
 
