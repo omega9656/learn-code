@@ -198,8 +198,8 @@
 
 .ui-widget-header {
     background:
-        #ccc url('images/ui-bg_highlight-soft_75_cccccc_1x100.png')
-        50% 50% repeat-x;
+        #ccc url('images/ui-bg_highlight-soft_75_cccccc_1x100.png') 50%
+        50% repeat-x;
     border: 1px solid #aaa;
     color: #222;
     font-weight: bold;
