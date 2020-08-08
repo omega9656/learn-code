@@ -14,13 +14,13 @@ submitting a pull request. You may also want to read our
 
 To ensure good style and conventions, we use various linters:
 
-- [Checkstyle](https://checkstyle.sourceforge.io/) (Java)
-- [stylelint](https://stylelint.io) (CSS, SCSS, SASS)
-- [Prettier](https://prettier.io/) (Java, Markdown, YML, HTML, CSS, etc.)
-- [HTML5 Validator](https://github.com/svenkreiss/html5validator) (HTML, CSS)
+-   [Checkstyle](https://checkstyle.sourceforge.io/) (Java)
+-   [stylelint](https://stylelint.io) (CSS, SCSS, SASS)
+-   [Prettier](https://prettier.io/) (Java, Markdown, YML, HTML, CSS, etc.)
+-   [HTML5 Validator](https://github.com/svenkreiss/html5validator) (HTML, CSS)
 
-We recommend that you install them to save time because when you submit a pull request
-(PR) on GitHub, we check for good programming style using these linters.
+We recommend that you install them to save time because when you submit a pull
+request (PR) on GitHub, we check for good programming style using these linters.
 
 **Your PR will not be approved unless it passes those style checks.**
 
@@ -67,8 +67,8 @@ you basically can just skip to the
         -   They must include a multi-line comment at the top of the file (but
             after the package statement and any imports) with a bulleted list of
             topics that are covered (use - as bullets)
-    -   Refer to the [Units page](https://omega9656.github.io/learn-code/)
-        to see how units are organized.
+    -   Refer to the [Units page](https://omega9656.github.io/learn-code/) to
+        see how units are organized.
 -   Make sure you have the correct package statement as the first line of your
     code.
 
@@ -96,38 +96,40 @@ you basically can just skip to the
 
 ## Submitting practice problem(s)
 
-**Note:** We assume you know basic Git and GitHub, e.g. committing, pushing, pulling,
-branching, merging, forking, pull requests, etc. If you want to learn the basic Git you need to
-contribute, we recommend reading [Unit 7](https://omega9656.github.io/learn-code/learn/unit7).
+**Note:** We assume you know basic Git and GitHub, e.g. committing, pushing,
+pulling, branching, merging, forking, pull requests, etc. If you want to learn
+the basic Git you need to contribute, we recommend reading
+[Unit 7](https://omega9656.github.io/learn-code/learn/unit7).
 
 1. Clone or fork the repository.
 
-    -   [How to Clone](https://omega9656.github.io/learn-code/learn/unit7/working-with-remotes#git-clone)
-    -   [How to Fork](https://omega9656.github.io/learn-code/learn/unit7/github#forking)
+    - [How to Clone](https://omega9656.github.io/learn-code/learn/unit7/working-with-remotes#git-clone)
+    - [How to Fork](https://omega9656.github.io/learn-code/learn/unit7/github#forking)
 
-3. Work on the practice problems locally.
+2. Work on the practice problems locally.
 
-    -   If you cloned the repo, make sure you create and checkout a new branch. **DO
-        NOT MAKE EDITS ON THE MASTER BRANCH.**
-    -   If you forked the repo, you’re free to work on the master branch or make
-        your own branches.
-    -   [Learn Branching](https://omega9656.github.io/learn-code/learn/unit7/branching)
+    - If you cloned the repo, make sure you create and checkout a new branch.
+      **DO NOT MAKE EDITS ON THE MASTER BRANCH.**
+    - If you forked the repo, you’re free to work on the master branch or make
+      your own branches.
+    - [Learn Branching](https://omega9656.github.io/learn-code/learn/unit7/branching)
 
-4. Push your local branch to remote.
+3. Push your local branch to remote.
 
-    -   [How to Push](https://omega9656.github.io/learn-code/learn/unit7/working-with-remotes#git-push)
+    - [How to Push](https://omega9656.github.io/learn-code/learn/unit7/working-with-remotes#git-push)
 
-5. Make a pull request to merge your branch with the master branch.
+4. Make a pull request to merge your branch with the master branch.
 
-    -   Make sure the title of your pull request is descriptive but concise.
-    -   Follow the [PR template](https://github.com/omega9656/learn-code/blob/master/pull_request_template.md)
-    -   [Learn Pull Requests](https://omega9656.github.io/learn-code/learn/unit7/github#pull-requests)
+    - Make sure the title of your pull request is descriptive but concise.
+    - Follow the
+      [PR template](https://github.com/omega9656/learn-code/blob/master/pull_request_template.md)
+    - [Learn Pull Requests](https://omega9656.github.io/learn-code/learn/unit7/github#pull-requests)
 
-6. Monitor the status of your Pull Request on GitHub.
+5. Monitor the status of your Pull Request on GitHub.
 
-    -   It’s possible that the Omega will request changes, in which case you will
-        need to commit and push those changes before your PR will be approved and merged into
-        the official `master` branch.
+    - It’s possible that the Omega will request changes, in which case you will
+      need to commit and push those changes before your PR will be approved and
+      merged into the official `master` branch.
 
 **Thank you for following these guidelines and contributing to this
 repository!**
