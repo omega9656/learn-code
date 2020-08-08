@@ -9,8 +9,14 @@ permalink: changelog
 
 ## v0 - Initial release
 
+### v0.7.2
+
+-   Fix stylelint CI [#17]({{ site.github.repository_url }}/pull/17)
+-   Add HTML5 Validator error parser
+
 ### v0.7.1
 
+-   [#16]({{ site.github.repository_url }}/pull/16)
 -   Update kramdown version due to severe security alert
 -   Update Prettier ignore for certain files
 
