@@ -18,4 +18,4 @@ the end of the year!
 Hopefully you find this website helpful for your Java/FTC/programming journey.
 If you see any issues with the site or have any questions, please feel free to
 message any 9656 member on the FTC Discord or contact us through any of
-[these methods](/learn-code/learn/about#contact).
+[these methods](/learn-code/about#contact).
