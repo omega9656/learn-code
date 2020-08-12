@@ -36,26 +36,24 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   ### Lint Java ###
-  # java-checkstyle:
-  #   needs: java-prettify
-  #   runs-on: ubuntu-latest
+  java-checkstyle:
+    needs: java-prettify
+    runs-on: ubuntu-latest
 
-  #   steps:
-  #   - uses: actions/checkout@v2
+    steps:
+    - uses: actions/checkout@v2
       
-  #   - name: Setup Java JDK
-  #     uses: actions/setup-java@v1.3.0
-  #     with:
-  #       java-version: 12
+    - name: Setup Java JDK
+      uses: actions/setup-java@v1.3.0
+      with:
+        java-version: 12
 
-  #   - name: Run Java checkstyle
-  #     uses: nikitasavinov/checkstyle-action@0.3.0
-  #     with:
-  #       github_token: ${{ secrets.GITHUB_TOKEN }}
-  #       reporter: github-pr-review
-
-        # this doesn't work yet: https://github.com/nikitasavinov/checkstyle-action/issues/10
-        # checkstyle_config: google_checks_mod.xml
+    - name: Run Java checkstyle
+      uses: nikitasavinov/checkstyle-action@0.3.1
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        reporter: github-pr-review
+        checkstyle_config: google_checks_mod.xml
   
   ################ Format ###################
   ### HTML, CSS, SCSS, JS, JSON, MD, YAML ###
