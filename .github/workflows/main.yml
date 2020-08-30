@@ -49,11 +49,14 @@ jobs:
         java-version: 12
 
     - name: Run Java checkstyle
-      uses: nikitasavinov/checkstyle-action@0.3.1
+      uses: nikitasavinov/checkstyle-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         reporter: github-pr-review
         checkstyle_config: google_checks_mod.xml
+        filter_mode: nofilter
+        fail_on_error: true
+        workdir: src/com/omegarobotics  # working dir relative to root dir
   
   ################ Format ###################
   ### HTML, CSS, SCSS, JS, JSON, MD, YAML ###
