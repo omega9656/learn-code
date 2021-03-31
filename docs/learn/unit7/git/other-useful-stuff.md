@@ -192,7 +192,7 @@ hand, only removes the file.
 Use the `--cached` flag to remove the file from the index (this means it is no
 longer tracked) but keep the file in the working directory (modifications are
 saved). This is useful when you add a file to the
-[`.gitignore](/learn-code/learn/unit7/gitignore) and you only want to remove it
+[`.gitignore`](/learn-code/learn/unit7/gitignore) and you only want to remove it
 from the repository, not the working directory.
 
 ```bash
