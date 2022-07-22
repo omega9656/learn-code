@@ -144,7 +144,7 @@ public void setName(String newName) {
 ## Constructors
 
 We've talked about a class's methods, but we haven't learned about its most
-important method - its constructor. A _constructor_ is a special method that all
+important method - its constructor. A _[constructor](https://www.scaler.com/topics/java/constructor-in-java/)_ is a special method that all
 classes have that is called every time a new instance of that class is created.
 
 Constructors have the exact same name as the name of the class, and do not have
