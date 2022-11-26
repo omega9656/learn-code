@@ -27,9 +27,9 @@ public class FoundationGripper {
     public Servo gripper;
 
     public enum Position {
-        UP(0.55),
-        DOWN(1),
-        READY(0.85);
+        UP(0.5),
+        DOWN(1.1),
+        READY(0.9);
 
         public final double SERVO_POSITION;
 
